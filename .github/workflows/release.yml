@@ -18,9 +18,6 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-      - name: Build iOS framework
-        id: buildPackage
-        run: ./gradlew createSwiftPackage
       - name: Upload Swift Package directory
         uses: actions/upload-artifact@v2
         with:
