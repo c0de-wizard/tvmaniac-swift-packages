@@ -1,0 +1,41 @@
+name: "Create Release"
+
+on:
+  push:
+    tags:
+      - 'release-*'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: set up JDK 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+
+  push:
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - uses: rymndhng/release-on-push-action@master
+        id: release
+        with:
+          bump_version_scheme: minor
+          tag_prefix: v
+          release_name: "release-<RELEASE_VERSION>"
+
+      - name: Access tag name of current workflow
+        run: |
+          echo "RELEASE_VERSION=${{ steps.release.outputs.version }}" >> $GITHUB_ENV
+          echo "RELEASE_TAG=${{ steps.release.outputs.tag_name }}" >> $GITHUB_ENV
