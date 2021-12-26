@@ -2427,6 +2427,15 @@ __attribute__((swift_name("TvShowsServiceImpl")))
 - (void)getTvShowDetailsShowId:(int32_t)showId completionHandler:(void (^)(TvManiacShowDetailResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getTvShowDetails(showId:completionHandler:)")));
 @end;
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BaseViewModel")))
+@interface TvManiacBaseViewModel : TvManiacBase <TvManiacCoroutineScopeOwner>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)onDestroy __attribute__((swift_name("onDestroy()")));
+@property (readonly) id<TvManiacKotlinx_coroutines_coreCoroutineScope> coroutineScope __attribute__((swift_name("coroutineScope")));
+@end;
+
 __attribute__((swift_name("KotlinRuntimeException")))
 @interface TvManiacKotlinRuntimeException : TvManiacKotlinException
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
