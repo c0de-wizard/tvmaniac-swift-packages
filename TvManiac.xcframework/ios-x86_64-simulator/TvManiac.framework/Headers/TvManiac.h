@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class TvManiacEpisodeQuery, TvManiacKotlinx_coroutines_coreCoroutineDispatcher, TvManiacKotlinUnit, TvManiacDomainResultState<ResultType>, NSError, TvManiacInteractor<Params, Type>, TvManiacEpisode, TvManiacShowCategory, TvManiacTrendingShowData, TvManiacGenreModel, TvManiacTvShow, TvManiacTrailerModel, TvManiacSeason, TvManiacUpdateShowParams, TvManiacSettingsActions, TvManiacSettingsActionsLoadTheme, TvManiacSettingsActionsThemeClicked, TvManiacSettingsActionsThemeSelected, TvManiacTheme, TvManiacSettingsStateCompanion, TvManiacSettingsState, TvManiacShowsGridAction, TvManiacShowsGridActionError, TvManiacShowsGridActionLoadTvShows, TvManiacShowsGridEffect, TvManiacShowsGridEffectError, TvManiacShowsGridStateCompanion, TvManiacShowsGridState, TvManiacKotlinEnumCompanion, TvManiacKotlinEnum<E>, TvManiacKotlinArray<T>, TvManiacWatchlistAction, TvManiacWatchlistActionError, TvManiacWatchlistActionLoadWatchlist, TvManiacWatchlistEffect, TvManiacWatchlistEffectError, TvManiacWatchlistStateCompanion, TvManiacWatchlistState, TvManiacEpisodeCompanion, TvManiacSeasonCompanion, TvManiacTvShowCompanion, TvManiacDomainResultStateCompanion, TvManiacKotlinThrowable, TvManiacDomainResultStateError<ResultType>, TvManiacDomainResultStateSuccess<ResultType>, TvManiacKotlinException, TvManiacExceptionHandlerCompanion, TvManiacExceptionHandler, TvManiacKtor_client_coreHttpResponse, TvManiacRepositoryModule, TvManiacEpisodesInteractor, TvManiacGetDiscoverShowListInteractor, TvManiacGetGenresInteractor, TvManiacGetShowInteractor, TvManiacGetShowsByCategoryInteractor, TvManiacGetTrailersInteractor, TvManiacGetWatchListInteractor, TvManiacPopularShowsInteractor, TvManiacSeasonsInteractor, TvManiacUpdateWatchlistInteractor, TvManiacNetworkModule, TvManiacDatabaseModule, TvManiacDiscoverShowAction, TvManiacDiscoverShowActionError, TvManiacDiscoverShowActionLoadTvShows, TvManiacDiscoverShowEffect, TvManiacDiscoverShowEffectError, TvManiacDiscoverShowStateCompanion, TvManiacDiscoverShowState, TvManiacShow, TvManiacCommonFlow<T>, TvManiacCategory, TvManiacRuntimeQuery<__covariant RowType>, TvManiacEpisode_, TvManiacEpisodesBySeasonId, TvManiacGenre, TvManiacSelectByShowId, TvManiacSelectSeasonsByShowId, TvManiacSelectShows, TvManiacShow_category, TvManiacTrailers, TvManiacTvManiacDatabaseCompanion, TvManiacShowAdapter, TvManiacTv_seasonAdapter, TvManiacTv_season, TvManiacDriverFactory, TvManiacMediaTypeCompanion, TvManiacMediaType, TvManiacShowCategoryCompanion, TvManiacTimeWindowCompanion, TvManiacTimeWindow, TvManiacKtor_client_coreHttpClient, TvManiacEpisodeDetailResponseCompanion, TvManiacEpisodeDetailResponse, TvManiacEpisodesResponseCompanion, TvManiacEpisodesResponse, TvManiacGenreResponseCompanion, TvManiacGenreResponse, TvManiacGenresResponseCompanion, TvManiacGenresResponse, TvManiacSeasonResponseCompanion, TvManiacSeasonResponse, TvManiacSeasonsResponseCompanion, TvManiacSeasonsResponse, TvManiacShowDetailResponseCompanion, TvManiacShowDetailResponse, TvManiacShowResponseCompanion, TvManiacShowResponse, TvManiacTrailerResponseCompanion, TvManiacTrailerResponse, TvManiacTrailersResponseCompanion, TvManiacTrailersResponse, TvManiacTvShowsResponseCompanion, TvManiacTvShowsResponse, TvManiacKotlinRuntimeException, TvManiacKotlinIllegalStateException, TvManiacKtor_client_coreResponseException, TvManiacKotlinAbstractCoroutineContextElement, TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey, TvManiacKtor_client_coreHttpClientCall, TvManiacKtor_utilsGMTDate, TvManiacKtor_httpHttpStatusCode, TvManiacKtor_httpHttpProtocolVersion, TvManiacRuntimeTransacterTransaction, TvManiacKtor_client_coreHttpClientEngineConfig, TvManiacKtor_client_coreHttpClientConfig<T>, TvManiacKtor_client_coreHttpRequestBuilder, TvManiacKtor_client_coreHttpReceivePipeline, TvManiacKtor_client_coreHttpRequestPipeline, TvManiacKtor_client_coreHttpResponsePipeline, TvManiacKtor_client_coreHttpSendPipeline, TvManiacKotlinAbstractCoroutineContextKey<B, E>, TvManiacKotlinx_serialization_coreSerializersModule, TvManiacKotlinx_serialization_coreSerialKind, TvManiacKotlinNothing, TvManiacKtor_client_coreHttpClientCallCompanion, TvManiacKtor_client_coreTypeInfo, TvManiacKtor_ioMemory, TvManiacKtor_ioIoBuffer, TvManiacKotlinByteArray, TvManiacKtor_ioByteReadPacket, TvManiacKtor_ioByteOrder, TvManiacKtor_utilsGMTDateCompanion, TvManiacKtor_utilsWeekDay, TvManiacKtor_utilsMonth, TvManiacKtor_httpHttpStatusCodeCompanion, TvManiacKtor_httpHttpProtocolVersionCompanion, TvManiacKtor_client_coreHttpRequestData, TvManiacKtor_client_coreHttpResponseData, TvManiacKtor_client_coreProxyConfig, TvManiacKtor_httpHeadersBuilder, TvManiacKtor_client_coreHttpRequestBuilderCompanion, TvManiacKtor_httpURLBuilder, TvManiacKtor_httpHttpMethod, TvManiacKtor_utilsAttributeKey<T>, TvManiacKtor_utilsPipelinePhase, TvManiacKtor_utilsPipeline<TSubject, TContext>, TvManiacKtor_client_coreHttpReceivePipelinePhases, TvManiacKtor_client_coreHttpRequestPipelinePhases, TvManiacKtor_client_coreHttpResponsePipelinePhases, TvManiacKtor_client_coreHttpResponseContainer, TvManiacKtor_client_coreHttpSendPipelinePhases, TvManiacKtor_httpOutgoingContent, TvManiacKtor_httpUrl, TvManiacKtor_ioMemoryCompanion, TvManiacKtor_ioBufferCompanion, TvManiacKtor_ioBuffer, TvManiacKtor_ioChunkBuffer, TvManiacKtor_ioChunkBufferCompanion, TvManiacKotlinCharArray, TvManiacKtor_ioIoBufferCompanion, TvManiacKotlinByteIterator, TvManiacKtor_ioAbstractInputCompanion, TvManiacKtor_ioAbstractInput, TvManiacKtor_ioByteReadPacketBaseCompanion, TvManiacKtor_ioByteReadPacketBase, TvManiacKtor_ioByteReadPacketPlatformBase, TvManiacKtor_ioByteReadPacketCompanion, TvManiacKtor_ioByteOrderCompanion, TvManiacKtor_utilsWeekDayCompanion, TvManiacKtor_utilsMonthCompanion, TvManiacKtor_utilsStringValuesBuilder, TvManiacKtor_httpURLProtocol, TvManiacKtor_httpParametersBuilder, TvManiacKtor_httpURLBuilderCompanion, TvManiacKotlinCancellationException, TvManiacKtor_httpHttpMethodCompanion, TvManiacKotlinKTypeProjection, TvManiacKtor_httpContentType, TvManiacKtor_httpUrlCompanion, TvManiacKotlinCharIterator, TvManiacKtor_httpURLProtocolCompanion, TvManiacKtor_httpUrlEncodingOption, TvManiacKotlinKVariance, TvManiacKotlinKTypeProjectionCompanion, TvManiacKtor_httpHeaderValueParam, TvManiacKtor_httpHeaderValueWithParametersCompanion, TvManiacKtor_httpHeaderValueWithParameters, TvManiacKtor_httpContentTypeCompanion, TvManiacKotlinx_coroutines_coreAtomicDesc, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T>, TvManiacKotlinx_coroutines_coreOpDescriptor, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class TvManiacEpisodeQuery, TvManiacKotlinUnit, NSError, TvManiacFlowInteractorFlowUseCaseConfigBuilder<T>, TvManiacFlowInteractor<Arg, ReturnType>, TvManiacEpisode, TvManiacDomainResultState<ResultType>, TvManiacShowCategory, TvManiacTrendingShowData, TvManiacGenreModel, TvManiacTvShow, TvManiacTrailerModel, TvManiacSeason, TvManiacUpdateShowParams, TvManiacSettingsActions, TvManiacSettingsActionsLoadTheme, TvManiacSettingsActionsThemeClicked, TvManiacSettingsActionsThemeSelected, TvManiacTheme, TvManiacSettingsStateCompanion, TvManiacSettingsState, TvManiacShowsGridAction, TvManiacShowsGridActionError, TvManiacShowsGridActionLoadTvShows, TvManiacShowsGridEffect, TvManiacShowsGridEffectError, TvManiacShowsGridStateCompanion, TvManiacShowsGridState, TvManiacKotlinEnumCompanion, TvManiacKotlinEnum<E>, TvManiacKotlinArray<T>, TvManiacWatchlistAction, TvManiacWatchlistActionError, TvManiacWatchlistActionLoadWatchlist, TvManiacWatchlistEffect, TvManiacWatchlistEffectError, TvManiacWatchlistStateCompanion, TvManiacWatchlistState, TvManiacEpisodeCompanion, TvManiacSeasonCompanion, TvManiacTvShowCompanion, TvManiacDomainResultStateCompanion, TvManiacKotlinThrowable, TvManiacDomainResultStateError<ResultType>, TvManiacDomainResultStateSuccess<ResultType>, TvManiacKotlinException, TvManiacExceptionHandlerCompanion, TvManiacExceptionHandler, TvManiacKtor_client_coreHttpResponse, TvManiacRepositoryModule, TvManiacEpisodesInteractor, TvManiacGetDiscoverShowListInteractor, TvManiacGetGenresInteractor, TvManiacGetShowInteractor, TvManiacGetShowsByCategoryInteractor, TvManiacGetTrailersInteractor, TvManiacGetWatchListInteractor, TvManiacPopularShowsInteractor, TvManiacSeasonsInteractor, TvManiacUpdateWatchlistInteractor, TvManiacNetworkModule, TvManiacDatabaseModule, TvManiacDiscoverShowAction, TvManiacDiscoverShowActionError, TvManiacDiscoverShowActionLoadTvShows, TvManiacDiscoverShowEffect, TvManiacDiscoverShowEffectError, TvManiacDiscoverShowStateCompanion, TvManiacDiscoverShowState, TvManiacKotlinx_coroutines_coreCoroutineDispatcher, TvManiacShow, TvManiacCommonFlow<T>, TvManiacCategory, TvManiacRuntimeQuery<__covariant RowType>, TvManiacEpisode_, TvManiacEpisodesBySeasonId, TvManiacGenre, TvManiacSelectByShowId, TvManiacSelectSeasonsByShowId, TvManiacSelectShows, TvManiacShow_category, TvManiacTrailers, TvManiacTvManiacDatabaseCompanion, TvManiacShowAdapter, TvManiacTv_seasonAdapter, TvManiacTv_season, TvManiacDriverFactory, TvManiacMediaTypeCompanion, TvManiacMediaType, TvManiacShowCategoryCompanion, TvManiacTimeWindowCompanion, TvManiacTimeWindow, TvManiacKtor_client_coreHttpClient, TvManiacEpisodeDetailResponseCompanion, TvManiacEpisodeDetailResponse, TvManiacEpisodesResponseCompanion, TvManiacEpisodesResponse, TvManiacGenreResponseCompanion, TvManiacGenreResponse, TvManiacGenresResponseCompanion, TvManiacGenresResponse, TvManiacSeasonResponseCompanion, TvManiacSeasonResponse, TvManiacSeasonsResponseCompanion, TvManiacSeasonsResponse, TvManiacShowDetailResponseCompanion, TvManiacShowDetailResponse, TvManiacShowResponseCompanion, TvManiacShowResponse, TvManiacTrailerResponseCompanion, TvManiacTrailerResponse, TvManiacTrailersResponseCompanion, TvManiacTrailersResponse, TvManiacTvShowsResponseCompanion, TvManiacTvShowsResponse, TvManiacKotlinRuntimeException, TvManiacKotlinIllegalStateException, TvManiacKtor_client_coreResponseException, TvManiacKotlinCancellationException, TvManiacKtor_client_coreHttpClientCall, TvManiacKtor_utilsGMTDate, TvManiacKtor_httpHttpStatusCode, TvManiacKtor_httpHttpProtocolVersion, TvManiacKotlinAbstractCoroutineContextElement, TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey, TvManiacRuntimeTransacterTransaction, TvManiacKtor_client_coreHttpClientEngineConfig, TvManiacKtor_client_coreHttpClientConfig<T>, TvManiacKtor_client_coreHttpRequestBuilder, TvManiacKtor_client_coreHttpReceivePipeline, TvManiacKtor_client_coreHttpRequestPipeline, TvManiacKtor_client_coreHttpResponsePipeline, TvManiacKtor_client_coreHttpSendPipeline, TvManiacKotlinx_serialization_coreSerializersModule, TvManiacKotlinx_serialization_coreSerialKind, TvManiacKotlinNothing, TvManiacKtor_client_coreHttpClientCallCompanion, TvManiacKtor_client_coreTypeInfo, TvManiacKtor_ioMemory, TvManiacKtor_ioIoBuffer, TvManiacKotlinByteArray, TvManiacKtor_ioByteReadPacket, TvManiacKtor_ioByteOrder, TvManiacKtor_utilsGMTDateCompanion, TvManiacKtor_utilsWeekDay, TvManiacKtor_utilsMonth, TvManiacKtor_httpHttpStatusCodeCompanion, TvManiacKtor_httpHttpProtocolVersionCompanion, TvManiacKotlinAbstractCoroutineContextKey<B, E>, TvManiacKtor_client_coreHttpRequestData, TvManiacKtor_client_coreHttpResponseData, TvManiacKtor_client_coreProxyConfig, TvManiacKtor_httpHeadersBuilder, TvManiacKtor_client_coreHttpRequestBuilderCompanion, TvManiacKtor_httpURLBuilder, TvManiacKtor_httpHttpMethod, TvManiacKtor_utilsAttributeKey<T>, TvManiacKtor_utilsPipelinePhase, TvManiacKtor_utilsPipeline<TSubject, TContext>, TvManiacKtor_client_coreHttpReceivePipelinePhases, TvManiacKtor_client_coreHttpRequestPipelinePhases, TvManiacKtor_client_coreHttpResponsePipelinePhases, TvManiacKtor_client_coreHttpResponseContainer, TvManiacKtor_client_coreHttpSendPipelinePhases, TvManiacKotlinx_coroutines_coreAtomicDesc, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, TvManiacKtor_httpOutgoingContent, TvManiacKtor_httpUrl, TvManiacKtor_ioMemoryCompanion, TvManiacKtor_ioBufferCompanion, TvManiacKtor_ioBuffer, TvManiacKtor_ioChunkBuffer, TvManiacKtor_ioChunkBufferCompanion, TvManiacKotlinCharArray, TvManiacKtor_ioIoBufferCompanion, TvManiacKotlinByteIterator, TvManiacKtor_ioAbstractInputCompanion, TvManiacKtor_ioAbstractInput, TvManiacKtor_ioByteReadPacketBaseCompanion, TvManiacKtor_ioByteReadPacketBase, TvManiacKtor_ioByteReadPacketPlatformBase, TvManiacKtor_ioByteReadPacketCompanion, TvManiacKtor_ioByteOrderCompanion, TvManiacKtor_utilsWeekDayCompanion, TvManiacKtor_utilsMonthCompanion, TvManiacKtor_utilsStringValuesBuilder, TvManiacKtor_httpURLProtocol, TvManiacKtor_httpParametersBuilder, TvManiacKtor_httpURLBuilderCompanion, TvManiacKtor_httpHttpMethodCompanion, TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T>, TvManiacKotlinx_coroutines_coreOpDescriptor, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, TvManiacKotlinKTypeProjection, TvManiacKtor_httpContentType, TvManiacKtor_httpUrlCompanion, TvManiacKotlinCharIterator, TvManiacKtor_httpURLProtocolCompanion, TvManiacKtor_httpUrlEncodingOption, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, TvManiacKotlinKVariance, TvManiacKotlinKTypeProjectionCompanion, TvManiacKtor_httpHeaderValueParam, TvManiacKtor_httpHeaderValueWithParametersCompanion, TvManiacKtor_httpHeaderValueWithParameters, TvManiacKtor_httpContentTypeCompanion;
 
-@protocol TvManiacKotlinx_coroutines_coreFlow, TvManiacEpisodeRepository, TvManiacTvShowsRepository, TvManiacGenreRepository, TvManiacTrailerRepository, TvManiacSeasonsRepository, TvManiacAction, TvManiacEffect, TvManiacState, TvManiacKotlinComparable, TvManiacKotlinx_serialization_coreKSerializer, TvManiacKotlinx_coroutines_coreFlowCollector, TvManiacKtor_ioCloseable, TvManiacCategoryCache, TvManiacEpisodesCache, TvManiacGenreCache, TvManiacSeasonsCache, TvManiacShowCategoryCache, TvManiacTrailerCache, TvManiacTvShowCache, TvManiacTvShowsService, TvManiacKotlinx_coroutines_coreStateFlow, TvManiacKotlinx_coroutines_coreCoroutineScope, TvManiacRuntimeTransactionWithoutReturn, TvManiacRuntimeTransactionWithReturn, TvManiacRuntimeTransacter, TvManiacRuntimeColumnAdapter, TvManiacCategoryQueries, TvManiacEpisodeQueries, TvManiacGenresQueries, TvManiacShowCategoryQueries, TvManiacShowQueries, TvManiacTrailersQueries, TvManiacTvSeasonQueries, TvManiacTvManiacDatabase, TvManiacRuntimeSqlDriver, TvManiacRuntimeSqlDriverSchema, TvManiacKotlinCoroutineContextKey, TvManiacKotlinCoroutineContextElement, TvManiacKotlinCoroutineContext, TvManiacKotlinContinuation, TvManiacKotlinContinuationInterceptor, TvManiacKotlinx_coroutines_coreRunnable, TvManiacKotlinIterator, TvManiacKotlinx_serialization_coreEncoder, TvManiacKotlinx_serialization_coreSerialDescriptor, TvManiacKotlinx_serialization_coreSerializationStrategy, TvManiacKotlinx_serialization_coreDecoder, TvManiacKotlinx_serialization_coreDeserializationStrategy, TvManiacKtor_httpHeaders, TvManiacKtor_httpHttpMessage, TvManiacKtor_ioByteReadChannel, TvManiacKotlinx_coroutines_coreSharedFlow, TvManiacRuntimeSqlCursor, TvManiacRuntimeQueryListener, TvManiacRuntimeTransactionCallbacks, TvManiacRuntimeSqlPreparedStatement, TvManiacRuntimeCloseable, TvManiacKtor_client_coreHttpClientEngine, TvManiacKtor_client_coreHttpClientEngineCapability, TvManiacKtor_utilsAttributes, TvManiacKotlinx_serialization_coreCompositeEncoder, TvManiacKotlinAnnotation, TvManiacKotlinx_serialization_coreCompositeDecoder, TvManiacKotlinMapEntry, TvManiacKtor_utilsStringValues, TvManiacKtor_utilsTypeInfo, TvManiacKtor_client_coreHttpRequest, TvManiacKtor_ioReadSession, TvManiacKotlinSuspendFunction1, TvManiacKotlinAppendable, TvManiacKtor_client_coreHttpClientFeature, TvManiacKtor_httpHttpMessageBuilder, TvManiacKotlinx_coroutines_coreJob, TvManiacKotlinSuspendFunction2, TvManiacKotlinx_serialization_coreSerializersModuleCollector, TvManiacKotlinKClass, TvManiacKotlinKType, TvManiacKtor_ioObjectPool, TvManiacKtor_ioInput, TvManiacKtor_ioOutput, TvManiacKotlinFunction, TvManiacKotlinx_coroutines_coreChildHandle, TvManiacKotlinx_coroutines_coreChildJob, TvManiacKotlinx_coroutines_coreDisposableHandle, TvManiacKotlinSequence, TvManiacKotlinx_coroutines_coreSelectClause0, TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier, TvManiacKtor_httpParameters, TvManiacKotlinx_coroutines_coreParentJob, TvManiacKotlinx_coroutines_coreSelectInstance, TvManiacKotlinSuspendFunction0;
+@protocol TvManiacKotlinx_coroutines_coreFlow, TvManiacCoroutineScopeOwner, TvManiacKotlinx_coroutines_coreJob, TvManiacEpisodeRepository, TvManiacTvShowsRepository, TvManiacGenreRepository, TvManiacTrailerRepository, TvManiacSeasonsRepository, TvManiacAction, TvManiacEffect, TvManiacState, TvManiacKotlinComparable, TvManiacKotlinx_serialization_coreKSerializer, TvManiacKotlinx_coroutines_coreFlowCollector, TvManiacKtor_ioCloseable, TvManiacCategoryCache, TvManiacEpisodesCache, TvManiacGenreCache, TvManiacSeasonsCache, TvManiacShowCategoryCache, TvManiacTrailerCache, TvManiacTvShowCache, TvManiacTvShowsService, TvManiacKotlinx_coroutines_coreStateFlow, TvManiacKotlinx_coroutines_coreCoroutineScope, TvManiacRuntimeTransactionWithoutReturn, TvManiacRuntimeTransactionWithReturn, TvManiacRuntimeTransacter, TvManiacRuntimeColumnAdapter, TvManiacCategoryQueries, TvManiacEpisodeQueries, TvManiacGenresQueries, TvManiacShowCategoryQueries, TvManiacShowQueries, TvManiacTrailersQueries, TvManiacTvSeasonQueries, TvManiacTvManiacDatabase, TvManiacRuntimeSqlDriver, TvManiacRuntimeSqlDriverSchema, TvManiacKotlinx_coroutines_coreChildHandle, TvManiacKotlinx_coroutines_coreChildJob, TvManiacKotlinx_coroutines_coreDisposableHandle, TvManiacKotlinSequence, TvManiacKotlinx_coroutines_coreSelectClause0, TvManiacKotlinCoroutineContextKey, TvManiacKotlinCoroutineContextElement, TvManiacKotlinCoroutineContext, TvManiacKotlinIterator, TvManiacKotlinx_serialization_coreEncoder, TvManiacKotlinx_serialization_coreSerialDescriptor, TvManiacKotlinx_serialization_coreSerializationStrategy, TvManiacKotlinx_serialization_coreDecoder, TvManiacKotlinx_serialization_coreDeserializationStrategy, TvManiacKtor_httpHeaders, TvManiacKtor_httpHttpMessage, TvManiacKtor_ioByteReadChannel, TvManiacKotlinx_coroutines_coreSharedFlow, TvManiacKotlinContinuation, TvManiacKotlinContinuationInterceptor, TvManiacKotlinx_coroutines_coreRunnable, TvManiacRuntimeSqlCursor, TvManiacRuntimeQueryListener, TvManiacRuntimeTransactionCallbacks, TvManiacRuntimeSqlPreparedStatement, TvManiacRuntimeCloseable, TvManiacKtor_client_coreHttpClientEngine, TvManiacKtor_client_coreHttpClientEngineCapability, TvManiacKtor_utilsAttributes, TvManiacKotlinx_coroutines_coreParentJob, TvManiacKotlinx_coroutines_coreSelectInstance, TvManiacKotlinSuspendFunction0, TvManiacKotlinx_serialization_coreCompositeEncoder, TvManiacKotlinAnnotation, TvManiacKotlinx_serialization_coreCompositeDecoder, TvManiacKotlinMapEntry, TvManiacKtor_utilsStringValues, TvManiacKtor_utilsTypeInfo, TvManiacKtor_client_coreHttpRequest, TvManiacKtor_ioReadSession, TvManiacKotlinSuspendFunction1, TvManiacKotlinAppendable, TvManiacKtor_client_coreHttpClientFeature, TvManiacKtor_httpHttpMessageBuilder, TvManiacKotlinSuspendFunction2, TvManiacKotlinFunction, TvManiacKotlinx_serialization_coreSerializersModuleCollector, TvManiacKotlinKClass, TvManiacKotlinKType, TvManiacKtor_ioObjectPool, TvManiacKtor_ioInput, TvManiacKtor_ioOutput, TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier, TvManiacKtor_httpParameters;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -160,84 +160,96 @@ __attribute__((swift_name("EpisodeQuery")))
 @property (readonly) int32_t tvShowId __attribute__((swift_name("tvShowId")));
 @end;
 
-__attribute__((swift_name("Interactor")))
-@interface TvManiacInteractor<Params, Type> : TvManiacBase
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer));
-- (id<TvManiacKotlinx_coroutines_coreFlow>)invokeParams:(Params _Nullable)params __attribute__((swift_name("invoke(params:)")));
-- (TvManiacKotlinUnit *(^(^)(TvManiacKotlinUnit *(^)(TvManiacDomainResultState<Type> *, TvManiacKotlinUnit *), TvManiacKotlinUnit *(^)(NSError * _Nullable, TvManiacKotlinUnit *)))(void))invokeNativeParams:(Params _Nullable)params __attribute__((swift_name("invokeNative(params:)")));
-- (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(Params _Nullable)params __attribute__((swift_name("run(params:)")));
-- (TvManiacKotlinUnit *(^(^)(TvManiacKotlinUnit *(^)(TvManiacDomainResultState<Type> *, TvManiacKotlinUnit *), TvManiacKotlinUnit *(^)(NSError * _Nullable, TvManiacKotlinUnit *)))(void))runNativeParams:(Params _Nullable)params __attribute__((swift_name("runNative(params:)")));
+__attribute__((swift_name("FlowInteractor")))
+@interface TvManiacFlowInteractor<Arg, ReturnType> : TvManiacBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)invokeParams:(Arg _Nullable)params __attribute__((swift_name("invoke(params:)")));
+- (TvManiacKotlinUnit *(^(^)(TvManiacKotlinUnit *(^)(ReturnType _Nullable, TvManiacKotlinUnit *), TvManiacKotlinUnit *(^)(NSError * _Nullable, TvManiacKotlinUnit *)))(void))invokeNativeParams:(Arg _Nullable)params __attribute__((swift_name("invokeNative(params:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(Arg _Nullable)params __attribute__((swift_name("run(params:)")));
+- (TvManiacKotlinUnit *(^(^)(TvManiacKotlinUnit *(^)(ReturnType _Nullable, TvManiacKotlinUnit *), TvManiacKotlinUnit *(^)(NSError * _Nullable, TvManiacKotlinUnit *)))(void))runNativeParams:(Arg _Nullable)params __attribute__((swift_name("runNative(params:)")));
+- (void)execute:(id<TvManiacCoroutineScopeOwner>)receiver args:(Arg _Nullable)args config:(void (^)(TvManiacFlowInteractorFlowUseCaseConfigBuilder<ReturnType> *))config __attribute__((swift_name("execute(_:args:config:)")));
+@property id<TvManiacKotlinx_coroutines_coreJob> _Nullable job __attribute__((swift_name("job")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("EpisodesInteractor")))
-@interface TvManiacEpisodesInteractor : TvManiacInteractor<TvManiacEpisodeQuery *, NSArray<TvManiacEpisode *> *>
+@interface TvManiacEpisodesInteractor : TvManiacFlowInteractor<TvManiacEpisodeQuery *, TvManiacDomainResultState<NSArray<TvManiacEpisode *> *> *>
 - (instancetype)initWithRepository:(id<TvManiacEpisodeRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacEpisodeQuery *)params __attribute__((swift_name("run(params:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetDiscoverShowListInteractor")))
-@interface TvManiacGetDiscoverShowListInteractor : TvManiacInteractor<NSArray<TvManiacShowCategory *> *, NSArray<TvManiacTrendingShowData *> *>
+@interface TvManiacGetDiscoverShowListInteractor : TvManiacFlowInteractor<NSArray<TvManiacShowCategory *> *, NSArray<TvManiacTrendingShowData *> *>
 - (instancetype)initWithRepository:(id<TvManiacTvShowsRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(NSArray<TvManiacShowCategory *> *)params __attribute__((swift_name("run(params:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetGenresInteractor")))
-@interface TvManiacGetGenresInteractor : TvManiacInteractor<TvManiacKotlinUnit *, NSArray<TvManiacGenreModel *> *>
+@interface TvManiacGetGenresInteractor : TvManiacFlowInteractor<TvManiacKotlinUnit *, TvManiacDomainResultState<NSArray<TvManiacGenreModel *> *> *>
 - (instancetype)initWithRepository:(id<TvManiacGenreRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacKotlinUnit *)params __attribute__((swift_name("run(params:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetShowInteractor")))
-@interface TvManiacGetShowInteractor : TvManiacInteractor<TvManiacInt *, TvManiacTvShow *>
+@interface TvManiacGetShowInteractor : TvManiacFlowInteractor<TvManiacInt *, TvManiacDomainResultState<TvManiacTvShow *> *>
 - (instancetype)initWithRepository:(id<TvManiacTvShowsRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacInt *)params __attribute__((swift_name("run(params:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetShowsByCategoryInteractor")))
-@interface TvManiacGetShowsByCategoryInteractor : TvManiacInteractor<TvManiacInt *, id<TvManiacKotlinx_coroutines_coreFlow>>
+@interface TvManiacGetShowsByCategoryInteractor : TvManiacFlowInteractor<TvManiacInt *, TvManiacDomainResultState<id<TvManiacKotlinx_coroutines_coreFlow>> *>
 - (instancetype)initWithRepository:(id<TvManiacTvShowsRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacInt *)params __attribute__((swift_name("run(params:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetTrailersInteractor")))
-@interface TvManiacGetTrailersInteractor : TvManiacInteractor<TvManiacInt *, NSArray<TvManiacTrailerModel *> *>
+@interface TvManiacGetTrailersInteractor : TvManiacFlowInteractor<TvManiacInt *, TvManiacDomainResultState<NSArray<TvManiacTrailerModel *> *> *>
 - (instancetype)initWithRepository:(id<TvManiacTrailerRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacInt *)params __attribute__((swift_name("run(params:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetWatchListInteractor")))
-@interface TvManiacGetWatchListInteractor : TvManiacInteractor<TvManiacKotlinUnit *, NSArray<TvManiacTvShow *> *>
+@interface TvManiacGetWatchListInteractor : TvManiacFlowInteractor<TvManiacKotlinUnit *, TvManiacDomainResultState<NSArray<TvManiacTvShow *> *> *>
 - (instancetype)initWithRepository:(id<TvManiacTvShowsRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacKotlinUnit *)params __attribute__((swift_name("run(params:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PopularShowsInteractor")))
-@interface TvManiacPopularShowsInteractor : TvManiacInteractor<TvManiacKotlinUnit *, NSArray<TvManiacTvShow *> *>
+@interface TvManiacPopularShowsInteractor : TvManiacFlowInteractor<TvManiacKotlinUnit *, TvManiacDomainResultState<NSArray<TvManiacTvShow *> *> *>
 - (instancetype)initWithRepository:(id<TvManiacTvShowsRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacKotlinUnit *)params __attribute__((swift_name("run(params:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SeasonsInteractor")))
-@interface TvManiacSeasonsInteractor : TvManiacInteractor<TvManiacInt *, NSArray<TvManiacSeason *> *>
+@interface TvManiacSeasonsInteractor : TvManiacFlowInteractor<TvManiacInt *, TvManiacDomainResultState<NSArray<TvManiacSeason *> *> *>
 - (instancetype)initWithRepository:(id<TvManiacSeasonsRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacInt *)params __attribute__((swift_name("run(params:)")));
 @end;
 
@@ -257,9 +269,10 @@ __attribute__((swift_name("UpdateShowParams")))
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UpdateWatchlistInteractor")))
-@interface TvManiacUpdateWatchlistInteractor : TvManiacInteractor<TvManiacUpdateShowParams *, TvManiacKotlinUnit *>
+@interface TvManiacUpdateWatchlistInteractor : TvManiacFlowInteractor<TvManiacUpdateShowParams *, TvManiacDomainResultState<TvManiacKotlinUnit *> *>
 - (instancetype)initWithRepository:(id<TvManiacTvShowsRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCoroutineDispatcher:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)coroutineDispatcher __attribute__((swift_name("init(coroutineDispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
 - (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacUpdateShowParams *)params __attribute__((swift_name("run(params:)")));
 @end;
 
@@ -970,6 +983,35 @@ __attribute__((swift_name("DiscoverShowState.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) TvManiacDiscoverShowStateCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) TvManiacDiscoverShowState *Empty __attribute__((swift_name("Empty")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FlowInteractorFlowUseCaseConfig")))
+@interface TvManiacFlowInteractorFlowUseCaseConfig<T> : TvManiacBase
+@property (readonly) BOOL disposePrevious __attribute__((swift_name("disposePrevious")));
+@property (readonly) void (^onComplete)(void) __attribute__((swift_name("onComplete")));
+@property (readonly) void (^onError)(TvManiacKotlinThrowable *) __attribute__((swift_name("onError")));
+@property (readonly) void (^onNext)(T _Nullable) __attribute__((swift_name("onNext")));
+@property (readonly) void (^onStart)(void) __attribute__((swift_name("onStart")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FlowInteractorFlowUseCaseConfigBuilder")))
+@interface TvManiacFlowInteractorFlowUseCaseConfigBuilder<T> : TvManiacBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)disposePreviousDisposePrevious:(BOOL)disposePrevious __attribute__((swift_name("disposePrevious(disposePrevious:)")));
+- (void)onCompleteOnComplete:(void (^)(void))onComplete __attribute__((swift_name("onComplete(onComplete:)")));
+- (void)onErrorOnError:(void (^)(TvManiacKotlinThrowable *))onError __attribute__((swift_name("onError(onError:)")));
+- (void)onNextOnNext:(void (^)(T _Nullable))onNext __attribute__((swift_name("onNext(onNext:)")));
+- (void)onStartOnStart:(void (^)(void))onStart __attribute__((swift_name("onStart(onStart:)")));
+@end;
+
+__attribute__((swift_name("CoroutineScopeOwner")))
+@protocol TvManiacCoroutineScopeOwner
+@required
+- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)getWorkerDispatcher __attribute__((swift_name("getWorkerDispatcher()")));
+@property (readonly) id<TvManiacKotlinx_coroutines_coreCoroutineScope> coroutineScope __attribute__((swift_name("coroutineScope")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2424,7 +2466,7 @@ __attribute__((swift_name("Ktor_client_coreResponseException")))
 - (TvManiacExceptionHandler *)resolveError __attribute__((swift_name("resolveError()")));
 @end;
 
-@interface TvManiacInteractor (Extensions)
+@interface TvManiacFlowInteractor (Extensions)
 - (id<TvManiacKotlinx_coroutines_coreFlow>)invoke __attribute__((swift_name("invoke()")));
 @end;
 
@@ -2505,6 +2547,16 @@ __attribute__((swift_name("IntColumnAdapterKt")))
 @property (class, readonly) id<TvManiacRuntimeColumnAdapter> intAdapter __attribute__((swift_name("intAdapter")));
 @end;
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinUnit")))
+@interface TvManiacKotlinUnit : TvManiacBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)unit __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacKotlinUnit *shared __attribute__((swift_name("shared")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
 __attribute__((swift_name("KotlinCoroutineContext")))
 @protocol TvManiacKotlinCoroutineContext
 @required
@@ -2520,43 +2572,27 @@ __attribute__((swift_name("KotlinCoroutineContextElement")))
 @property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
 @end;
 
-__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
-@interface TvManiacKotlinAbstractCoroutineContextElement : TvManiacBase <TvManiacKotlinCoroutineContextElement>
-- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end;
-
-__attribute__((swift_name("KotlinContinuationInterceptor")))
-@protocol TvManiacKotlinContinuationInterceptor <TvManiacKotlinCoroutineContextElement>
+__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
+@protocol TvManiacKotlinx_coroutines_coreJob <TvManiacKotlinCoroutineContextElement>
 @required
-- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-@end;
+- (id<TvManiacKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<TvManiacKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(TvManiacKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (TvManiacKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<TvManiacKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(TvManiacKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+- (id<TvManiacKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(TvManiacKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
 
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
-@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcher : TvManiacKotlinAbstractCoroutineContextElement <TvManiacKotlinContinuationInterceptor>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
-- (void)dispatchContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
-- (void)dispatchYieldContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
-- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (BOOL)isDispatchNeededContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
-- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
-- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
-- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinUnit")))
-@interface TvManiacKotlinUnit : TvManiacBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)unit __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) TvManiacKotlinUnit *shared __attribute__((swift_name("shared")));
-- (NSString *)description __attribute__((swift_name("description()")));
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(TvManiacKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<TvManiacKotlinx_coroutines_coreJob>)plusOther:(id<TvManiacKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start __attribute__((swift_name("start()")));
+@property (readonly) id<TvManiacKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<TvManiacKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2662,6 +2698,35 @@ __attribute__((swift_name("Kotlinx_coroutines_coreStateFlow")))
 @property (readonly) id _Nullable value __attribute__((swift_name("value")));
 @end;
 
+__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
+@interface TvManiacKotlinAbstractCoroutineContextElement : TvManiacBase <TvManiacKotlinCoroutineContextElement>
+- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("KotlinContinuationInterceptor")))
+@protocol TvManiacKotlinContinuationInterceptor <TvManiacKotlinCoroutineContextElement>
+@required
+- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
+@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcher : TvManiacKotlinAbstractCoroutineContextElement <TvManiacKotlinContinuationInterceptor>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
+- (void)dispatchContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
+- (void)dispatchYieldContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
+- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (BOOL)isDispatchNeededContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
+- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
+- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)plusOther_:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
 __attribute__((swift_name("RuntimeQuery")))
 @interface TvManiacRuntimeQuery<__covariant RowType> : TvManiacBase
 - (instancetype)initWithQueries:(NSMutableArray<TvManiacRuntimeQuery<id> *> *)queries mapper:(RowType (^)(id<TvManiacRuntimeSqlCursor>))mapper __attribute__((swift_name("init(queries:mapper:)"))) __attribute__((objc_designated_initializer));
@@ -2751,37 +2816,40 @@ __attribute__((swift_name("Ktor_client_coreHttpClient")))
 @property (readonly) TvManiacKtor_client_coreHttpSendPipeline *sendPipeline __attribute__((swift_name("sendPipeline")));
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
+@protocol TvManiacKotlinx_coroutines_coreDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol TvManiacKotlinx_coroutines_coreChildHandle <TvManiacKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(TvManiacKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<TvManiacKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol TvManiacKotlinx_coroutines_coreChildJob <TvManiacKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<TvManiacKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end;
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol TvManiacKotlinSequence
+@required
+- (id<TvManiacKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol TvManiacKotlinx_coroutines_coreSelectClause0
+@required
+- (void)registerSelectClause0Select:(id<TvManiacKotlinx_coroutines_coreSelectInstance>)select block:(id<TvManiacKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@end;
+
 __attribute__((swift_name("KotlinCoroutineContextKey")))
 @protocol TvManiacKotlinCoroutineContextKey
 @required
-@end;
-
-__attribute__((swift_name("KotlinContinuation")))
-@protocol TvManiacKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly) id<TvManiacKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end;
-
-__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
-@interface TvManiacKotlinAbstractCoroutineContextKey<B, E> : TvManiacBase <TvManiacKotlinCoroutineContextKey>
-- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
-@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey : TvManiacKotlinAbstractCoroutineContextKey<id<TvManiacKotlinContinuationInterceptor>, TvManiacKotlinx_coroutines_coreCoroutineDispatcher *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(id<TvManiacKotlinCoroutineContextElement> _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
-@protocol TvManiacKotlinx_coroutines_coreRunnable
-@required
-- (void)run __attribute__((swift_name("run()")));
 @end;
 
 __attribute__((swift_name("KotlinIterator")))
@@ -2904,7 +2972,7 @@ __attribute__((swift_name("Ktor_client_coreHttpClientCall")))
 __attribute__((swift_name("Ktor_ioByteReadChannel")))
 @protocol TvManiacKtor_ioByteReadChannel
 @required
-- (BOOL)cancelCause:(TvManiacKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (BOOL)cancelCause_:(TvManiacKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -3108,6 +3176,34 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
 
+__attribute__((swift_name("KotlinContinuation")))
+@protocol TvManiacKotlinContinuation
+@required
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<TvManiacKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end;
+
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface TvManiacKotlinAbstractCoroutineContextKey<B, E> : TvManiacBase <TvManiacKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
+@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey : TvManiacKotlinAbstractCoroutineContextKey<id<TvManiacKotlinContinuationInterceptor>, TvManiacKotlinx_coroutines_coreCoroutineDispatcher *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(id<TvManiacKotlinCoroutineContextElement> _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
+@protocol TvManiacKotlinx_coroutines_coreRunnable
+@required
+- (void)run __attribute__((swift_name("run()")));
+@end;
+
 __attribute__((swift_name("RuntimeSqlCursor")))
 @protocol TvManiacRuntimeSqlCursor <TvManiacRuntimeCloseable>
 @required
@@ -3291,6 +3387,40 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline")))
 - (instancetype)initWithPhases:(TvManiacKotlinArray<TvManiacKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) TvManiacKtor_client_coreHttpSendPipelinePhases *companion __attribute__((swift_name("companion")));
 @property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
+@protocol TvManiacKotlinx_coroutines_coreParentJob <TvManiacKotlinx_coroutines_coreJob>
+@required
+- (TvManiacKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
+@protocol TvManiacKotlinx_coroutines_coreSelectInstance
+@required
+- (void)disposeOnSelectHandle:(id<TvManiacKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
+- (id _Nullable)performAtomicTrySelectDesc:(TvManiacKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
+- (void)resumeSelectWithExceptionException:(TvManiacKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
+- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
+- (id _Nullable)trySelectOtherOtherOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
+@property (readonly) id<TvManiacKotlinContinuation> completion __attribute__((swift_name("completion")));
+@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
+@end;
+
+__attribute__((swift_name("KotlinFunction")))
+@protocol TvManiacKotlinFunction
+@required
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction0")))
+@protocol TvManiacKotlinSuspendFunction0 <TvManiacKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
@@ -3612,11 +3742,6 @@ __attribute__((swift_name("Ktor_ioReadSession")))
 @property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
 @end;
 
-__attribute__((swift_name("KotlinFunction")))
-@protocol TvManiacKotlinFunction
-@required
-@end;
-
 __attribute__((swift_name("KotlinSuspendFunction1")))
 @protocol TvManiacKotlinSuspendFunction1 <TvManiacKotlinFunction>
 @required
@@ -3881,29 +4006,6 @@ __attribute__((swift_name("Ktor_httpURLBuilder")))
 @property NSString * _Nullable user __attribute__((swift_name("user")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
-@protocol TvManiacKotlinx_coroutines_coreJob <TvManiacKotlinCoroutineContextElement>
-@required
-- (id<TvManiacKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<TvManiacKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-- (void)cancelCause_:(TvManiacKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
-- (TvManiacKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<TvManiacKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(TvManiacKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<TvManiacKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(TvManiacKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(TvManiacKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<TvManiacKotlinx_coroutines_coreJob>)plusOther_:(id<TvManiacKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
-- (BOOL)start __attribute__((swift_name("start()")));
-@property (readonly) id<TvManiacKotlinSequence> children __attribute__((swift_name("children")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) id<TvManiacKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpHttpMethod")))
 @interface TvManiacKtor_httpHttpMethod : TvManiacBase
@@ -4011,6 +4113,40 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline.Phases")))
 @property (readonly) TvManiacKtor_utilsPipelinePhase *Monitoring __attribute__((swift_name("Monitoring")));
 @property (readonly) TvManiacKtor_utilsPipelinePhase *Receive __attribute__((swift_name("Receive")));
 @property (readonly) TvManiacKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
+@interface TvManiacKotlinx_coroutines_coreAtomicDesc : TvManiacBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(TvManiacKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)prepareOp:(TvManiacKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+@property TvManiacKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
+@interface TvManiacKotlinx_coroutines_coreOpDescriptor : TvManiacBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (BOOL)isEarlierThanThat:(TvManiacKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) TvManiacKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
+@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : TvManiacKotlinx_coroutines_coreOpDescriptor
+- (instancetype)initWithAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
+@property (readonly) TvManiacKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
@@ -4267,37 +4403,6 @@ __attribute__((swift_name("Ktor_httpURLBuilder.Companion")))
 @property (class, readonly, getter=shared) TvManiacKtor_httpURLBuilderCompanion *shared __attribute__((swift_name("shared")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
-@protocol TvManiacKotlinx_coroutines_coreDisposableHandle
-@required
-- (void)dispose __attribute__((swift_name("dispose()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol TvManiacKotlinx_coroutines_coreChildHandle <TvManiacKotlinx_coroutines_coreDisposableHandle>
-@required
-- (BOOL)childCancelledCause:(TvManiacKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@property (readonly) id<TvManiacKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol TvManiacKotlinx_coroutines_coreChildJob <TvManiacKotlinx_coroutines_coreJob>
-@required
-- (void)parentCancelledParentJob:(id<TvManiacKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end;
-
-__attribute__((swift_name("KotlinSequence")))
-@protocol TvManiacKotlinSequence
-@required
-- (id<TvManiacKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol TvManiacKotlinx_coroutines_coreSelectClause0
-@required
-- (void)registerSelectClause0Select:(id<TvManiacKotlinx_coroutines_coreSelectInstance>)select block:(id<TvManiacKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
 @interface TvManiacKtor_httpHttpMethodCompanion : TvManiacBase
@@ -4314,6 +4419,61 @@ __attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
 @property (readonly) TvManiacKtor_httpHttpMethod *Patch __attribute__((swift_name("Patch")));
 @property (readonly) TvManiacKtor_httpHttpMethod *Post __attribute__((swift_name("Post")));
 @property (readonly) TvManiacKtor_httpHttpMethod *Put __attribute__((swift_name("Put")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
+@interface TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T> : TvManiacKotlinx_coroutines_coreOpDescriptor
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
+- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
+@property (readonly) TvManiacKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
+@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
+@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
+@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode : TvManiacBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)addLastNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
+- (BOOL)addLastIfNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(TvManiacBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
+- (BOOL)addLastIfPrevNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(TvManiacBoolean *(^)(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
+- (BOOL)addLastIfPrevAndIfNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(TvManiacBoolean *(^)(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(TvManiacBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
+- (BOOL)addOneIfEmptyNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
+- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
+- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
+- (void)helpRemove __attribute__((swift_name("helpRemove()")));
+- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
+- (BOOL)remove __attribute__((swift_name("remove()")));
+- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(TvManiacBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
+- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
+@property (readonly, getter=next__) id _Nullable next __attribute__((swift_name("next")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
+@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : TvManiacKotlinx_coroutines_coreAtomicDesc
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(TvManiacKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)failureAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)affected __attribute__((swift_name("failure(affected:)")));
+- (void)finishOnSuccessAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (id _Nullable)onPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
+- (void)onRemovedAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
+- (id _Nullable)prepareOp:(TvManiacKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+- (BOOL)retryAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(TvManiacKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -4409,33 +4569,37 @@ __attribute__((swift_name("Ktor_httpUrlEncodingOption")))
 + (TvManiacKotlinArray<TvManiacKtor_httpUrlEncodingOption *> *)values __attribute__((swift_name("values()")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
-@protocol TvManiacKotlinx_coroutines_coreParentJob <TvManiacKotlinx_coroutines_coreJob>
-@required
-- (TvManiacKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc")))
+@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T> : TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
+- (instancetype)initWithQueue:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)queue node:(T)node __attribute__((swift_name("init(queue:node:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)finishOnSuccessAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (BOOL)retryAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(TvManiacKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) T node __attribute__((swift_name("node")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
-@protocol TvManiacKotlinx_coroutines_coreSelectInstance
-@required
-- (void)disposeOnSelectHandle:(id<TvManiacKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
-- (id _Nullable)performAtomicTrySelectDesc:(TvManiacKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
-- (void)resumeSelectWithExceptionException:(TvManiacKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
-- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
-- (id _Nullable)trySelectOtherOtherOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
-@property (readonly) id<TvManiacKotlinContinuation> completion __attribute__((swift_name("completion")));
-@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
-@end;
-
-__attribute__((swift_name("KotlinSuspendFunction0")))
-@protocol TvManiacKotlinSuspendFunction0 <TvManiacKotlinFunction>
-@required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc")))
+@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T> : TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
+- (instancetype)initWithQueue:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)queue __attribute__((swift_name("init(queue:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (id _Nullable)failureAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)affected __attribute__((swift_name("failure(affected:)")));
+- (void)finishOnSuccessAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (BOOL)retryAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(TvManiacKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
+@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
+@property (readonly) T _Nullable result __attribute__((swift_name("result")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -4496,128 +4660,6 @@ __attribute__((swift_name("Ktor_httpContentType.Companion")))
 @property (class, readonly, getter=shared) TvManiacKtor_httpContentTypeCompanion *shared __attribute__((swift_name("shared")));
 - (TvManiacKtor_httpContentType *)parseValue:(NSString *)value __attribute__((swift_name("parse(value:)")));
 @property (readonly) TvManiacKtor_httpContentType *Any __attribute__((swift_name("Any")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
-@interface TvManiacKotlinx_coroutines_coreAtomicDesc : TvManiacBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(TvManiacKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)prepareOp:(TvManiacKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-@property TvManiacKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
-@interface TvManiacKotlinx_coroutines_coreOpDescriptor : TvManiacBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BOOL)isEarlierThanThat:(TvManiacKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) TvManiacKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
-@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : TvManiacKotlinx_coroutines_coreOpDescriptor
-- (instancetype)initWithAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
-@property (readonly) TvManiacKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
-@interface TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T> : TvManiacKotlinx_coroutines_coreOpDescriptor
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
-- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
-@property (readonly) TvManiacKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
-@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
-@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
-@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode : TvManiacBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addLastNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
-- (BOOL)addLastIfNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(TvManiacBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
-- (BOOL)addLastIfPrevNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(TvManiacBoolean *(^)(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
-- (BOOL)addLastIfPrevAndIfNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(TvManiacBoolean *(^)(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(TvManiacBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
-- (BOOL)addOneIfEmptyNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
-- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
-- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
-- (void)helpRemove __attribute__((swift_name("helpRemove()")));
-- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
-- (BOOL)remove __attribute__((swift_name("remove()")));
-- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(TvManiacBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
-- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next__) id _Nullable next __attribute__((swift_name("next")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
-@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : TvManiacKotlinx_coroutines_coreAtomicDesc
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(TvManiacKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)failureAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)affected __attribute__((swift_name("failure(affected:)")));
-- (void)finishOnSuccessAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (id _Nullable)onPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
-- (void)onRemovedAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
-- (id _Nullable)prepareOp:(TvManiacKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-- (BOOL)retryAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(TvManiacKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc")))
-@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T> : TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
-- (instancetype)initWithQueue:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)queue node:(T)node __attribute__((swift_name("init(queue:node:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (void)finishOnSuccessAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (BOOL)retryAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(TvManiacKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) T node __attribute__((swift_name("node")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc")))
-@interface TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T> : TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
-- (instancetype)initWithQueue:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)queue __attribute__((swift_name("init(queue:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (id _Nullable)failureAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)affected __attribute__((swift_name("failure(affected:)")));
-- (void)finishOnSuccessAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (BOOL)retryAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-- (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(TvManiacKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
-@property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
-@property (readonly) T _Nullable result __attribute__((swift_name("result")));
 @end;
 
 #pragma pop_macro("_Nullable_result")
