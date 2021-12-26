@@ -54,15 +54,4 @@ jobs:
           repository_name: 'tvmaniac-swift-packages'
           new_branch_name: ${{ env.RELEASE_VERSION }}
           access_token: ${{ secrets.API_TOKEN_GITHUB}}
-          
-      - name: Push to repo
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source-directory: 'swiftpackage'
-          destination-github-username: 'c0de-wizard'
-          destination-repository-name: 'tvmaniac-swift-packages'
-          user-email: kioko.publish@gmail.com
-          target-branch: ${{ env.RELEASE_VERSION }}
 
