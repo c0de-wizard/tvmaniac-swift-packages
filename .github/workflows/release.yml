@@ -22,7 +22,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: swiftpackage
-          path: swiftpackage
+          path: /
           retention-days: 1
 
   push:
