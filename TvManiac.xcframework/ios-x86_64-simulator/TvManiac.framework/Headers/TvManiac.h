@@ -2427,7 +2427,6 @@ __attribute__((swift_name("TvShowsServiceImpl")))
 - (void)getTvShowDetailsShowId:(int32_t)showId completionHandler:(void (^)(TvManiacShowDetailResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getTvShowDetails(showId:completionHandler:)")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BaseViewModel")))
 @interface TvManiacBaseViewModel : TvManiacBase <TvManiacCoroutineScopeOwner>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
