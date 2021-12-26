@@ -18,14 +18,8 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-      - name: Upload Swift Package directory
-        uses: actions/upload-artifact@v2
-        with:
-          name: swiftpackage
-          path: /
-          retention-days: 1
 
-  push:
+  release:
     needs: build
     runs-on: ubuntu-latest
     env:
