@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class TvManiacEpisodeQuery, TvManiacFlowInteractorFlowUseCaseConfigBuilder<T>, TvManiacFlowInteractor<Arg, ReturnType>, TvManiacEpisode, TvManiacShowCategory, TvManiacTrendingShowData, TvManiacKotlinUnit, TvManiacGenreModel, TvManiacDomainResultState<ResultType>, TvManiacTvShow, TvManiacTrailerModel, TvManiacSeason, TvManiacUpdateShowParams, TvManiacSettingsActions, TvManiacSettingsActionsLoadTheme, TvManiacSettingsActionsThemeClicked, TvManiacSettingsActionsThemeSelected, TvManiacTheme, TvManiacSettingsStateCompanion, TvManiacSettingsState, TvManiacShowsGridAction, TvManiacShowsGridActionError, TvManiacShowsGridActionLoadTvShows, TvManiacShowsGridEffect, TvManiacShowsGridEffectError, TvManiacShowsGridStateCompanion, TvManiacShowsGridState, TvManiacKotlinEnumCompanion, TvManiacKotlinEnum<E>, TvManiacKotlinArray<T>, TvManiacWatchlistAction, TvManiacWatchlistActionError, TvManiacWatchlistActionLoadWatchlist, TvManiacWatchlistEffect, TvManiacWatchlistEffectError, TvManiacWatchlistStateCompanion, TvManiacWatchlistState, TvManiacEpisodeCompanion, TvManiacSeasonCompanion, TvManiacTvShowCompanion, TvManiacDomainResultStateCompanion, TvManiacKotlinThrowable, TvManiacDomainResultStateError<ResultType>, TvManiacDomainResultStateSuccess<ResultType>, TvManiacKotlinException, TvManiacExceptionHandlerCompanion, TvManiacExceptionHandler, TvManiacKtor_client_coreHttpResponse, TvManiacRepositoryModule, TvManiacEpisodesInteractor, TvManiacGetDiscoverShowListInteractor, TvManiacGetGenresInteractor, TvManiacGetShowInteractor, TvManiacGetShowsByCategoryInteractor, TvManiacGetTrailersInteractor, TvManiacGetWatchListInteractor, TvManiacPopularShowsInteractor, TvManiacSeasonsInteractor, TvManiacUpdateWatchlistInteractor, TvManiacNetworkModule, TvManiacDatabaseModule, TvManiacDiscoverShowAction, TvManiacDiscoverShowActionError, TvManiacDiscoverShowActionLoadTvShows, TvManiacDiscoverShowEffect, TvManiacDiscoverShowEffectError, TvManiacDiscoverShowStateCompanion, TvManiacDiscoverShowState, TvManiacKotlinx_coroutines_coreCoroutineDispatcher, TvManiacShow, TvManiacCommonFlow<T>, TvManiacCategory, TvManiacRuntimeQuery<__covariant RowType>, TvManiacEpisode_, TvManiacEpisodesBySeasonId, TvManiacGenre, TvManiacSelectByShowId, TvManiacSelectSeasonsByShowId, TvManiacSelectShows, TvManiacShow_category, TvManiacTrailers, TvManiacTvManiacDatabaseCompanion, TvManiacShowAdapter, TvManiacTv_seasonAdapter, TvManiacTv_season, TvManiacDriverFactory, TvManiacMediaTypeCompanion, TvManiacMediaType, TvManiacShowCategoryCompanion, TvManiacTimeWindowCompanion, TvManiacTimeWindow, TvManiacKtor_client_coreHttpClient, TvManiacEpisodeDetailResponseCompanion, TvManiacEpisodeDetailResponse, TvManiacEpisodesResponseCompanion, TvManiacEpisodesResponse, TvManiacGenreResponseCompanion, TvManiacGenreResponse, TvManiacGenresResponseCompanion, TvManiacGenresResponse, TvManiacSeasonResponseCompanion, TvManiacSeasonResponse, TvManiacSeasonsResponseCompanion, TvManiacSeasonsResponse, TvManiacShowDetailResponseCompanion, TvManiacShowDetailResponse, TvManiacShowResponseCompanion, TvManiacShowResponse, TvManiacTrailerResponseCompanion, TvManiacTrailerResponse, TvManiacTrailersResponseCompanion, TvManiacTrailersResponse, TvManiacTvShowsResponseCompanion, TvManiacTvShowsResponse, TvManiacKotlinRuntimeException, TvManiacKotlinIllegalStateException, TvManiacKtor_client_coreResponseException, TvManiacKotlinCancellationException, TvManiacKtor_client_coreHttpClientCall, TvManiacKtor_utilsGMTDate, TvManiacKtor_httpHttpStatusCode, TvManiacKtor_httpHttpProtocolVersion, TvManiacKotlinAbstractCoroutineContextElement, TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey, TvManiacRuntimeTransacterTransaction, TvManiacKtor_client_coreHttpClientEngineConfig, TvManiacKtor_client_coreHttpClientConfig<T>, TvManiacKtor_client_coreHttpRequestBuilder, TvManiacKtor_client_coreHttpReceivePipeline, TvManiacKtor_client_coreHttpRequestPipeline, TvManiacKtor_client_coreHttpResponsePipeline, TvManiacKtor_client_coreHttpSendPipeline, TvManiacKotlinx_serialization_coreSerializersModule, TvManiacKotlinx_serialization_coreSerialKind, TvManiacKotlinNothing, TvManiacKtor_client_coreHttpClientCallCompanion, TvManiacKtor_client_coreTypeInfo, TvManiacKtor_ioMemory, TvManiacKtor_ioIoBuffer, TvManiacKotlinByteArray, TvManiacKtor_ioByteReadPacket, TvManiacKtor_ioByteOrder, TvManiacKtor_utilsGMTDateCompanion, TvManiacKtor_utilsWeekDay, TvManiacKtor_utilsMonth, TvManiacKtor_httpHttpStatusCodeCompanion, TvManiacKtor_httpHttpProtocolVersionCompanion, TvManiacKotlinAbstractCoroutineContextKey<B, E>, TvManiacKtor_client_coreHttpRequestData, TvManiacKtor_client_coreHttpResponseData, TvManiacKtor_client_coreProxyConfig, TvManiacKtor_httpHeadersBuilder, TvManiacKtor_client_coreHttpRequestBuilderCompanion, TvManiacKtor_httpURLBuilder, TvManiacKtor_httpHttpMethod, TvManiacKtor_utilsAttributeKey<T>, TvManiacKtor_utilsPipelinePhase, TvManiacKtor_utilsPipeline<TSubject, TContext>, TvManiacKtor_client_coreHttpReceivePipelinePhases, TvManiacKtor_client_coreHttpRequestPipelinePhases, TvManiacKtor_client_coreHttpResponsePipelinePhases, TvManiacKtor_client_coreHttpResponseContainer, TvManiacKtor_client_coreHttpSendPipelinePhases, TvManiacKotlinx_coroutines_coreAtomicDesc, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, TvManiacKtor_httpOutgoingContent, TvManiacKtor_httpUrl, TvManiacKtor_ioMemoryCompanion, TvManiacKtor_ioBufferCompanion, TvManiacKtor_ioBuffer, TvManiacKtor_ioChunkBuffer, TvManiacKtor_ioChunkBufferCompanion, TvManiacKotlinCharArray, TvManiacKtor_ioIoBufferCompanion, TvManiacKotlinByteIterator, TvManiacKtor_ioAbstractInputCompanion, TvManiacKtor_ioAbstractInput, TvManiacKtor_ioByteReadPacketBaseCompanion, TvManiacKtor_ioByteReadPacketBase, TvManiacKtor_ioByteReadPacketPlatformBase, TvManiacKtor_ioByteReadPacketCompanion, TvManiacKtor_ioByteOrderCompanion, TvManiacKtor_utilsWeekDayCompanion, TvManiacKtor_utilsMonthCompanion, TvManiacKtor_utilsStringValuesBuilder, TvManiacKtor_httpURLProtocol, TvManiacKtor_httpParametersBuilder, TvManiacKtor_httpURLBuilderCompanion, TvManiacKtor_httpHttpMethodCompanion, TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T>, TvManiacKotlinx_coroutines_coreOpDescriptor, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, TvManiacKotlinKTypeProjection, TvManiacKtor_httpContentType, TvManiacKtor_httpUrlCompanion, TvManiacKotlinCharIterator, TvManiacKtor_httpURLProtocolCompanion, TvManiacKtor_httpUrlEncodingOption, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, TvManiacKotlinKVariance, TvManiacKotlinKTypeProjectionCompanion, TvManiacKtor_httpHeaderValueParam, TvManiacKtor_httpHeaderValueWithParametersCompanion, TvManiacKtor_httpHeaderValueWithParameters, TvManiacKtor_httpContentTypeCompanion;
+@class TvManiacEpisodeQuery, TvManiacFlowInteractorFlowUseCaseConfigBuilder<T>, TvManiacFlowInteractor<Arg, ReturnType>, TvManiacEpisode, TvManiacKotlinUnit, TvManiacGenreModel, TvManiacDomainResultState<ResultType>, TvManiacTvShow, TvManiacTrailerModel, TvManiacShowCategory, TvManiacDiscoverShowsData, TvManiacSeason, TvManiacUpdateShowParams, TvManiacSettingsActions, TvManiacSettingsActionsLoadTheme, TvManiacSettingsActionsThemeClicked, TvManiacSettingsActionsThemeSelected, TvManiacTheme, TvManiacSettingsStateCompanion, TvManiacSettingsState, TvManiacShowsGridAction, TvManiacShowsGridActionError, TvManiacShowsGridActionLoadTvShows, TvManiacShowsGridEffect, TvManiacShowsGridEffectError, TvManiacShowsGridStateCompanion, TvManiacShowsGridState, TvManiacKotlinEnumCompanion, TvManiacKotlinEnum<E>, TvManiacKotlinArray<T>, TvManiacWatchlistAction, TvManiacWatchlistActionError, TvManiacWatchlistActionLoadWatchlist, TvManiacWatchlistEffect, TvManiacWatchlistEffectError, TvManiacWatchlistStateCompanion, TvManiacWatchlistState, TvManiacEpisodeCompanion, TvManiacSeasonCompanion, TvManiacTvShowCompanion, TvManiacDomainResultStateCompanion, TvManiacKotlinThrowable, TvManiacDomainResultStateError<ResultType>, TvManiacDomainResultStateSuccess<ResultType>, TvManiacKotlinException, TvManiacExceptionHandlerCompanion, TvManiacExceptionHandler, TvManiacKtor_client_coreHttpResponse, TvManiacRepositoryModule, TvManiacEpisodesInteractor, TvManiacGetGenresInteractor, TvManiacGetShowInteractor, TvManiacGetShowsByCategoryInteractor, TvManiacGetTrailersInteractor, TvManiacGetWatchListInteractor, TvManiacObserveShowsByCategoryInteractor, TvManiacSeasonsInteractor, TvManiacUpdateWatchlistInteractor, TvManiacNetworkModule, TvManiacDatabaseModule, TvManiacDiscoverShowAction, TvManiacDiscoverShowActionError, TvManiacDiscoverShowEffect, TvManiacDiscoverShowEffectError, TvManiacDiscoverShowStateCompanion, TvManiacDiscoverShowState, TvManiacDiscoverShowsDataCompanion, TvManiacKotlinx_coroutines_coreCoroutineDispatcher, TvManiacShow, TvManiacCommonFlow<T>, TvManiacStatus, TvManiacResourceCompanion, TvManiacResource<__covariant T>, TvManiacCategory, TvManiacRuntimeQuery<__covariant RowType>, TvManiacEpisode_, TvManiacEpisodesBySeasonId, TvManiacGenre, TvManiacSelectByShowId, TvManiacSelectSeasonsByShowId, TvManiacSelectShows, TvManiacShow_category, TvManiacTrailers, TvManiacTvManiacDatabaseCompanion, TvManiacShowAdapter, TvManiacTv_seasonAdapter, TvManiacTv_season, TvManiacDriverFactory, TvManiacShowCategoryCompanion, TvManiacKtor_client_coreHttpClient, TvManiacEpisodeDetailResponseCompanion, TvManiacEpisodeDetailResponse, TvManiacEpisodesResponseCompanion, TvManiacEpisodesResponse, TvManiacGenreResponseCompanion, TvManiacGenreResponse, TvManiacGenresResponseCompanion, TvManiacGenresResponse, TvManiacSeasonResponseCompanion, TvManiacSeasonResponse, TvManiacSeasonsResponseCompanion, TvManiacSeasonsResponse, TvManiacShowDetailResponseCompanion, TvManiacShowDetailResponse, TvManiacShowResponseCompanion, TvManiacShowResponse, TvManiacTrailerResponseCompanion, TvManiacTrailerResponse, TvManiacTrailersResponseCompanion, TvManiacTrailersResponse, TvManiacTvShowsResponseCompanion, TvManiacTvShowsResponse, TvManiacKotlinRuntimeException, TvManiacKotlinIllegalStateException, TvManiacKtor_client_coreResponseException, TvManiacKotlinCancellationException, TvManiacKtor_client_coreHttpClientCall, TvManiacKtor_utilsGMTDate, TvManiacKtor_httpHttpStatusCode, TvManiacKtor_httpHttpProtocolVersion, TvManiacKotlinAbstractCoroutineContextElement, TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey, TvManiacRuntimeTransacterTransaction, TvManiacKtor_client_coreHttpClientEngineConfig, TvManiacKtor_client_coreHttpClientConfig<T>, TvManiacKtor_client_coreHttpRequestBuilder, TvManiacKtor_client_coreHttpReceivePipeline, TvManiacKtor_client_coreHttpRequestPipeline, TvManiacKtor_client_coreHttpResponsePipeline, TvManiacKtor_client_coreHttpSendPipeline, TvManiacKotlinx_serialization_coreSerializersModule, TvManiacKotlinx_serialization_coreSerialKind, TvManiacKotlinNothing, TvManiacKtor_client_coreHttpClientCallCompanion, TvManiacKtor_client_coreTypeInfo, TvManiacKtor_ioMemory, TvManiacKtor_ioIoBuffer, TvManiacKotlinByteArray, TvManiacKtor_ioByteReadPacket, TvManiacKtor_ioByteOrder, TvManiacKtor_utilsGMTDateCompanion, TvManiacKtor_utilsWeekDay, TvManiacKtor_utilsMonth, TvManiacKtor_httpHttpStatusCodeCompanion, TvManiacKtor_httpHttpProtocolVersionCompanion, TvManiacKotlinAbstractCoroutineContextKey<B, E>, TvManiacKtor_client_coreHttpRequestData, TvManiacKtor_client_coreHttpResponseData, TvManiacKtor_client_coreProxyConfig, TvManiacKtor_httpHeadersBuilder, TvManiacKtor_client_coreHttpRequestBuilderCompanion, TvManiacKtor_httpURLBuilder, TvManiacKtor_httpHttpMethod, TvManiacKtor_utilsAttributeKey<T>, TvManiacKtor_utilsPipelinePhase, TvManiacKtor_utilsPipeline<TSubject, TContext>, TvManiacKtor_client_coreHttpReceivePipelinePhases, TvManiacKtor_client_coreHttpRequestPipelinePhases, TvManiacKtor_client_coreHttpResponsePipelinePhases, TvManiacKtor_client_coreHttpResponseContainer, TvManiacKtor_client_coreHttpSendPipelinePhases, TvManiacKotlinx_coroutines_coreAtomicDesc, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, TvManiacKtor_httpOutgoingContent, TvManiacKtor_httpUrl, TvManiacKtor_ioMemoryCompanion, TvManiacKtor_ioBufferCompanion, TvManiacKtor_ioBuffer, TvManiacKtor_ioChunkBuffer, TvManiacKtor_ioChunkBufferCompanion, TvManiacKotlinCharArray, TvManiacKtor_ioIoBufferCompanion, TvManiacKotlinByteIterator, TvManiacKtor_ioAbstractInputCompanion, TvManiacKtor_ioAbstractInput, TvManiacKtor_ioByteReadPacketBaseCompanion, TvManiacKtor_ioByteReadPacketBase, TvManiacKtor_ioByteReadPacketPlatformBase, TvManiacKtor_ioByteReadPacketCompanion, TvManiacKtor_ioByteOrderCompanion, TvManiacKtor_utilsWeekDayCompanion, TvManiacKtor_utilsMonthCompanion, TvManiacKtor_utilsStringValuesBuilder, TvManiacKtor_httpURLProtocol, TvManiacKtor_httpParametersBuilder, TvManiacKtor_httpURLBuilderCompanion, TvManiacKtor_httpHttpMethodCompanion, TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T>, TvManiacKotlinx_coroutines_coreOpDescriptor, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, TvManiacKotlinKTypeProjection, TvManiacKtor_httpContentType, TvManiacKtor_httpUrlCompanion, TvManiacKotlinCharIterator, TvManiacKtor_httpURLProtocolCompanion, TvManiacKtor_httpUrlEncodingOption, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, TvManiacKotlinKVariance, TvManiacKotlinKTypeProjectionCompanion, TvManiacKtor_httpHeaderValueParam, TvManiacKtor_httpHeaderValueWithParametersCompanion, TvManiacKtor_httpHeaderValueWithParameters, TvManiacKtor_httpContentTypeCompanion;
 
-@protocol TvManiacKotlinx_coroutines_coreFlow, TvManiacCoroutineScopeOwner, TvManiacKotlinx_coroutines_coreJob, TvManiacEpisodeRepository, TvManiacTvShowsRepository, TvManiacGenreRepository, TvManiacTrailerRepository, TvManiacSeasonsRepository, TvManiacAction, TvManiacEffect, TvManiacState, TvManiacKotlinComparable, TvManiacKotlinx_serialization_coreKSerializer, TvManiacKotlinx_coroutines_coreFlowCollector, TvManiacKtor_ioCloseable, TvManiacCategoryCache, TvManiacEpisodesCache, TvManiacGenreCache, TvManiacSeasonsCache, TvManiacShowCategoryCache, TvManiacTrailerCache, TvManiacTvShowCache, TvManiacTvShowsService, TvManiacKotlinx_coroutines_coreStateFlow, TvManiacKotlinx_coroutines_coreCoroutineScope, TvManiacRuntimeTransactionWithoutReturn, TvManiacRuntimeTransactionWithReturn, TvManiacRuntimeTransacter, TvManiacRuntimeColumnAdapter, TvManiacCategoryQueries, TvManiacEpisodeQueries, TvManiacGenresQueries, TvManiacShowCategoryQueries, TvManiacShowQueries, TvManiacTrailersQueries, TvManiacTvSeasonQueries, TvManiacTvManiacDatabase, TvManiacRuntimeSqlDriver, TvManiacRuntimeSqlDriverSchema, TvManiacKotlinx_coroutines_coreChildHandle, TvManiacKotlinx_coroutines_coreChildJob, TvManiacKotlinx_coroutines_coreDisposableHandle, TvManiacKotlinSequence, TvManiacKotlinx_coroutines_coreSelectClause0, TvManiacKotlinCoroutineContextKey, TvManiacKotlinCoroutineContextElement, TvManiacKotlinCoroutineContext, TvManiacKotlinIterator, TvManiacKotlinx_serialization_coreEncoder, TvManiacKotlinx_serialization_coreSerialDescriptor, TvManiacKotlinx_serialization_coreSerializationStrategy, TvManiacKotlinx_serialization_coreDecoder, TvManiacKotlinx_serialization_coreDeserializationStrategy, TvManiacKtor_httpHeaders, TvManiacKtor_httpHttpMessage, TvManiacKtor_ioByteReadChannel, TvManiacKotlinx_coroutines_coreSharedFlow, TvManiacKotlinContinuation, TvManiacKotlinContinuationInterceptor, TvManiacKotlinx_coroutines_coreRunnable, TvManiacRuntimeSqlCursor, TvManiacRuntimeQueryListener, TvManiacRuntimeTransactionCallbacks, TvManiacRuntimeSqlPreparedStatement, TvManiacRuntimeCloseable, TvManiacKtor_client_coreHttpClientEngine, TvManiacKtor_client_coreHttpClientEngineCapability, TvManiacKtor_utilsAttributes, TvManiacKotlinx_coroutines_coreParentJob, TvManiacKotlinx_coroutines_coreSelectInstance, TvManiacKotlinSuspendFunction0, TvManiacKotlinx_serialization_coreCompositeEncoder, TvManiacKotlinAnnotation, TvManiacKotlinx_serialization_coreCompositeDecoder, TvManiacKotlinMapEntry, TvManiacKtor_utilsStringValues, TvManiacKtor_utilsTypeInfo, TvManiacKtor_client_coreHttpRequest, TvManiacKtor_ioReadSession, TvManiacKotlinSuspendFunction1, TvManiacKotlinAppendable, TvManiacKtor_client_coreHttpClientFeature, TvManiacKtor_httpHttpMessageBuilder, TvManiacKotlinSuspendFunction2, TvManiacKotlinFunction, TvManiacKotlinx_serialization_coreSerializersModuleCollector, TvManiacKotlinKClass, TvManiacKotlinKType, TvManiacKtor_ioObjectPool, TvManiacKtor_ioInput, TvManiacKtor_ioOutput, TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier, TvManiacKtor_httpParameters;
+@protocol TvManiacKotlinx_coroutines_coreFlow, TvManiacCoroutineScopeOwner, TvManiacKotlinx_coroutines_coreJob, TvManiacEpisodeRepository, TvManiacGenreRepository, TvManiacTvShowsRepository, TvManiacTrailerRepository, TvManiacSeasonsRepository, TvManiacAction, TvManiacEffect, TvManiacState, TvManiacKotlinComparable, TvManiacKotlinx_serialization_coreKSerializer, TvManiacKotlinx_coroutines_coreFlowCollector, TvManiacKtor_ioCloseable, TvManiacCategoryCache, TvManiacEpisodesCache, TvManiacGenreCache, TvManiacSeasonsCache, TvManiacShowCategoryCache, TvManiacTrailerCache, TvManiacTvShowCache, TvManiacTvShowsService, TvManiacKotlinx_coroutines_coreStateFlow, TvManiacKotlinx_coroutines_coreCoroutineScope, TvManiacRuntimeTransactionWithoutReturn, TvManiacRuntimeTransactionWithReturn, TvManiacRuntimeTransacter, TvManiacRuntimeColumnAdapter, TvManiacCategoryQueries, TvManiacEpisodeQueries, TvManiacGenresQueries, TvManiacShowCategoryQueries, TvManiacShowQueries, TvManiacTrailersQueries, TvManiacTvSeasonQueries, TvManiacTvManiacDatabase, TvManiacRuntimeSqlDriver, TvManiacRuntimeSqlDriverSchema, TvManiacKotlinSuspendFunction0, TvManiacKotlinSuspendFunction1, TvManiacKotlinx_coroutines_coreChildHandle, TvManiacKotlinx_coroutines_coreChildJob, TvManiacKotlinx_coroutines_coreDisposableHandle, TvManiacKotlinSequence, TvManiacKotlinx_coroutines_coreSelectClause0, TvManiacKotlinCoroutineContextKey, TvManiacKotlinCoroutineContextElement, TvManiacKotlinCoroutineContext, TvManiacKotlinIterator, TvManiacKotlinx_serialization_coreEncoder, TvManiacKotlinx_serialization_coreSerialDescriptor, TvManiacKotlinx_serialization_coreSerializationStrategy, TvManiacKotlinx_serialization_coreDecoder, TvManiacKotlinx_serialization_coreDeserializationStrategy, TvManiacKtor_httpHeaders, TvManiacKtor_httpHttpMessage, TvManiacKtor_ioByteReadChannel, TvManiacKotlinx_coroutines_coreSharedFlow, TvManiacKotlinContinuation, TvManiacKotlinContinuationInterceptor, TvManiacKotlinx_coroutines_coreRunnable, TvManiacRuntimeSqlCursor, TvManiacRuntimeQueryListener, TvManiacRuntimeTransactionCallbacks, TvManiacRuntimeSqlPreparedStatement, TvManiacRuntimeCloseable, TvManiacKtor_client_coreHttpClientEngine, TvManiacKtor_client_coreHttpClientEngineCapability, TvManiacKtor_utilsAttributes, TvManiacKotlinFunction, TvManiacKotlinx_coroutines_coreParentJob, TvManiacKotlinx_coroutines_coreSelectInstance, TvManiacKotlinx_serialization_coreCompositeEncoder, TvManiacKotlinAnnotation, TvManiacKotlinx_serialization_coreCompositeDecoder, TvManiacKotlinMapEntry, TvManiacKtor_utilsStringValues, TvManiacKtor_utilsTypeInfo, TvManiacKtor_client_coreHttpRequest, TvManiacKtor_ioReadSession, TvManiacKotlinAppendable, TvManiacKtor_client_coreHttpClientFeature, TvManiacKtor_httpHttpMessageBuilder, TvManiacKotlinSuspendFunction2, TvManiacKotlinx_serialization_coreSerializersModuleCollector, TvManiacKotlinKClass, TvManiacKotlinKType, TvManiacKtor_ioObjectPool, TvManiacKtor_ioInput, TvManiacKtor_ioOutput, TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier, TvManiacKtor_httpParameters;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -180,15 +180,6 @@ __attribute__((swift_name("EpisodesInteractor")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetDiscoverShowListInteractor")))
-@interface TvManiacGetDiscoverShowListInteractor : TvManiacFlowInteractor<NSArray<TvManiacShowCategory *> *, NSArray<TvManiacTrendingShowData *> *>
-- (instancetype)initWithRepository:(id<TvManiacTvShowsRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(NSArray<TvManiacShowCategory *> *)params __attribute__((swift_name("run(params:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetGenresInteractor")))
 @interface TvManiacGetGenresInteractor : TvManiacFlowInteractor<TvManiacKotlinUnit *, TvManiacDomainResultState<NSArray<TvManiacGenreModel *> *> *>
 - (instancetype)initWithRepository:(id<TvManiacGenreRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
@@ -234,12 +225,12 @@ __attribute__((swift_name("GetWatchListInteractor")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PopularShowsInteractor")))
-@interface TvManiacPopularShowsInteractor : TvManiacFlowInteractor<TvManiacKotlinUnit *, NSArray<TvManiacTvShow *> *>
+__attribute__((swift_name("ObserveShowsByCategoryInteractor")))
+@interface TvManiacObserveShowsByCategoryInteractor : TvManiacFlowInteractor<TvManiacShowCategory *, TvManiacDiscoverShowsData *>
 - (instancetype)initWithRepository:(id<TvManiacTvShowsRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-- (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacKotlinUnit *)params __attribute__((swift_name("run(params:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)runParams:(TvManiacShowCategory *)params __attribute__((swift_name("run(params:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -850,13 +841,12 @@ __attribute__((swift_name("DataSourceModule")))
 @interface TvManiacDataSourceModule : TvManiacBase
 - (instancetype)initWithRepositoryModule:(TvManiacRepositoryModule *)repositoryModule __attribute__((swift_name("init(repositoryModule:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) TvManiacEpisodesInteractor *episodesInteractor __attribute__((swift_name("episodesInteractor")));
-@property (readonly) TvManiacGetDiscoverShowListInteractor *getDiscoverShowListInteractor __attribute__((swift_name("getDiscoverShowListInteractor")));
 @property (readonly) TvManiacGetGenresInteractor *getGenresInteractor __attribute__((swift_name("getGenresInteractor")));
 @property (readonly) TvManiacGetShowInteractor *getShowInteractor __attribute__((swift_name("getShowInteractor")));
 @property (readonly) TvManiacGetShowsByCategoryInteractor *getShowsByCategoryInteractor __attribute__((swift_name("getShowsByCategoryInteractor")));
 @property (readonly) TvManiacGetTrailersInteractor *getTrailersInteractor __attribute__((swift_name("getTrailersInteractor")));
 @property (readonly) TvManiacGetWatchListInteractor *getWatchListInteractor __attribute__((swift_name("getWatchListInteractor")));
-@property (readonly) TvManiacPopularShowsInteractor *popularShowsInteractor __attribute__((swift_name("popularShowsInteractor")));
+@property (readonly) TvManiacObserveShowsByCategoryInteractor *observeShowsByCategoryInteractor __attribute__((swift_name("observeShowsByCategoryInteractor")));
 @property (readonly) TvManiacSeasonsInteractor *seasonsInteractor __attribute__((swift_name("seasonsInteractor")));
 @property (readonly) TvManiacUpdateWatchlistInteractor *updateWatchlistInteractor __attribute__((swift_name("updateWatchlistInteractor")));
 @end;
@@ -921,20 +911,6 @@ __attribute__((swift_name("DiscoverShowAction.Error")))
 @property (readonly) NSString *message __attribute__((swift_name("message")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DiscoverShowAction.LoadTvShows")))
-@interface TvManiacDiscoverShowActionLoadTvShows : TvManiacDiscoverShowAction
-- (instancetype)initWithTvShowType:(NSArray<TvManiacShowCategory *> *)tvShowType __attribute__((swift_name("init(tvShowType:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (NSArray<TvManiacShowCategory *> *)component1 __attribute__((swift_name("component1()")));
-- (TvManiacDiscoverShowActionLoadTvShows *)doCopyTvShowType:(NSArray<TvManiacShowCategory *> *)tvShowType __attribute__((swift_name("doCopy(tvShowType:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSArray<TvManiacShowCategory *> *tvShowType __attribute__((swift_name("tvShowType")));
-@end;
-
 __attribute__((swift_name("DiscoverShowEffect")))
 @interface TvManiacDiscoverShowEffect : TvManiacBase <TvManiacEffect>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -958,16 +934,20 @@ __attribute__((swift_name("DiscoverShowEffect.Error")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DiscoverShowState")))
 @interface TvManiacDiscoverShowState : TvManiacBase <TvManiacState>
-- (instancetype)initWithIsLoading:(BOOL)isLoading list:(NSArray<TvManiacTrendingShowData *> *)list __attribute__((swift_name("init(isLoading:list:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithFeaturedShows:(TvManiacDiscoverShowsData *)featuredShows trendingShows:(TvManiacDiscoverShowsData *)trendingShows topRatedShows:(TvManiacDiscoverShowsData *)topRatedShows popularShows:(TvManiacDiscoverShowsData *)popularShows __attribute__((swift_name("init(featuredShows:trendingShows:topRatedShows:popularShows:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TvManiacDiscoverShowStateCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)component1 __attribute__((swift_name("component1()")));
-- (NSArray<TvManiacTrendingShowData *> *)component2 __attribute__((swift_name("component2()")));
-- (TvManiacDiscoverShowState *)doCopyIsLoading:(BOOL)isLoading list:(NSArray<TvManiacTrendingShowData *> *)list __attribute__((swift_name("doCopy(isLoading:list:)")));
+- (TvManiacDiscoverShowsData *)component1 __attribute__((swift_name("component1()")));
+- (TvManiacDiscoverShowsData *)component2 __attribute__((swift_name("component2()")));
+- (TvManiacDiscoverShowsData *)component3 __attribute__((swift_name("component3()")));
+- (TvManiacDiscoverShowsData *)component4 __attribute__((swift_name("component4()")));
+- (TvManiacDiscoverShowState *)doCopyFeaturedShows:(TvManiacDiscoverShowsData *)featuredShows trendingShows:(TvManiacDiscoverShowsData *)trendingShows topRatedShows:(TvManiacDiscoverShowsData *)topRatedShows popularShows:(TvManiacDiscoverShowsData *)popularShows __attribute__((swift_name("doCopy(featuredShows:trendingShows:topRatedShows:popularShows:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isLoading __attribute__((swift_name("isLoading")));
-@property (readonly) NSArray<TvManiacTrendingShowData *> *list __attribute__((swift_name("list")));
+@property (readonly) TvManiacDiscoverShowsData *featuredShows __attribute__((swift_name("featuredShows")));
+@property (readonly) TvManiacDiscoverShowsData *popularShows __attribute__((swift_name("popularShows")));
+@property (readonly) TvManiacDiscoverShowsData *topRatedShows __attribute__((swift_name("topRatedShows")));
+@property (readonly) TvManiacDiscoverShowsData *trendingShows __attribute__((swift_name("trendingShows")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -978,6 +958,35 @@ __attribute__((swift_name("DiscoverShowState.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) TvManiacDiscoverShowStateCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) TvManiacDiscoverShowState *Empty __attribute__((swift_name("Empty")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DiscoverShowsData")))
+@interface TvManiacDiscoverShowsData : TvManiacBase
+- (instancetype)initWithIsLoading:(BOOL)isLoading category:(TvManiacShowCategory *)category shows:(NSArray<TvManiacTvShow *> *)shows errorMessage:(NSString * _Nullable)errorMessage __attribute__((swift_name("init(isLoading:category:shows:errorMessage:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) TvManiacDiscoverShowsDataCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)component1 __attribute__((swift_name("component1()")));
+- (TvManiacShowCategory *)component2 __attribute__((swift_name("component2()")));
+- (NSArray<TvManiacTvShow *> *)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (TvManiacDiscoverShowsData *)doCopyIsLoading:(BOOL)isLoading category:(TvManiacShowCategory *)category shows:(NSArray<TvManiacTvShow *> *)shows errorMessage:(NSString * _Nullable)errorMessage __attribute__((swift_name("doCopy(isLoading:category:shows:errorMessage:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) TvManiacShowCategory *category __attribute__((swift_name("category")));
+@property (readonly) NSString * _Nullable errorMessage __attribute__((swift_name("errorMessage")));
+@property (readonly) BOOL isLoading __attribute__((swift_name("isLoading")));
+@property (readonly) NSArray<TvManiacTvShow *> *shows __attribute__((swift_name("shows")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DiscoverShowsData.Companion")))
+@interface TvManiacDiscoverShowsDataCompanion : TvManiacBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacDiscoverShowsDataCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) TvManiacDiscoverShowsData *EMPTY __attribute__((swift_name("EMPTY")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1009,38 +1018,13 @@ __attribute__((swift_name("CoroutineScopeOwner")))
 @property (readonly) id<TvManiacKotlinx_coroutines_coreCoroutineScope> coroutineScope __attribute__((swift_name("coroutineScope")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TrendingShowData")))
-@interface TvManiacTrendingShowData : TvManiacBase
-- (instancetype)initWithCategory:(TvManiacShowCategory *)category shows:(NSArray<TvManiacTvShow *> *)shows __attribute__((swift_name("init(category:shows:)"))) __attribute__((objc_designated_initializer));
-- (TvManiacShowCategory *)component1 __attribute__((swift_name("component1()")));
-- (NSArray<TvManiacTvShow *> *)component2 __attribute__((swift_name("component2()")));
-- (TvManiacTrendingShowData *)doCopyCategory:(TvManiacShowCategory *)category shows:(NSArray<TvManiacTvShow *> *)shows __attribute__((swift_name("doCopy(category:shows:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) TvManiacShowCategory *category __attribute__((swift_name("category")));
-@property (readonly) NSArray<TvManiacTvShow *> *shows __attribute__((swift_name("shows")));
-@end;
-
 __attribute__((swift_name("TvShowsRepository")))
 @protocol TvManiacTvShowsRepository
 @required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getDiscoverShowListCategoryList:(NSArray<TvManiacShowCategory *> *)categoryList completionHandler:(void (^)(NSArray<TvManiacTrendingShowData *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getDiscoverShowList(categoryList:completionHandler:)")));
-- (TvManiacCommonFlow<NSArray<TvManiacShow *> *> *)getPagedShowsByCategoryIDCategoryId:(int32_t)categoryId __attribute__((swift_name("getPagedShowsByCategoryID(categoryId:)")));
-- (id<TvManiacKotlinx_coroutines_coreFlow>)getShowTvShowId:(int32_t)tvShowId __attribute__((swift_name("getShow(tvShowId:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getShowsByCategoryIdPage:(int32_t)page categoryId:(int32_t)categoryId completionHandler:(void (^)(NSArray<TvManiacShow *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getShowsByCategoryId(page:categoryId:completionHandler:)")));
-- (id<TvManiacKotlinx_coroutines_coreFlow>)getWatchlist __attribute__((swift_name("getWatchlist()")));
+- (TvManiacCommonFlow<NSArray<TvManiacShow *> *> *)observePagedShowsByCategoryIDCategoryId:(int32_t)categoryId __attribute__((swift_name("observePagedShowsByCategoryID(categoryId:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)observeShowTvShowId:(int32_t)tvShowId __attribute__((swift_name("observeShow(tvShowId:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)observeShowsByCategoryIDCategoryId:(int32_t)categoryId __attribute__((swift_name("observeShowsByCategoryID(categoryId:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)observeWatchlist __attribute__((swift_name("observeWatchlist()")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -1053,21 +1037,10 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TvShowsRepositoryImpl")))
 @interface TvManiacTvShowsRepositoryImpl : TvManiacBase <TvManiacTvShowsRepository>
 - (instancetype)initWithApiService:(id<TvManiacTvShowsService>)apiService tvShowCache:(id<TvManiacTvShowCache>)tvShowCache categoryCache:(id<TvManiacCategoryCache>)categoryCache showCategoryCache:(id<TvManiacShowCategoryCache>)showCategoryCache coroutineScope:(id<TvManiacKotlinx_coroutines_coreCoroutineScope>)coroutineScope __attribute__((swift_name("init(apiService:tvShowCache:categoryCache:showCategoryCache:coroutineScope:)"))) __attribute__((objc_designated_initializer));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getDiscoverShowListCategoryList:(NSArray<TvManiacShowCategory *> *)categoryList completionHandler:(void (^)(NSArray<TvManiacTrendingShowData *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getDiscoverShowList(categoryList:completionHandler:)")));
-- (TvManiacCommonFlow<NSArray<TvManiacShow *> *> *)getPagedShowsByCategoryIDCategoryId:(int32_t)categoryId __attribute__((swift_name("getPagedShowsByCategoryID(categoryId:)")));
-- (id<TvManiacKotlinx_coroutines_coreFlow>)getShowTvShowId:(int32_t)tvShowId __attribute__((swift_name("getShow(tvShowId:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getShowsByCategoryIdPage:(int32_t)page categoryId:(int32_t)categoryId completionHandler:(void (^)(NSArray<TvManiacShow *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getShowsByCategoryId(page:categoryId:completionHandler:)")));
-- (id<TvManiacKotlinx_coroutines_coreFlow>)getWatchlist __attribute__((swift_name("getWatchlist()")));
+- (TvManiacCommonFlow<NSArray<TvManiacShow *> *> *)observePagedShowsByCategoryIDCategoryId:(int32_t)categoryId __attribute__((swift_name("observePagedShowsByCategoryID(categoryId:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)observeShowTvShowId:(int32_t)tvShowId __attribute__((swift_name("observeShow(tvShowId:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)observeShowsByCategoryIDCategoryId:(int32_t)categoryId __attribute__((swift_name("observeShowsByCategoryID(categoryId:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)observeWatchlist __attribute__((swift_name("observeWatchlist()")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -1155,6 +1128,47 @@ __attribute__((swift_name("GenreRepositoryImpl")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getGenresWithCompletionHandler:(void (^)(NSArray<TvManiacGenreModel *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getGenres(completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Resource")))
+@interface TvManiacResource<__covariant T> : TvManiacBase
+- (instancetype)initWithStatus:(TvManiacStatus *)status data:(T _Nullable)data message:(NSString * _Nullable)message __attribute__((swift_name("init(status:data:message:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) TvManiacResourceCompanion *companion __attribute__((swift_name("companion")));
+- (TvManiacStatus *)component1 __attribute__((swift_name("component1()")));
+- (T _Nullable)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (TvManiacResource<T> *)doCopyStatus:(TvManiacStatus *)status data:(T _Nullable)data message:(NSString * _Nullable)message __attribute__((swift_name("doCopy(status:data:message:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) T _Nullable data __attribute__((swift_name("data")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+@property (readonly) TvManiacStatus *status __attribute__((swift_name("status")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ResourceCompanion")))
+@interface TvManiacResourceCompanion : TvManiacBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacResourceCompanion *shared __attribute__((swift_name("shared")));
+- (TvManiacResource<id> *)errorMsg:(NSString *)msg data:(id _Nullable)data __attribute__((swift_name("error(msg:data:)")));
+- (TvManiacResource<id> *)loadingData:(id _Nullable)data __attribute__((swift_name("loading(data:)")));
+- (TvManiacResource<id> *)successData:(id _Nullable)data __attribute__((swift_name("success(data:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Status")))
+@interface TvManiacStatus : TvManiacKotlinEnum<TvManiacStatus *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) TvManiacStatus *success __attribute__((swift_name("success")));
+@property (class, readonly) TvManiacStatus *error __attribute__((swift_name("error")));
+@property (class, readonly) TvManiacStatus *loading __attribute__((swift_name("loading")));
++ (TvManiacKotlinArray<TvManiacStatus *> *)values __attribute__((swift_name("values()")));
 @end;
 
 __attribute__((swift_name("EpisodeRepository")))
@@ -1446,8 +1460,8 @@ __attribute__((swift_name("SelectSeasonsByShowId")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SelectShows")))
 @interface TvManiacSelectShows : TvManiacBase
-- (instancetype)initWithCategory_id:(TvManiacLong * _Nullable)category_id show_id:(TvManiacLong * _Nullable)show_id id:(int64_t)id title:(NSString *)title description:(NSString *)description language:(NSString *)language year:(NSString *)year poster_image_url:(NSString *)poster_image_url backdrop_image_url:(NSString *)backdrop_image_url votes:(int64_t)votes vote_average:(double)vote_average status:(NSString *)status popularity:(double)popularity genre_ids:(NSArray<TvManiacInt *> *)genre_ids season_ids:(NSArray<TvManiacInt *> * _Nullable)season_ids is_watchlist:(BOOL)is_watchlist id_:(int64_t)id_ name:(NSString *)name __attribute__((swift_name("init(category_id:show_id:id:title:description:language:year:poster_image_url:backdrop_image_url:votes:vote_average:status:popularity:genre_ids:season_ids:is_watchlist:id_:name:)"))) __attribute__((objc_designated_initializer));
-- (TvManiacLong * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (instancetype)initWithShow_id:(int64_t)show_id category_id:(TvManiacLong * _Nullable)category_id id:(int64_t)id title:(NSString *)title description:(NSString *)description language:(NSString *)language year:(NSString *)year poster_image_url:(NSString *)poster_image_url backdrop_image_url:(NSString *)backdrop_image_url votes:(int64_t)votes vote_average:(double)vote_average status:(NSString *)status popularity:(double)popularity genre_ids:(NSArray<TvManiacInt *> *)genre_ids season_ids:(NSArray<TvManiacInt *> * _Nullable)season_ids is_watchlist:(BOOL)is_watchlist id_:(int64_t)id_ name:(NSString *)name __attribute__((swift_name("init(show_id:category_id:id:title:description:language:year:poster_image_url:backdrop_image_url:votes:vote_average:status:popularity:genre_ids:season_ids:is_watchlist:id_:name:)"))) __attribute__((objc_designated_initializer));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
 - (int64_t)component10 __attribute__((swift_name("component10()")));
 - (double)component11 __attribute__((swift_name("component11()")));
 - (NSString *)component12 __attribute__((swift_name("component12()")));
@@ -1465,7 +1479,7 @@ __attribute__((swift_name("SelectShows")))
 - (NSString *)component7 __attribute__((swift_name("component7()")));
 - (NSString *)component8 __attribute__((swift_name("component8()")));
 - (NSString *)component9 __attribute__((swift_name("component9()")));
-- (TvManiacSelectShows *)doCopyCategory_id:(TvManiacLong * _Nullable)category_id show_id:(TvManiacLong * _Nullable)show_id id:(int64_t)id title:(NSString *)title description:(NSString *)description language:(NSString *)language year:(NSString *)year poster_image_url:(NSString *)poster_image_url backdrop_image_url:(NSString *)backdrop_image_url votes:(int64_t)votes vote_average:(double)vote_average status:(NSString *)status popularity:(double)popularity genre_ids:(NSArray<TvManiacInt *> *)genre_ids season_ids:(NSArray<TvManiacInt *> * _Nullable)season_ids is_watchlist:(BOOL)is_watchlist id_:(int64_t)id_ name:(NSString *)name __attribute__((swift_name("doCopy(category_id:show_id:id:title:description:language:year:poster_image_url:backdrop_image_url:votes:vote_average:status:popularity:genre_ids:season_ids:is_watchlist:id_:name:)")));
+- (TvManiacSelectShows *)doCopyShow_id:(int64_t)show_id category_id:(TvManiacLong * _Nullable)category_id id:(int64_t)id title:(NSString *)title description:(NSString *)description language:(NSString *)language year:(NSString *)year poster_image_url:(NSString *)poster_image_url backdrop_image_url:(NSString *)backdrop_image_url votes:(int64_t)votes vote_average:(double)vote_average status:(NSString *)status popularity:(double)popularity genre_ids:(NSArray<TvManiacInt *> *)genre_ids season_ids:(NSArray<TvManiacInt *> * _Nullable)season_ids is_watchlist:(BOOL)is_watchlist id_:(int64_t)id_ name:(NSString *)name __attribute__((swift_name("doCopy(show_id:category_id:id:title:description:language:year:poster_image_url:backdrop_image_url:votes:vote_average:status:popularity:genre_ids:season_ids:is_watchlist:id_:name:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1481,7 +1495,7 @@ __attribute__((swift_name("SelectShows")))
 @property (readonly) double popularity __attribute__((swift_name("popularity")));
 @property (readonly) NSString *poster_image_url __attribute__((swift_name("poster_image_url")));
 @property (readonly) NSArray<TvManiacInt *> * _Nullable season_ids __attribute__((swift_name("season_ids")));
-@property (readonly) TvManiacLong * _Nullable show_id __attribute__((swift_name("show_id")));
+@property (readonly) int64_t show_id __attribute__((swift_name("show_id")));
 @property (readonly) NSString *status __attribute__((swift_name("status")));
 @property (readonly) NSString *title __attribute__((swift_name("title")));
 @property (readonly) double vote_average __attribute__((swift_name("vote_average")));
@@ -1538,9 +1552,9 @@ __attribute__((swift_name("Show.Adapter")))
 __attribute__((swift_name("ShowCategoryQueries")))
 @protocol TvManiacShowCategoryQueries <TvManiacRuntimeTransacter>
 @required
-- (void)insertOrReplaceCategory_id:(TvManiacLong * _Nullable)category_id show_id:(TvManiacLong * _Nullable)show_id __attribute__((swift_name("insertOrReplace(category_id:show_id:)")));
+- (void)insertOrReplaceCategory_id:(TvManiacLong * _Nullable)category_id show_id:(int64_t)show_id __attribute__((swift_name("insertOrReplace(category_id:show_id:)")));
 - (TvManiacRuntimeQuery<TvManiacSelectShows *> *)selectShowsCategory_id:(TvManiacLong * _Nullable)category_id __attribute__((swift_name("selectShows(category_id:)")));
-- (TvManiacRuntimeQuery<id> *)selectShowsCategory_id:(TvManiacLong * _Nullable)category_id mapper:(id (^)(TvManiacLong * _Nullable, TvManiacLong * _Nullable, TvManiacLong *, NSString *, NSString *, NSString *, NSString *, NSString *, NSString *, TvManiacLong *, TvManiacDouble *, NSString *, TvManiacDouble *, NSArray<TvManiacInt *> *, NSArray<TvManiacInt *> * _Nullable, TvManiacBoolean *, TvManiacLong *, NSString *))mapper __attribute__((swift_name("selectShows(category_id:mapper:)")));
+- (TvManiacRuntimeQuery<id> *)selectShowsCategory_id:(TvManiacLong * _Nullable)category_id mapper:(id (^)(TvManiacLong *, TvManiacLong * _Nullable, TvManiacLong *, NSString *, NSString *, NSString *, NSString *, NSString *, NSString *, TvManiacLong *, TvManiacDouble *, NSString *, TvManiacDouble *, NSArray<TvManiacInt *> *, NSArray<TvManiacInt *> * _Nullable, TvManiacBoolean *, TvManiacLong *, NSString *))mapper __attribute__((swift_name("selectShows(category_id:mapper:)")));
 @end;
 
 __attribute__((swift_name("ShowQueries")))
@@ -1561,15 +1575,15 @@ __attribute__((swift_name("ShowQueries")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Show_category")))
 @interface TvManiacShow_category : TvManiacBase
-- (instancetype)initWithCategory_id:(TvManiacLong * _Nullable)category_id show_id:(TvManiacLong * _Nullable)show_id __attribute__((swift_name("init(category_id:show_id:)"))) __attribute__((objc_designated_initializer));
-- (TvManiacLong * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (instancetype)initWithShow_id:(int64_t)show_id category_id:(TvManiacLong * _Nullable)category_id __attribute__((swift_name("init(show_id:category_id:)"))) __attribute__((objc_designated_initializer));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
 - (TvManiacLong * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TvManiacShow_category *)doCopyCategory_id:(TvManiacLong * _Nullable)category_id show_id:(TvManiacLong * _Nullable)show_id __attribute__((swift_name("doCopy(category_id:show_id:)")));
+- (TvManiacShow_category *)doCopyShow_id:(int64_t)show_id category_id:(TvManiacLong * _Nullable)category_id __attribute__((swift_name("doCopy(show_id:category_id:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TvManiacLong * _Nullable category_id __attribute__((swift_name("category_id")));
-@property (readonly) TvManiacLong * _Nullable show_id __attribute__((swift_name("show_id")));
+@property (readonly) int64_t show_id __attribute__((swift_name("show_id")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1693,6 +1707,7 @@ __attribute__((swift_name("ShowCategoryCache")))
 @required
 - (NSArray<TvManiacSelectShows *> *)getShowsByCategoryIDId:(int32_t)id __attribute__((swift_name("getShowsByCategoryID(id:)")));
 - (void)insertCategory:(TvManiacShow_category *)category __attribute__((swift_name("insert(category:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)observeShowsByCategoryIDId:(int32_t)id __attribute__((swift_name("observeShowsByCategoryID(id:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1701,6 +1716,7 @@ __attribute__((swift_name("ShowCategoryCacheImpl")))
 - (instancetype)initWithDatabase:(id<TvManiacTvManiacDatabase>)database __attribute__((swift_name("init(database:)"))) __attribute__((objc_designated_initializer));
 - (NSArray<TvManiacSelectShows *> *)getShowsByCategoryIDId:(int32_t)id __attribute__((swift_name("getShowsByCategoryID(id:)")));
 - (void)insertCategory:(TvManiacShow_category *)category __attribute__((swift_name("insert(category:)")));
+- (id<TvManiacKotlinx_coroutines_coreFlow>)observeShowsByCategoryIDId:(int32_t)id __attribute__((swift_name("observeShowsByCategoryID(id:)")));
 @end;
 
 __attribute__((swift_name("CategoryCache")))
@@ -1820,36 +1836,12 @@ __attribute__((swift_name("TvManiacDatabaseFactory")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MediaType")))
-@interface TvManiacMediaType : TvManiacKotlinEnum<TvManiacMediaType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) TvManiacMediaTypeCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) TvManiacMediaType *tv __attribute__((swift_name("tv")));
-@property (class, readonly) TvManiacMediaType *all __attribute__((swift_name("all")));
-+ (TvManiacKotlinArray<TvManiacMediaType *> *)values __attribute__((swift_name("values()")));
-@property (readonly) NSString *type __attribute__((swift_name("type")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MediaType.Companion")))
-@interface TvManiacMediaTypeCompanion : TvManiacBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) TvManiacMediaTypeCompanion *shared __attribute__((swift_name("shared")));
-- (TvManiacMediaType *)getType:(NSString *)type __attribute__((swift_name("get(type:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ShowCategory")))
 @interface TvManiacShowCategory : TvManiacKotlinEnum<TvManiacShowCategory *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) TvManiacShowCategoryCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) TvManiacShowCategory *featured __attribute__((swift_name("featured")));
 @property (class, readonly) TvManiacShowCategory *trending __attribute__((swift_name("trending")));
 @property (class, readonly) TvManiacShowCategory *topRated __attribute__((swift_name("topRated")));
 @property (class, readonly) TvManiacShowCategory *popular __attribute__((swift_name("popular")));
@@ -1866,29 +1858,6 @@ __attribute__((swift_name("ShowCategory.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) TvManiacShowCategoryCompanion *shared __attribute__((swift_name("shared")));
 - (TvManiacShowCategory *)getType:(int32_t)type __attribute__((swift_name("get(type:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimeWindow")))
-@interface TvManiacTimeWindow : TvManiacKotlinEnum<TvManiacTimeWindow *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) TvManiacTimeWindowCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) TvManiacTimeWindow *week __attribute__((swift_name("week")));
-@property (class, readonly) TvManiacTimeWindow *day __attribute__((swift_name("day")));
-+ (TvManiacKotlinArray<TvManiacTimeWindow *> *)values __attribute__((swift_name("values()")));
-@property (readonly) NSString *window __attribute__((swift_name("window")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimeWindow.Companion")))
-@interface TvManiacTimeWindowCompanion : TvManiacBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) TvManiacTimeWindowCompanion *shared __attribute__((swift_name("shared")));
-- (TvManiacTimeWindow *)getWindow:(NSString *)window __attribute__((swift_name("get(window:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2465,19 +2434,20 @@ __attribute__((swift_name("Ktor_client_coreResponseException")))
 
 @interface TvManiacShowDetailResponse (Extensions)
 - (NSArray<TvManiacTv_season *> *)toSeasonCacheList __attribute__((swift_name("toSeasonCacheList()")));
+- (TvManiacShow *)toShow __attribute__((swift_name("toShow()")));
 @end;
 
 @interface TvManiacSelectSeasonsByShowId (Extensions)
 - (TvManiacSeason *)toSeasonsEntity __attribute__((swift_name("toSeasonsEntity()")));
 @end;
 
+@interface TvManiacSelectShows (Extensions)
+- (TvManiacShow *)toShow __attribute__((swift_name("toShow()")));
+@end;
+
 @interface TvManiacShowResponse (Extensions)
 - (TvManiacShow *)toShow __attribute__((swift_name("toShow()")));
 - (TvManiacTvShow *)toTvShow __attribute__((swift_name("toTvShow()")));
-@end;
-
-@interface TvManiacSelectShows (Extensions)
-- (TvManiacShow *)toTvShow __attribute__((swift_name("toTvShow()")));
 @end;
 
 @interface TvManiacShow (Extensions)
@@ -2510,15 +2480,28 @@ __attribute__((swift_name("EpisodeMapperKt")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TvShowsResponseMapperKt")))
+@interface TvManiacTvShowsResponseMapperKt : TvManiacBase
++ (NSArray<TvManiacInt *> *)toGenreIds:(NSArray<TvManiacGenreResponse *> *)receiver __attribute__((swift_name("toGenreIds(_:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SeasonsMapperKt")))
 @interface TvManiacSeasonsMapperKt : TvManiacBase
 + (NSArray<TvManiacSeason *> *)toSeasonsEntityList:(NSArray<TvManiacSelectSeasonsByShowId *> *)receiver __attribute__((swift_name("toSeasonsEntityList(_:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TvShowsMapperKt")))
-@interface TvManiacTvShowsMapperKt : TvManiacBase
+__attribute__((swift_name("TvShowsCacheMapperKt")))
+@interface TvManiacTvShowsCacheMapperKt : TvManiacBase
++ (NSArray<TvManiacShow *> *)toShowList:(NSArray<TvManiacSelectShows *> *)receiver __attribute__((swift_name("toShowList(_:)")));
 + (NSArray<TvManiacTvShow *> *)toTvShowList:(NSArray<TvManiacShow *> *)receiver __attribute__((swift_name("toTvShowList(_:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NetworkBoundResourceKt")))
+@interface TvManiacNetworkBoundResourceKt : TvManiacBase
++ (id<TvManiacKotlinx_coroutines_coreFlow>)networkBoundResourceQuery:(id<TvManiacKotlinx_coroutines_coreFlow> (^)(void))query fetch:(id<TvManiacKotlinSuspendFunction0>)fetch saveFetchResult:(id<TvManiacKotlinSuspendFunction1>)saveFetchResult onFetchFailed:(void (^)(TvManiacKotlinThrowable *))onFetchFailed shouldFetch:(TvManiacBoolean *(^)(id _Nullable))shouldFetch __attribute__((swift_name("networkBoundResource(query:fetch:saveFetchResult:onFetchFailed:shouldFetch:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2794,6 +2777,33 @@ __attribute__((swift_name("Ktor_client_coreHttpClient")))
 @property (readonly) TvManiacKtor_client_coreHttpRequestPipeline *requestPipeline __attribute__((swift_name("requestPipeline")));
 @property (readonly) TvManiacKtor_client_coreHttpResponsePipeline *responsePipeline __attribute__((swift_name("responsePipeline")));
 @property (readonly) TvManiacKtor_client_coreHttpSendPipeline *sendPipeline __attribute__((swift_name("sendPipeline")));
+@end;
+
+__attribute__((swift_name("KotlinFunction")))
+@protocol TvManiacKotlinFunction
+@required
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction0")))
+@protocol TvManiacKotlinSuspendFunction0 <TvManiacKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction1")))
+@protocol TvManiacKotlinSuspendFunction1 <TvManiacKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
@@ -3387,22 +3397,6 @@ __attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
 @property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
 @end;
 
-__attribute__((swift_name("KotlinFunction")))
-@protocol TvManiacKotlinFunction
-@required
-@end;
-
-__attribute__((swift_name("KotlinSuspendFunction0")))
-@protocol TvManiacKotlinSuspendFunction0 <TvManiacKotlinFunction>
-@required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
-@end;
-
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 @protocol TvManiacKotlinx_serialization_coreCompositeEncoder
 @required
@@ -3720,17 +3714,6 @@ __attribute__((swift_name("Ktor_ioReadSession")))
 - (int32_t)discardN_:(int32_t)n __attribute__((swift_name("discard(n_:)")));
 - (TvManiacKtor_ioIoBuffer * _Nullable)requestAtLeast:(int32_t)atLeast __attribute__((swift_name("request(atLeast:)")));
 @property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
-@end;
-
-__attribute__((swift_name("KotlinSuspendFunction1")))
-@protocol TvManiacKotlinSuspendFunction1 <TvManiacKotlinFunction>
-@required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
