@@ -2,10 +2,6 @@ name: "Publish swift package"
 
 on: push
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-
 jobs:
   build:
     runs-on: macos-latest
