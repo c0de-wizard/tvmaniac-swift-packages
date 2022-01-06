@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class TvManiacEpisodeQuery, TvManiacFlowInteractorFlowUseCaseConfigBuilder<T>, TvManiacFlowInteractor<Arg, ReturnType>, TvManiacEpisodeUiModel, TvManiacKotlinUnit, TvManiacGenreUIModel, TvManiacShowUiModel, TvManiacTrailerModel, TvManiacDiscoverShowResult, TvManiacSeasonUiModel, TvManiacUpdateShowParams, TvManiacSettingsActions, TvManiacSettingsActionsLoadTheme, TvManiacSettingsActionsThemeClicked, TvManiacSettingsActionsThemeSelected, TvManiacTheme, TvManiacSettingsStateCompanion, TvManiacSettingsState, TvManiacShowsGridAction, TvManiacShowsGridActionError, TvManiacShowsGridActionLoadTvShows, TvManiacShowsGridEffect, TvManiacShowsGridEffectError, TvManiacShowsGridStateCompanion, TvManiacShowsGridState, TvManiacKotlinEnumCompanion, TvManiacKotlinEnum<E>, TvManiacKotlinArray<T>, TvManiacWatchlistAction, TvManiacWatchlistActionError, TvManiacWatchlistActionLoadWatchlist, TvManiacWatchlistEffect, TvManiacWatchlistEffectError, TvManiacWatchlistStateCompanion, TvManiacWatchlistState, TvManiacEpisodeUiModelCompanion, TvManiacSeasonUiModelCompanion, TvManiacShowUiModelCompanion, TvManiacKotlinThrowable, TvManiacKotlinException, TvManiacExceptionHandlerCompanion, TvManiacExceptionHandler, TvManiacKtor_client_coreHttpResponse, TvManiacDiscoverShowAction, TvManiacDiscoverShowActionError, TvManiacDiscoverShowActionLoadTvShows, TvManiacDiscoverShowEffect, TvManiacDiscoverShowEffectError, TvManiacDiscoverShowResultDiscoverShowsData, TvManiacDiscoverShowResultCompanion, TvManiacShowCategory, TvManiacDiscoverShowResultDiscoverShowsDataCompanion, TvManiacDiscoverShowStateCompanion, TvManiacDiscoverShowState, TvManiacKotlinx_coroutines_coreCoroutineDispatcher, TvManiacShow, TvManiacCommonFlow<T>, TvManiacStatus, TvManiacResourceCompanion, TvManiacResource<__covariant T>, TvManiacCategory, TvManiacRuntimeQuery<__covariant RowType>, TvManiacEpisode, TvManiacEpisodesBySeasonId, TvManiacGenre, TvManiacSeason, TvManiacSelectSeasonsByShowId, TvManiacSelectByShowId, TvManiacSelectShows, TvManiacShow_category, TvManiacTrailers, TvManiacTvManiacDatabaseCompanion, TvManiacSeasonAdapter, TvManiacShowAdapter, TvManiacDriverFactory, TvManiacShowCategoryCompanion, TvManiacKtor_client_coreHttpClient, TvManiacEpisodeDetailResponseCompanion, TvManiacEpisodeDetailResponse, TvManiacEpisodesResponseCompanion, TvManiacEpisodesResponse, TvManiacGenreResponseCompanion, TvManiacGenreResponse, TvManiacGenresResponseCompanion, TvManiacGenresResponse, TvManiacSeasonResponseCompanion, TvManiacSeasonResponse, TvManiacSeasonsResponseCompanion, TvManiacSeasonsResponse, TvManiacShowDetailResponseCompanion, TvManiacShowDetailResponse, TvManiacShowResponseCompanion, TvManiacShowResponse, TvManiacTrailerResponseCompanion, TvManiacTrailerResponse, TvManiacTrailersResponseCompanion, TvManiacTrailersResponse, TvManiacTvShowsResponseCompanion, TvManiacTvShowsResponse, TvManiacKotlinRuntimeException, TvManiacKotlinIllegalStateException, TvManiacKtor_client_coreResponseException, TvManiacKoin_coreKoinApplication, TvManiacKoin_coreModule, TvManiacKotlinCancellationException, TvManiacKtor_client_coreHttpClientCall, TvManiacKtor_utilsGMTDate, TvManiacKtor_httpHttpStatusCode, TvManiacKtor_httpHttpProtocolVersion, TvManiacKotlinAbstractCoroutineContextElement, TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey, TvManiacRuntimeTransacterTransaction, TvManiacKtor_client_coreHttpClientEngineConfig, TvManiacKtor_client_coreHttpClientConfig<T>, TvManiacKtor_client_coreHttpRequestBuilder, TvManiacKtor_client_coreHttpReceivePipeline, TvManiacKtor_client_coreHttpRequestPipeline, TvManiacKtor_client_coreHttpResponsePipeline, TvManiacKtor_client_coreHttpSendPipeline, TvManiacKoin_coreKoinApplicationCompanion, TvManiacKoin_coreLogger, TvManiacKoin_coreLevel, TvManiacKoin_coreKoin, TvManiacKoin_coreInstanceFactory<T>, TvManiacKotlinPair<__covariant A, __covariant B>, TvManiacKoin_coreScope, TvManiacKoin_coreParametersHolder, TvManiacKoin_coreScopeDSL, TvManiacKoin_coreSingleInstanceFactory<T>, TvManiacKotlinx_serialization_coreSerializersModule, TvManiacKotlinx_serialization_coreSerialKind, TvManiacKotlinNothing, TvManiacKtor_client_coreHttpClientCallCompanion, TvManiacKtor_client_coreTypeInfo, TvManiacKtor_ioMemory, TvManiacKtor_ioIoBuffer, TvManiacKotlinByteArray, TvManiacKtor_ioByteReadPacket, TvManiacKtor_ioByteOrder, TvManiacKtor_utilsGMTDateCompanion, TvManiacKtor_utilsWeekDay, TvManiacKtor_utilsMonth, TvManiacKtor_httpHttpStatusCodeCompanion, TvManiacKtor_httpHttpProtocolVersionCompanion, TvManiacKotlinAbstractCoroutineContextKey<B, E>, TvManiacKtor_client_coreHttpRequestData, TvManiacKtor_client_coreHttpResponseData, TvManiacKtor_client_coreProxyConfig, TvManiacKtor_httpHeadersBuilder, TvManiacKtor_client_coreHttpRequestBuilderCompanion, TvManiacKtor_httpURLBuilder, TvManiacKtor_httpHttpMethod, TvManiacKtor_utilsAttributeKey<T>, TvManiacKtor_utilsPipelinePhase, TvManiacKtor_utilsPipeline<TSubject, TContext>, TvManiacKtor_client_coreHttpReceivePipelinePhases, TvManiacKtor_client_coreHttpRequestPipelinePhases, TvManiacKtor_client_coreHttpResponsePipelinePhases, TvManiacKtor_client_coreHttpResponseContainer, TvManiacKtor_client_coreHttpSendPipelinePhases, TvManiacKotlinLazyThreadSafetyMode, TvManiacKoin_coreInstanceRegistry, TvManiacKoin_corePropertyRegistry, TvManiacKoin_coreScopeRegistry, TvManiacKoin_coreBeanDefinition<T>, TvManiacKoin_coreInstanceFactoryCompanion, TvManiacKoin_coreInstanceContext, TvManiacKoin_coreParametersHolderCompanion, TvManiacKotlinx_coroutines_coreAtomicDesc, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, TvManiacKtor_httpOutgoingContent, TvManiacKtor_httpUrl, TvManiacKtor_ioMemoryCompanion, TvManiacKtor_ioBufferCompanion, TvManiacKtor_ioBuffer, TvManiacKtor_ioChunkBuffer, TvManiacKtor_ioChunkBufferCompanion, TvManiacKotlinCharArray, TvManiacKtor_ioIoBufferCompanion, TvManiacKotlinByteIterator, TvManiacKtor_ioAbstractInputCompanion, TvManiacKtor_ioAbstractInput, TvManiacKtor_ioByteReadPacketBaseCompanion, TvManiacKtor_ioByteReadPacketBase, TvManiacKtor_ioByteReadPacketPlatformBase, TvManiacKtor_ioByteReadPacketCompanion, TvManiacKtor_ioByteOrderCompanion, TvManiacKtor_utilsWeekDayCompanion, TvManiacKtor_utilsMonthCompanion, TvManiacKtor_utilsStringValuesBuilder, TvManiacKtor_httpURLProtocol, TvManiacKtor_httpParametersBuilder, TvManiacKtor_httpURLBuilderCompanion, TvManiacKtor_httpHttpMethodCompanion, TvManiacKoin_coreScopeRegistryCompanion, TvManiacKoin_coreKind, TvManiacKoin_coreCallbacks<T>, TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T>, TvManiacKotlinx_coroutines_coreOpDescriptor, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, TvManiacKotlinKTypeProjection, TvManiacKtor_httpContentType, TvManiacKtor_httpUrlCompanion, TvManiacKotlinCharIterator, TvManiacKtor_httpURLProtocolCompanion, TvManiacKtor_httpUrlEncodingOption, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, TvManiacKotlinKVariance, TvManiacKotlinKTypeProjectionCompanion, TvManiacKtor_httpHeaderValueParam, TvManiacKtor_httpHeaderValueWithParametersCompanion, TvManiacKtor_httpHeaderValueWithParameters, TvManiacKtor_httpContentTypeCompanion;
+@class TvManiacEpisodeQuery, TvManiacFlowInteractorFlowUseCaseConfigBuilder<T>, TvManiacFlowInteractor<Arg, ReturnType>, TvManiacEpisodeUiModel, TvManiacKotlinUnit, TvManiacGenreUIModel, TvManiacShowUiModel, TvManiacTrailerModel, TvManiacDiscoverShowResult, TvManiacSeasonUiModel, TvManiacUpdateShowParams, TvManiacSettingsActions, TvManiacSettingsActionsLoadTheme, TvManiacSettingsActionsThemeClicked, TvManiacSettingsActionsThemeSelected, TvManiacTheme, TvManiacSettingsStateCompanion, TvManiacSettingsState, TvManiacShowsGridAction, TvManiacShowsGridActionError, TvManiacShowsGridActionLoadTvShows, TvManiacShowsGridEffect, TvManiacShowsGridEffectError, TvManiacShowsGridStateCompanion, TvManiacShowsGridState, TvManiacKotlinEnumCompanion, TvManiacKotlinEnum<E>, TvManiacKotlinArray<T>, TvManiacWatchlistAction, TvManiacWatchlistActionError, TvManiacWatchlistActionLoadWatchlist, TvManiacWatchlistEffect, TvManiacWatchlistEffectError, TvManiacWatchlistStateCompanion, TvManiacWatchlistState, TvManiacViewState, TvManiacDiscoverShowResultDiscoverShowsData, TvManiacDiscoverShowsStateDiscoverShowResult, TvManiacDiscoverShowsState, TvManiacDiscoverShowsStateInProgress, TvManiacKoin_coreKoin, TvManiacBaseViewModel, TvManiacEpisodeUiModelCompanion, TvManiacSeasonUiModelCompanion, TvManiacShowUiModelCompanion, TvManiacKotlinThrowable, TvManiacKotlinException, TvManiacExceptionHandlerCompanion, TvManiacExceptionHandler, TvManiacKtor_client_coreHttpResponse, TvManiacKotlinx_coroutines_coreCoroutineDispatcher, TvManiacKotlinAbstractCoroutineContextElement, TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey, TvManiacMainLoopDispatcher, TvManiacDiscoverShowAction, TvManiacDiscoverShowActionError, TvManiacDiscoverShowActionLoadTvShows, TvManiacDiscoverShowEffect, TvManiacDiscoverShowEffectError, TvManiacDiscoverShowResultCompanion, TvManiacShowCategory, TvManiacDiscoverShowResultDiscoverShowsDataCompanion, TvManiacDiscoverShowStateCompanion, TvManiacDiscoverShowState, TvManiacShow, TvManiacCommonFlow<T>, TvManiacStatus, TvManiacResourceCompanion, TvManiacResource<__covariant T>, TvManiacCategory, TvManiacRuntimeQuery<__covariant RowType>, TvManiacEpisode, TvManiacEpisodesBySeasonId, TvManiacGenre, TvManiacSeason, TvManiacSelectSeasonsByShowId, TvManiacSelectByShowId, TvManiacSelectShows, TvManiacShow_category, TvManiacTrailers, TvManiacTvManiacDatabaseCompanion, TvManiacSeasonAdapter, TvManiacShowAdapter, TvManiacDriverFactory, TvManiacShowCategoryCompanion, TvManiacKtor_client_coreHttpClient, TvManiacEpisodeDetailResponseCompanion, TvManiacEpisodeDetailResponse, TvManiacEpisodesResponseCompanion, TvManiacEpisodesResponse, TvManiacGenreResponseCompanion, TvManiacGenreResponse, TvManiacGenresResponseCompanion, TvManiacGenresResponse, TvManiacSeasonResponseCompanion, TvManiacSeasonResponse, TvManiacSeasonsResponseCompanion, TvManiacSeasonsResponse, TvManiacShowDetailResponseCompanion, TvManiacShowDetailResponse, TvManiacShowResponseCompanion, TvManiacShowResponse, TvManiacTrailerResponseCompanion, TvManiacTrailerResponse, TvManiacTrailersResponseCompanion, TvManiacTrailersResponse, TvManiacTvShowsResponseCompanion, TvManiacTvShowsResponse, TvManiacKotlinRuntimeException, TvManiacKotlinIllegalStateException, TvManiacKtor_client_coreResponseException, TvManiacKoin_coreKoinApplication, TvManiacKoin_coreModule, TvManiacKotlinCancellationException, TvManiacKoin_coreScope, TvManiacKoin_coreParametersHolder, TvManiacKotlinLazyThreadSafetyMode, TvManiacKoin_coreLogger, TvManiacKoin_coreInstanceRegistry, TvManiacKoin_corePropertyRegistry, TvManiacKoin_coreScopeRegistry, TvManiacKtor_client_coreHttpClientCall, TvManiacKtor_utilsGMTDate, TvManiacKtor_httpHttpStatusCode, TvManiacKtor_httpHttpProtocolVersion, TvManiacKotlinAbstractCoroutineContextKey<B, E>, TvManiacRuntimeTransacterTransaction, TvManiacKtor_client_coreHttpClientEngineConfig, TvManiacKtor_client_coreHttpClientConfig<T>, TvManiacKtor_client_coreHttpRequestBuilder, TvManiacKtor_client_coreHttpReceivePipeline, TvManiacKtor_client_coreHttpRequestPipeline, TvManiacKtor_client_coreHttpResponsePipeline, TvManiacKtor_client_coreHttpSendPipeline, TvManiacKoin_coreKoinApplicationCompanion, TvManiacKoin_coreLevel, TvManiacKoin_coreInstanceFactory<T>, TvManiacKotlinPair<__covariant A, __covariant B>, TvManiacKoin_coreScopeDSL, TvManiacKoin_coreSingleInstanceFactory<T>, TvManiacKoin_coreParametersHolderCompanion, TvManiacKoin_coreScopeRegistryCompanion, TvManiacKotlinx_serialization_coreSerializersModule, TvManiacKotlinx_serialization_coreSerialKind, TvManiacKotlinNothing, TvManiacKtor_client_coreHttpClientCallCompanion, TvManiacKtor_client_coreTypeInfo, TvManiacKtor_ioMemory, TvManiacKtor_ioIoBuffer, TvManiacKotlinByteArray, TvManiacKtor_ioByteReadPacket, TvManiacKtor_ioByteOrder, TvManiacKtor_utilsGMTDateCompanion, TvManiacKtor_utilsWeekDay, TvManiacKtor_utilsMonth, TvManiacKtor_httpHttpStatusCodeCompanion, TvManiacKtor_httpHttpProtocolVersionCompanion, TvManiacKtor_client_coreHttpRequestData, TvManiacKtor_client_coreHttpResponseData, TvManiacKtor_client_coreProxyConfig, TvManiacKtor_httpHeadersBuilder, TvManiacKtor_client_coreHttpRequestBuilderCompanion, TvManiacKtor_httpURLBuilder, TvManiacKtor_httpHttpMethod, TvManiacKtor_utilsAttributeKey<T>, TvManiacKtor_utilsPipelinePhase, TvManiacKtor_utilsPipeline<TSubject, TContext>, TvManiacKtor_client_coreHttpReceivePipelinePhases, TvManiacKtor_client_coreHttpRequestPipelinePhases, TvManiacKtor_client_coreHttpResponsePipelinePhases, TvManiacKtor_client_coreHttpResponseContainer, TvManiacKtor_client_coreHttpSendPipelinePhases, TvManiacKoin_coreBeanDefinition<T>, TvManiacKoin_coreInstanceFactoryCompanion, TvManiacKoin_coreInstanceContext, TvManiacKotlinx_coroutines_coreAtomicDesc, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, TvManiacKtor_httpOutgoingContent, TvManiacKtor_httpUrl, TvManiacKtor_ioMemoryCompanion, TvManiacKtor_ioBufferCompanion, TvManiacKtor_ioBuffer, TvManiacKtor_ioChunkBuffer, TvManiacKtor_ioChunkBufferCompanion, TvManiacKotlinCharArray, TvManiacKtor_ioIoBufferCompanion, TvManiacKotlinByteIterator, TvManiacKtor_ioAbstractInputCompanion, TvManiacKtor_ioAbstractInput, TvManiacKtor_ioByteReadPacketBaseCompanion, TvManiacKtor_ioByteReadPacketBase, TvManiacKtor_ioByteReadPacketPlatformBase, TvManiacKtor_ioByteReadPacketCompanion, TvManiacKtor_ioByteOrderCompanion, TvManiacKtor_utilsWeekDayCompanion, TvManiacKtor_utilsMonthCompanion, TvManiacKtor_utilsStringValuesBuilder, TvManiacKtor_httpURLProtocol, TvManiacKtor_httpParametersBuilder, TvManiacKtor_httpURLBuilderCompanion, TvManiacKtor_httpHttpMethodCompanion, TvManiacKoin_coreKind, TvManiacKoin_coreCallbacks<T>, TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T>, TvManiacKotlinx_coroutines_coreOpDescriptor, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, TvManiacKotlinKTypeProjection, TvManiacKtor_httpContentType, TvManiacKtor_httpUrlCompanion, TvManiacKotlinCharIterator, TvManiacKtor_httpURLProtocolCompanion, TvManiacKtor_httpUrlEncodingOption, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, TvManiacKotlinKVariance, TvManiacKotlinKTypeProjectionCompanion, TvManiacKtor_httpHeaderValueParam, TvManiacKtor_httpHeaderValueWithParametersCompanion, TvManiacKtor_httpHeaderValueWithParameters, TvManiacKtor_httpContentTypeCompanion;
 
-@protocol TvManiacKotlinx_coroutines_coreFlow, TvManiacCoroutineScopeOwner, TvManiacKotlinx_coroutines_coreJob, TvManiacEpisodeRepository, TvManiacGenreRepository, TvManiacTvShowsRepository, TvManiacTrailerRepository, TvManiacSeasonsRepository, TvManiacAction, TvManiacEffect, TvManiacState, TvManiacKotlinComparable, TvManiacKotlinx_serialization_coreKSerializer, TvManiacKotlinx_coroutines_coreFlowCollector, TvManiacKtor_ioCloseable, TvManiacKotlinx_coroutines_coreStateFlow, TvManiacKotlinx_coroutines_coreCoroutineScope, TvManiacTvShowsService, TvManiacTvShowCache, TvManiacCategoryCache, TvManiacShowCategoryCache, TvManiacSeasonsCache, TvManiacTrailerCache, TvManiacGenreCache, TvManiacEpisodesCache, TvManiacRuntimeTransactionWithoutReturn, TvManiacRuntimeTransactionWithReturn, TvManiacRuntimeTransacter, TvManiacRuntimeColumnAdapter, TvManiacCategoryQueries, TvManiacEpisodeQueries, TvManiacGenresQueries, TvManiacSeasonQueries, TvManiacShowCategoryQueries, TvManiacShowQueries, TvManiacTrailersQueries, TvManiacTvManiacDatabase, TvManiacRuntimeSqlDriver, TvManiacRuntimeSqlDriverSchema, TvManiacKotlinSuspendFunction0, TvManiacKotlinSuspendFunction1, TvManiacKotlinx_coroutines_coreChildHandle, TvManiacKotlinx_coroutines_coreChildJob, TvManiacKotlinx_coroutines_coreDisposableHandle, TvManiacKotlinSequence, TvManiacKotlinx_coroutines_coreSelectClause0, TvManiacKotlinCoroutineContextKey, TvManiacKotlinCoroutineContextElement, TvManiacKotlinCoroutineContext, TvManiacKotlinIterator, TvManiacKotlinx_serialization_coreEncoder, TvManiacKotlinx_serialization_coreSerialDescriptor, TvManiacKotlinx_serialization_coreSerializationStrategy, TvManiacKotlinx_serialization_coreDecoder, TvManiacKotlinx_serialization_coreDeserializationStrategy, TvManiacKtor_httpHeaders, TvManiacKtor_httpHttpMessage, TvManiacKtor_ioByteReadChannel, TvManiacKotlinx_coroutines_coreSharedFlow, TvManiacKotlinContinuation, TvManiacKotlinContinuationInterceptor, TvManiacKotlinx_coroutines_coreRunnable, TvManiacRuntimeSqlCursor, TvManiacRuntimeQueryListener, TvManiacRuntimeTransactionCallbacks, TvManiacRuntimeSqlPreparedStatement, TvManiacRuntimeCloseable, TvManiacKtor_client_coreHttpClientEngine, TvManiacKtor_client_coreHttpClientEngineCapability, TvManiacKtor_utilsAttributes, TvManiacKoin_coreQualifier, TvManiacKotlinFunction, TvManiacKotlinx_coroutines_coreParentJob, TvManiacKotlinx_coroutines_coreSelectInstance, TvManiacKotlinx_serialization_coreCompositeEncoder, TvManiacKotlinAnnotation, TvManiacKotlinx_serialization_coreCompositeDecoder, TvManiacKotlinMapEntry, TvManiacKtor_utilsStringValues, TvManiacKtor_utilsTypeInfo, TvManiacKtor_client_coreHttpRequest, TvManiacKtor_ioReadSession, TvManiacKotlinAppendable, TvManiacKtor_client_coreHttpClientFeature, TvManiacKtor_httpHttpMessageBuilder, TvManiacKotlinSuspendFunction2, TvManiacKoin_coreKoinScopeComponent, TvManiacKotlinKClass, TvManiacKotlinLazy, TvManiacKoin_coreScopeCallback, TvManiacKotlinx_serialization_coreSerializersModuleCollector, TvManiacKotlinKType, TvManiacKtor_ioObjectPool, TvManiacKtor_ioInput, TvManiacKtor_ioOutput, TvManiacKoin_coreKoinComponent, TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier, TvManiacKtor_httpParameters;
+@protocol TvManiacKotlinx_coroutines_coreFlow, TvManiacCoroutineScopeOwner, TvManiacKotlinx_coroutines_coreJob, TvManiacEpisodeRepository, TvManiacGenreRepository, TvManiacTvShowsRepository, TvManiacTrailerRepository, TvManiacSeasonsRepository, TvManiacAction, TvManiacEffect, TvManiacState, TvManiacKotlinComparable, TvManiacKoin_coreKoinComponent, TvManiacKotlinx_coroutines_coreStateFlow, TvManiacKotlinx_coroutines_coreCoroutineScope, TvManiacKotlinx_serialization_coreKSerializer, TvManiacKotlinx_coroutines_coreFlowCollector, TvManiacKtor_ioCloseable, TvManiacKotlinCoroutineContextKey, TvManiacKotlinCoroutineContextElement, TvManiacKotlinCoroutineContext, TvManiacKotlinContinuation, TvManiacKotlinContinuationInterceptor, TvManiacKotlinx_coroutines_coreRunnable, TvManiacTvShowsService, TvManiacTvShowCache, TvManiacCategoryCache, TvManiacShowCategoryCache, TvManiacSeasonsCache, TvManiacTrailerCache, TvManiacGenreCache, TvManiacEpisodesCache, TvManiacRuntimeTransactionWithoutReturn, TvManiacRuntimeTransactionWithReturn, TvManiacRuntimeTransacter, TvManiacRuntimeColumnAdapter, TvManiacCategoryQueries, TvManiacEpisodeQueries, TvManiacGenresQueries, TvManiacSeasonQueries, TvManiacShowCategoryQueries, TvManiacShowQueries, TvManiacTrailersQueries, TvManiacTvManiacDatabase, TvManiacRuntimeSqlDriver, TvManiacRuntimeSqlDriverSchema, TvManiacKotlinSuspendFunction0, TvManiacKotlinSuspendFunction1, TvManiacKotlinx_coroutines_coreChildHandle, TvManiacKotlinx_coroutines_coreChildJob, TvManiacKotlinx_coroutines_coreDisposableHandle, TvManiacKotlinSequence, TvManiacKotlinx_coroutines_coreSelectClause0, TvManiacKotlinIterator, TvManiacKoin_coreKoinScopeComponent, TvManiacKoin_coreQualifier, TvManiacKotlinKClass, TvManiacKotlinLazy, TvManiacKotlinx_coroutines_coreSharedFlow, TvManiacKotlinx_serialization_coreEncoder, TvManiacKotlinx_serialization_coreSerialDescriptor, TvManiacKotlinx_serialization_coreSerializationStrategy, TvManiacKotlinx_serialization_coreDecoder, TvManiacKotlinx_serialization_coreDeserializationStrategy, TvManiacKtor_httpHeaders, TvManiacKtor_httpHttpMessage, TvManiacKtor_ioByteReadChannel, TvManiacRuntimeSqlCursor, TvManiacRuntimeQueryListener, TvManiacRuntimeTransactionCallbacks, TvManiacRuntimeSqlPreparedStatement, TvManiacRuntimeCloseable, TvManiacKtor_client_coreHttpClientEngine, TvManiacKtor_client_coreHttpClientEngineCapability, TvManiacKtor_utilsAttributes, TvManiacKotlinFunction, TvManiacKotlinx_coroutines_coreParentJob, TvManiacKotlinx_coroutines_coreSelectInstance, TvManiacKoin_coreScopeCallback, TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier, TvManiacKotlinx_serialization_coreCompositeEncoder, TvManiacKotlinAnnotation, TvManiacKotlinx_serialization_coreCompositeDecoder, TvManiacKotlinMapEntry, TvManiacKtor_utilsStringValues, TvManiacKtor_utilsTypeInfo, TvManiacKtor_client_coreHttpRequest, TvManiacKtor_ioReadSession, TvManiacKotlinAppendable, TvManiacKtor_client_coreHttpClientFeature, TvManiacKtor_httpHttpMessageBuilder, TvManiacKotlinSuspendFunction2, TvManiacKotlinx_serialization_coreSerializersModuleCollector, TvManiacKotlinKType, TvManiacKtor_ioObjectPool, TvManiacKtor_ioInput, TvManiacKtor_ioOutput, TvManiacKtor_httpParameters;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -537,6 +537,91 @@ __attribute__((swift_name("WatchlistState.Companion")))
 @property (readonly) TvManiacWatchlistState *Empty __attribute__((swift_name("Empty")));
 @end;
 
+__attribute__((swift_name("ViewState")))
+@interface TvManiacViewState : TvManiacBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end;
+
+__attribute__((swift_name("DiscoverShowsState")))
+@interface TvManiacDiscoverShowsState : TvManiacViewState
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DiscoverShowsState.DiscoverShowResult")))
+@interface TvManiacDiscoverShowsStateDiscoverShowResult : TvManiacBase
+- (instancetype)initWithFeaturedShows:(TvManiacDiscoverShowResultDiscoverShowsData *)featuredShows trendingShows:(TvManiacDiscoverShowResultDiscoverShowsData *)trendingShows topRatedShows:(TvManiacDiscoverShowResultDiscoverShowsData *)topRatedShows popularShows:(TvManiacDiscoverShowResultDiscoverShowsData *)popularShows __attribute__((swift_name("init(featuredShows:trendingShows:topRatedShows:popularShows:)"))) __attribute__((objc_designated_initializer));
+- (TvManiacDiscoverShowResultDiscoverShowsData *)component1 __attribute__((swift_name("component1()")));
+- (TvManiacDiscoverShowResultDiscoverShowsData *)component2 __attribute__((swift_name("component2()")));
+- (TvManiacDiscoverShowResultDiscoverShowsData *)component3 __attribute__((swift_name("component3()")));
+- (TvManiacDiscoverShowResultDiscoverShowsData *)component4 __attribute__((swift_name("component4()")));
+- (TvManiacDiscoverShowsStateDiscoverShowResult *)doCopyFeaturedShows:(TvManiacDiscoverShowResultDiscoverShowsData *)featuredShows trendingShows:(TvManiacDiscoverShowResultDiscoverShowsData *)trendingShows topRatedShows:(TvManiacDiscoverShowResultDiscoverShowsData *)topRatedShows popularShows:(TvManiacDiscoverShowResultDiscoverShowsData *)popularShows __attribute__((swift_name("doCopy(featuredShows:trendingShows:topRatedShows:popularShows:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) TvManiacDiscoverShowResultDiscoverShowsData *featuredShows __attribute__((swift_name("featuredShows")));
+@property (readonly) TvManiacDiscoverShowResultDiscoverShowsData *popularShows __attribute__((swift_name("popularShows")));
+@property (readonly) TvManiacDiscoverShowResultDiscoverShowsData *topRatedShows __attribute__((swift_name("topRatedShows")));
+@property (readonly) TvManiacDiscoverShowResultDiscoverShowsData *trendingShows __attribute__((swift_name("trendingShows")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DiscoverShowsState.Error")))
+@interface TvManiacDiscoverShowsStateError : TvManiacDiscoverShowsState
+- (instancetype)initWithError:(NSString *)error __attribute__((swift_name("init(error:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+@property (readonly) NSString *error __attribute__((swift_name("error")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DiscoverShowsState.InProgress")))
+@interface TvManiacDiscoverShowsStateInProgress : TvManiacDiscoverShowsState
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
++ (instancetype)inProgress __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacDiscoverShowsStateInProgress *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DiscoverShowsState.Success")))
+@interface TvManiacDiscoverShowsStateSuccess : TvManiacDiscoverShowsState
+- (instancetype)initWithData:(TvManiacDiscoverShowsStateDiscoverShowResult *)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+@property (readonly) TvManiacDiscoverShowsStateDiscoverShowResult *data __attribute__((swift_name("data")));
+@end;
+
+__attribute__((swift_name("Koin_coreKoinComponent")))
+@protocol TvManiacKoin_coreKoinComponent
+@required
+- (TvManiacKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
+@end;
+
+__attribute__((swift_name("BaseViewModel")))
+@interface TvManiacBaseViewModel : TvManiacBase <TvManiacKoin_coreKoinComponent>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)attach __attribute__((swift_name("attach()")));
+- (void)detach __attribute__((swift_name("detach()")));
+- (void)observe:(id<TvManiacKotlinx_coroutines_coreFlow>)receiver onChange:(void (^)(id _Nullable))onChange __attribute__((swift_name("observe(_:onChange:)")));
+@property (readonly) id<TvManiacKotlinx_coroutines_coreStateFlow> state __attribute__((swift_name("state")));
+@property (readonly) id<TvManiacKotlinx_coroutines_coreCoroutineScope> vmScope __attribute__((swift_name("vmScope")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DiscoverShowsViewModel")))
+@interface TvManiacDiscoverShowsViewModel : TvManiacBaseViewModel <TvManiacKoin_coreKoinComponent>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)attach __attribute__((swift_name("attach()")));
+@property (readonly) id<TvManiacKotlinx_coroutines_coreStateFlow> state __attribute__((swift_name("state")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("EpisodeUiModel")))
 @interface TvManiacEpisodeUiModel : TvManiacBase
@@ -778,6 +863,71 @@ __attribute__((swift_name("Logger")))
 @interface TvManiacLogger : TvManiacBase
 - (instancetype)initWithClassName:(NSString *)className __attribute__((swift_name("init(className:)"))) __attribute__((objc_designated_initializer));
 - (void)logMsg:(NSString *)msg __attribute__((swift_name("log(msg:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MainDispatcher")))
+@interface TvManiacMainDispatcher : TvManiacBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) TvManiacKotlinx_coroutines_coreCoroutineDispatcher *bg __attribute__((swift_name("bg")));
+@property (readonly) TvManiacKotlinx_coroutines_coreCoroutineDispatcher *main __attribute__((swift_name("main")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol TvManiacKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<TvManiacKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<TvManiacKotlinCoroutineContextElement> _Nullable)getKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<TvManiacKotlinCoroutineContext>)minusKeyKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<TvManiacKotlinCoroutineContext>)plusContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol TvManiacKotlinCoroutineContextElement <TvManiacKotlinCoroutineContext>
+@required
+@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
+@interface TvManiacKotlinAbstractCoroutineContextElement : TvManiacBase <TvManiacKotlinCoroutineContextElement>
+- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("KotlinContinuationInterceptor")))
+@protocol TvManiacKotlinContinuationInterceptor <TvManiacKotlinCoroutineContextElement>
+@required
+- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
+@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcher : TvManiacKotlinAbstractCoroutineContextElement <TvManiacKotlinContinuationInterceptor>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
+- (void)dispatchContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
+- (void)dispatchYieldContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
+- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (BOOL)isDispatchNeededContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
+- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
+- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MainLoopDispatcher")))
+@interface TvManiacMainLoopDispatcher : TvManiacKotlinx_coroutines_coreCoroutineDispatcher
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
++ (instancetype)mainLoopDispatcher __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacMainLoopDispatcher *shared __attribute__((swift_name("shared")));
+- (void)dispatchContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
 @end;
 
 __attribute__((swift_name("Store")))
@@ -2233,14 +2383,6 @@ __attribute__((swift_name("TvShowsServiceImpl")))
 - (void)getTvShowDetailsShowId:(int32_t)showId completionHandler:(void (^)(TvManiacShowDetailResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getTvShowDetails(showId:completionHandler:)")));
 @end;
 
-__attribute__((swift_name("BaseViewModel")))
-@interface TvManiacBaseViewModel : TvManiacBase <TvManiacCoroutineScopeOwner>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)onDestroy __attribute__((swift_name("onDestroy()")));
-@property (readonly) id<TvManiacKotlinx_coroutines_coreCoroutineScope> coroutineScope __attribute__((swift_name("coroutineScope")));
-@end;
-
 __attribute__((swift_name("KotlinRuntimeException")))
 @interface TvManiacKotlinRuntimeException : TvManiacKotlinException
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -2328,7 +2470,6 @@ __attribute__((swift_name("KoinKt")))
 @property (class, readonly) TvManiacKoin_coreModule *dispatcherModule __attribute__((swift_name("dispatcherModule")));
 @property (class, readonly) TvManiacKoin_coreModule *interactorModule __attribute__((swift_name("interactorModule")));
 @property (class, readonly) TvManiacKoin_coreModule *repositoryModule __attribute__((swift_name("repositoryModule")));
-@property (class, readonly) TvManiacKoin_coreModule *scopeModule __attribute__((swift_name("scopeModule")));
 @property (class, readonly) TvManiacKoin_coreModule *serviceModule __attribute__((swift_name("serviceModule")));
 @end;
 
@@ -2400,21 +2541,6 @@ __attribute__((swift_name("IntColumnAdapterKt")))
 @property (class, readonly) id<TvManiacRuntimeColumnAdapter> intAdapter __attribute__((swift_name("intAdapter")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol TvManiacKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<TvManiacKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<TvManiacKotlinCoroutineContextElement> _Nullable)getKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<TvManiacKotlinCoroutineContext>)minusKeyKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<TvManiacKotlinCoroutineContext>)plusContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
-@end;
-
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol TvManiacKotlinCoroutineContextElement <TvManiacKotlinCoroutineContext>
-@required
-@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end;
-
 __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
 @protocol TvManiacKotlinx_coroutines_coreJob <TvManiacKotlinCoroutineContextElement>
 @required
@@ -2429,7 +2555,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)joinWithCompletionHandler:(void (^)(TvManiacKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<TvManiacKotlinx_coroutines_coreJob>)plusOther:(id<TvManiacKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (id<TvManiacKotlinx_coroutines_coreJob>)plusOther_:(id<TvManiacKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
 - (BOOL)start __attribute__((swift_name("start()")));
 @property (readonly) id<TvManiacKotlinSequence> children __attribute__((swift_name("children")));
 @property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
@@ -2467,6 +2593,61 @@ __attribute__((swift_name("KotlinArray")))
 - (id<TvManiacKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreKoin")))
+@interface TvManiacKoin_coreKoin : TvManiacBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)close __attribute__((swift_name("close()")));
+- (void)createEagerInstances __attribute__((swift_name("createEagerInstances()")));
+- (TvManiacKoin_coreScope *)createScopeT:(id<TvManiacKoin_coreKoinScopeComponent>)t __attribute__((swift_name("createScope(t:)")));
+- (TvManiacKoin_coreScope *)createScopeScopeId:(NSString *)scopeId __attribute__((swift_name("createScope(scopeId:)")));
+- (TvManiacKoin_coreScope *)createScopeScopeId:(NSString *)scopeId source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:source:)")));
+- (TvManiacKoin_coreScope *)createScopeScopeId:(NSString *)scopeId qualifier:(id<TvManiacKoin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:qualifier:source:)")));
+- (void)declareInstance:(id _Nullable)instance qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<TvManiacKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
+- (void)deletePropertyKey:(NSString *)key __attribute__((swift_name("deleteProperty(key:)")));
+- (void)deleteScopeScopeId:(NSString *)scopeId __attribute__((swift_name("deleteScope(scopeId:)")));
+- (id _Nullable)getClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
+- (id)getQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
+- (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
+- (TvManiacKoin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getOrCreateScope(scopeId:)")));
+- (TvManiacKoin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId qualifier:(id<TvManiacKoin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("getOrCreateScope(scopeId:qualifier:source:)")));
+- (id _Nullable)getOrNullClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
+- (id _Nullable)getOrNullQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
+- (id _Nullable)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
+- (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
+- (TvManiacKoin_coreScope *)getScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getScope(scopeId:)")));
+- (TvManiacKoin_coreScope * _Nullable)getScopeOrNullScopeId:(NSString *)scopeId __attribute__((swift_name("getScopeOrNull(scopeId:)")));
+- (id<TvManiacKotlinLazy>)injectQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier mode:(TvManiacKotlinLazyThreadSafetyMode *)mode parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
+- (id<TvManiacKotlinLazy>)injectOrNullQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier mode:(TvManiacKotlinLazyThreadSafetyMode *)mode parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
+- (void)loadModulesModules:(NSArray<TvManiacKoin_coreModule *> *)modules allowOverride:(BOOL)allowOverride __attribute__((swift_name("loadModules(modules:allowOverride:)")));
+- (void)setPropertyKey:(NSString *)key value:(id)value __attribute__((swift_name("setProperty(key:value:)")));
+- (void)setupLoggerLogger:(TvManiacKoin_coreLogger *)logger __attribute__((swift_name("setupLogger(logger:)")));
+- (void)unloadModulesModules:(NSArray<TvManiacKoin_coreModule *> *)modules __attribute__((swift_name("unloadModules(modules:)")));
+@property (readonly) TvManiacKoin_coreInstanceRegistry *instanceRegistry __attribute__((swift_name("instanceRegistry")));
+@property (readonly) TvManiacKoin_coreLogger *logger __attribute__((swift_name("logger")));
+@property (readonly) TvManiacKoin_corePropertyRegistry *propertyRegistry __attribute__((swift_name("propertyRegistry")));
+@property (readonly) TvManiacKoin_coreScopeRegistry *scopeRegistry __attribute__((swift_name("scopeRegistry")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSharedFlow")))
+@protocol TvManiacKotlinx_coroutines_coreSharedFlow <TvManiacKotlinx_coroutines_coreFlow>
+@required
+@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreStateFlow")))
+@protocol TvManiacKotlinx_coroutines_coreStateFlow <TvManiacKotlinx_coroutines_coreSharedFlow>
+@required
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol TvManiacKotlinx_coroutines_coreCoroutineScope
+@required
+@property (readonly) id<TvManiacKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
@@ -2520,12 +2701,6 @@ __attribute__((swift_name("Ktor_httpHttpMessage")))
 @property (readonly) id<TvManiacKtor_httpHeaders> headers __attribute__((swift_name("headers")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
-@protocol TvManiacKotlinx_coroutines_coreCoroutineScope
-@required
-@property (readonly) id<TvManiacKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@end;
-
 __attribute__((swift_name("Ktor_client_coreHttpResponse")))
 @interface TvManiacKtor_client_coreHttpResponse : TvManiacBase <TvManiacKtor_httpHttpMessage, TvManiacKotlinx_coroutines_coreCoroutineScope>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -2539,45 +2714,37 @@ __attribute__((swift_name("Ktor_client_coreHttpResponse")))
 @property (readonly) TvManiacKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreSharedFlow")))
-@protocol TvManiacKotlinx_coroutines_coreSharedFlow <TvManiacKotlinx_coroutines_coreFlow>
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol TvManiacKotlinCoroutineContextKey
 @required
-@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreStateFlow")))
-@protocol TvManiacKotlinx_coroutines_coreStateFlow <TvManiacKotlinx_coroutines_coreSharedFlow>
+__attribute__((swift_name("KotlinContinuation")))
+@protocol TvManiacKotlinContinuation
 @required
-@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<TvManiacKotlinCoroutineContext> context __attribute__((swift_name("context")));
 @end;
 
-__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
-@interface TvManiacKotlinAbstractCoroutineContextElement : TvManiacBase <TvManiacKotlinCoroutineContextElement>
-- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface TvManiacKotlinAbstractCoroutineContextKey<B, E> : TvManiacBase <TvManiacKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
 @end;
 
-__attribute__((swift_name("KotlinContinuationInterceptor")))
-@protocol TvManiacKotlinContinuationInterceptor <TvManiacKotlinCoroutineContextElement>
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
+@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey : TvManiacKotlinAbstractCoroutineContextKey<id<TvManiacKotlinContinuationInterceptor>, TvManiacKotlinx_coroutines_coreCoroutineDispatcher *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(id<TvManiacKotlinCoroutineContextElement> _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
+@protocol TvManiacKotlinx_coroutines_coreRunnable
 @required
-- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
-@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcher : TvManiacKotlinAbstractCoroutineContextElement <TvManiacKotlinContinuationInterceptor>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
-- (void)dispatchContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
-- (void)dispatchYieldContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
-- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (BOOL)isDispatchNeededContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
-- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
-- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)plusOther_:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
-- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
+- (void)run __attribute__((swift_name("run()")));
 @end;
 
 __attribute__((swift_name("RuntimeQuery")))
@@ -2759,16 +2926,173 @@ __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
 - (void)registerSelectClause0Select:(id<TvManiacKotlinx_coroutines_coreSelectInstance>)select block:(id<TvManiacKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol TvManiacKotlinCoroutineContextKey
-@required
-@end;
-
 __attribute__((swift_name("KotlinIterator")))
 @protocol TvManiacKotlinIterator
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreScope")))
+@interface TvManiacKoin_coreScope : TvManiacBase
+- (instancetype)initWithScopeQualifier:(id<TvManiacKoin_coreQualifier>)scopeQualifier id:(NSString *)id isRoot:(BOOL)isRoot _koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("init(scopeQualifier:id:isRoot:_koin:)"))) __attribute__((objc_designated_initializer));
+- (void)close __attribute__((swift_name("close()")));
+- (id<TvManiacKoin_coreQualifier>)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (BOOL)component3 __attribute__((swift_name("component3()")));
+- (TvManiacKoin_coreScope *)doCopyScopeQualifier:(id<TvManiacKoin_coreQualifier>)scopeQualifier id:(NSString *)id isRoot:(BOOL)isRoot _koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("doCopy(scopeQualifier:id:isRoot:_koin:)")));
+- (void)declareInstance:(id _Nullable)instance qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<TvManiacKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (id _Nullable)getClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
+- (id)getQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
+- (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
+- (NSArray<id> *)getAllClazz:(id<TvManiacKotlinKClass>)clazz __attribute__((swift_name("getAll(clazz:)")));
+- (TvManiacKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
+- (id _Nullable)getOrNullClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
+- (id _Nullable)getOrNullQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
+- (id)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
+- (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
+- (id _Nullable)getPropertyOrNullKey:(NSString *)key __attribute__((swift_name("getPropertyOrNull(key:)")));
+- (TvManiacKoin_coreScope *)getScopeScopeID:(NSString *)scopeID __attribute__((swift_name("getScope(scopeID:)")));
+- (id _Nullable)getSource __attribute__((swift_name("getSource()"))) __attribute__((deprecated("No need to use getSource(). You can an use get() directly.")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (id<TvManiacKotlinLazy>)injectQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier mode:(TvManiacKotlinLazyThreadSafetyMode *)mode parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
+- (id<TvManiacKotlinLazy>)injectOrNullQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier mode:(TvManiacKotlinLazyThreadSafetyMode *)mode parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
+- (BOOL)isNotClosed __attribute__((swift_name("isNotClosed()")));
+- (void)linkToScopes:(TvManiacKotlinArray<TvManiacKoin_coreScope *> *)scopes __attribute__((swift_name("linkTo(scopes:)")));
+- (void)refreshScopeInstanceClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier instance:(id)instance __attribute__((swift_name("refreshScopeInstance(clazz:qualifier:instance:)")));
+- (void)registerCallbackCallback:(id<TvManiacKoin_coreScopeCallback>)callback __attribute__((swift_name("registerCallback(callback:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+- (void)unlinkScopes:(TvManiacKotlinArray<TvManiacKoin_coreScope *> *)scopes __attribute__((swift_name("unlink(scopes:)")));
+@property (readonly) NSMutableArray<TvManiacKoin_coreParametersHolder *> *_parameterStack __attribute__((swift_name("_parameterStack")));
+@property id _Nullable _source __attribute__((swift_name("_source")));
+@property (readonly) BOOL closed __attribute__((swift_name("closed")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) BOOL isRoot __attribute__((swift_name("isRoot")));
+@property (readonly) TvManiacKoin_coreLogger *logger __attribute__((swift_name("logger")));
+@property (readonly) id<TvManiacKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
+@end;
+
+__attribute__((swift_name("Koin_coreKoinScopeComponent")))
+@protocol TvManiacKoin_coreKoinScopeComponent <TvManiacKoin_coreKoinComponent>
+@required
+- (void)closeScope __attribute__((swift_name("closeScope()")));
+@property (readonly) TvManiacKoin_coreScope *scope __attribute__((swift_name("scope")));
+@end;
+
+__attribute__((swift_name("Koin_coreQualifier")))
+@protocol TvManiacKoin_coreQualifier
+@required
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("KotlinKDeclarationContainer")))
+@protocol TvManiacKotlinKDeclarationContainer
+@required
+@end;
+
+__attribute__((swift_name("KotlinKAnnotatedElement")))
+@protocol TvManiacKotlinKAnnotatedElement
+@required
+@end;
+
+__attribute__((swift_name("KotlinKClassifier")))
+@protocol TvManiacKotlinKClassifier
+@required
+@end;
+
+__attribute__((swift_name("KotlinKClass")))
+@protocol TvManiacKotlinKClass <TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier>
+@required
+- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
+@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
+@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
+@end;
+
+__attribute__((swift_name("Koin_coreParametersHolder")))
+@interface TvManiacKoin_coreParametersHolder : TvManiacBase
+- (instancetype)initWith_values:(NSMutableArray<id> *)_values __attribute__((swift_name("init(_values:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) TvManiacKoin_coreParametersHolderCompanion *companion __attribute__((swift_name("companion")));
+- (TvManiacKoin_coreParametersHolder *)addValue:(id)value __attribute__((swift_name("add(value:)")));
+- (id _Nullable)component1 __attribute__((swift_name("component1()")));
+- (id _Nullable)component2 __attribute__((swift_name("component2()")));
+- (id _Nullable)component3 __attribute__((swift_name("component3()")));
+- (id _Nullable)component4 __attribute__((swift_name("component4()")));
+- (id _Nullable)component5 __attribute__((swift_name("component5()")));
+- (id _Nullable)elementAtI:(int32_t)i clazz:(id<TvManiacKotlinKClass>)clazz __attribute__((swift_name("elementAt(i:clazz:)")));
+- (id)get __attribute__((swift_name("get()")));
+- (id _Nullable)getI:(int32_t)i __attribute__((swift_name("get(i:)")));
+- (id _Nullable)getOrNull __attribute__((swift_name("getOrNull()")));
+- (id _Nullable)getOrNullClazz:(id<TvManiacKotlinKClass>)clazz __attribute__((swift_name("getOrNull(clazz:)")));
+- (TvManiacKoin_coreParametersHolder *)insertIndex:(int32_t)index value:(id)value __attribute__((swift_name("insert(index:value:)")));
+- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
+- (BOOL)isNotEmpty __attribute__((swift_name("isNotEmpty()")));
+- (void)setI:(int32_t)i t:(id _Nullable)t __attribute__((swift_name("set(i:t:)")));
+- (int32_t)size __attribute__((swift_name("size()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<id> *values __attribute__((swift_name("values")));
+@end;
+
+__attribute__((swift_name("KotlinLazy")))
+@protocol TvManiacKotlinLazy
+@required
+- (BOOL)isInitialized __attribute__((swift_name("isInitialized()")));
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinLazyThreadSafetyMode")))
+@interface TvManiacKotlinLazyThreadSafetyMode : TvManiacKotlinEnum<TvManiacKotlinLazyThreadSafetyMode *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) TvManiacKotlinLazyThreadSafetyMode *synchronized __attribute__((swift_name("synchronized")));
+@property (class, readonly) TvManiacKotlinLazyThreadSafetyMode *publication __attribute__((swift_name("publication")));
+@property (class, readonly) TvManiacKotlinLazyThreadSafetyMode *none __attribute__((swift_name("none")));
++ (TvManiacKotlinArray<TvManiacKotlinLazyThreadSafetyMode *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((swift_name("Koin_coreLogger")))
+@interface TvManiacKoin_coreLogger : TvManiacBase
+- (instancetype)initWithLevel:(TvManiacKoin_coreLevel *)level __attribute__((swift_name("init(level:)"))) __attribute__((objc_designated_initializer));
+- (void)debugMsg:(NSString *)msg __attribute__((swift_name("debug(msg:)")));
+- (void)errorMsg:(NSString *)msg __attribute__((swift_name("error(msg:)")));
+- (void)infoMsg:(NSString *)msg __attribute__((swift_name("info(msg:)")));
+- (BOOL)isAtLvl:(TvManiacKoin_coreLevel *)lvl __attribute__((swift_name("isAt(lvl:)")));
+- (void)logLvl:(TvManiacKoin_coreLevel *)lvl msg:(NSString *(^)(void))msg __attribute__((swift_name("log(lvl:msg:)")));
+- (void)logLevel:(TvManiacKoin_coreLevel *)level msg:(NSString *)msg __attribute__((swift_name("log(level:msg:)")));
+@property TvManiacKoin_coreLevel *level __attribute__((swift_name("level")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreInstanceRegistry")))
+@interface TvManiacKoin_coreInstanceRegistry : TvManiacBase
+- (instancetype)initWith_koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+- (void)saveMappingAllowOverride:(BOOL)allowOverride mapping:(NSString *)mapping factory:(TvManiacKoin_coreInstanceFactory<id> *)factory logWarning:(BOOL)logWarning __attribute__((swift_name("saveMapping(allowOverride:mapping:factory:logWarning:)")));
+- (int32_t)size __attribute__((swift_name("size()")));
+@property (readonly) TvManiacKoin_coreKoin *_koin __attribute__((swift_name("_koin")));
+@property (readonly) NSDictionary<NSString *, TvManiacKoin_coreInstanceFactory<id> *> *instances __attribute__((swift_name("instances")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_corePropertyRegistry")))
+@interface TvManiacKoin_corePropertyRegistry : TvManiacBase
+- (instancetype)initWith_koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+- (void)close __attribute__((swift_name("close()")));
+- (void)deletePropertyKey:(NSString *)key __attribute__((swift_name("deleteProperty(key:)")));
+- (id _Nullable)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
+- (void)savePropertiesProperties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("saveProperties(properties:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreScopeRegistry")))
+@interface TvManiacKoin_coreScopeRegistry : TvManiacBase
+- (instancetype)initWith_koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) TvManiacKoin_coreScopeRegistryCompanion *companion __attribute__((swift_name("companion")));
+- (void)loadScopesModules:(NSArray<TvManiacKoin_coreModule *> *)modules __attribute__((swift_name("loadScopes(modules:)")));
+@property (readonly) TvManiacKoin_coreScope *rootScope __attribute__((swift_name("rootScope")));
+@property (readonly) NSSet<id<TvManiacKoin_coreQualifier>> *scopeDefinitions __attribute__((swift_name("scopeDefinitions")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -3088,34 +3412,6 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
 
-__attribute__((swift_name("KotlinContinuation")))
-@protocol TvManiacKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly) id<TvManiacKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end;
-
-__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
-@interface TvManiacKotlinAbstractCoroutineContextKey<B, E> : TvManiacBase <TvManiacKotlinCoroutineContextKey>
-- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
-@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey : TvManiacKotlinAbstractCoroutineContextKey<id<TvManiacKotlinContinuationInterceptor>, TvManiacKotlinx_coroutines_coreCoroutineDispatcher *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(id<TvManiacKotlinCoroutineContextElement> _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
-@protocol TvManiacKotlinx_coroutines_coreRunnable
-@required
-- (void)run __attribute__((swift_name("run()")));
-@end;
-
 __attribute__((swift_name("RuntimeSqlCursor")))
 @protocol TvManiacRuntimeSqlCursor <TvManiacRuntimeCloseable>
 @required
@@ -3311,18 +3607,6 @@ __attribute__((swift_name("Koin_coreKoinApplication.Companion")))
 - (TvManiacKoin_coreKoinApplication *)doInit __attribute__((swift_name("doInit()")));
 @end;
 
-__attribute__((swift_name("Koin_coreLogger")))
-@interface TvManiacKoin_coreLogger : TvManiacBase
-- (instancetype)initWithLevel:(TvManiacKoin_coreLevel *)level __attribute__((swift_name("init(level:)"))) __attribute__((objc_designated_initializer));
-- (void)debugMsg:(NSString *)msg __attribute__((swift_name("debug(msg:)")));
-- (void)errorMsg:(NSString *)msg __attribute__((swift_name("error(msg:)")));
-- (void)infoMsg:(NSString *)msg __attribute__((swift_name("info(msg:)")));
-- (BOOL)isAtLvl:(TvManiacKoin_coreLevel *)lvl __attribute__((swift_name("isAt(lvl:)")));
-- (void)logLvl:(TvManiacKoin_coreLevel *)lvl msg:(NSString *(^)(void))msg __attribute__((swift_name("log(lvl:msg:)")));
-- (void)logLevel:(TvManiacKoin_coreLevel *)level msg:(NSString *)msg __attribute__((swift_name("log(level:msg:)")));
-@property TvManiacKoin_coreLevel *level __attribute__((swift_name("level")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Koin_coreLevel")))
 @interface TvManiacKoin_coreLevel : TvManiacKotlinEnum<TvManiacKoin_coreLevel *>
@@ -3334,43 +3618,6 @@ __attribute__((swift_name("Koin_coreLevel")))
 @property (class, readonly) TvManiacKoin_coreLevel *error __attribute__((swift_name("error")));
 @property (class, readonly) TvManiacKoin_coreLevel *none __attribute__((swift_name("none")));
 + (TvManiacKotlinArray<TvManiacKoin_coreLevel *> *)values __attribute__((swift_name("values()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreKoin")))
-@interface TvManiacKoin_coreKoin : TvManiacBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)close __attribute__((swift_name("close()")));
-- (void)createEagerInstances __attribute__((swift_name("createEagerInstances()")));
-- (TvManiacKoin_coreScope *)createScopeT:(id<TvManiacKoin_coreKoinScopeComponent>)t __attribute__((swift_name("createScope(t:)")));
-- (TvManiacKoin_coreScope *)createScopeScopeId:(NSString *)scopeId __attribute__((swift_name("createScope(scopeId:)")));
-- (TvManiacKoin_coreScope *)createScopeScopeId:(NSString *)scopeId source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:source:)")));
-- (TvManiacKoin_coreScope *)createScopeScopeId:(NSString *)scopeId qualifier:(id<TvManiacKoin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:qualifier:source:)")));
-- (void)declareInstance:(id _Nullable)instance qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<TvManiacKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
-- (void)deletePropertyKey:(NSString *)key __attribute__((swift_name("deleteProperty(key:)")));
-- (void)deleteScopeScopeId:(NSString *)scopeId __attribute__((swift_name("deleteScope(scopeId:)")));
-- (id _Nullable)getClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
-- (id)getQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
-- (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
-- (TvManiacKoin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getOrCreateScope(scopeId:)")));
-- (TvManiacKoin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId qualifier:(id<TvManiacKoin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("getOrCreateScope(scopeId:qualifier:source:)")));
-- (id _Nullable)getOrNullClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
-- (id _Nullable)getOrNullQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
-- (id _Nullable)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
-- (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
-- (TvManiacKoin_coreScope *)getScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getScope(scopeId:)")));
-- (TvManiacKoin_coreScope * _Nullable)getScopeOrNullScopeId:(NSString *)scopeId __attribute__((swift_name("getScopeOrNull(scopeId:)")));
-- (id<TvManiacKotlinLazy>)injectQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier mode:(TvManiacKotlinLazyThreadSafetyMode *)mode parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
-- (id<TvManiacKotlinLazy>)injectOrNullQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier mode:(TvManiacKotlinLazyThreadSafetyMode *)mode parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
-- (void)loadModulesModules:(NSArray<TvManiacKoin_coreModule *> *)modules allowOverride:(BOOL)allowOverride __attribute__((swift_name("loadModules(modules:allowOverride:)")));
-- (void)setPropertyKey:(NSString *)key value:(id)value __attribute__((swift_name("setProperty(key:value:)")));
-- (void)setupLoggerLogger:(TvManiacKoin_coreLogger *)logger __attribute__((swift_name("setupLogger(logger:)")));
-- (void)unloadModulesModules:(NSArray<TvManiacKoin_coreModule *> *)modules __attribute__((swift_name("unloadModules(modules:)")));
-@property (readonly) TvManiacKoin_coreInstanceRegistry *instanceRegistry __attribute__((swift_name("instanceRegistry")));
-@property (readonly) TvManiacKoin_coreLogger *logger __attribute__((swift_name("logger")));
-@property (readonly) TvManiacKoin_corePropertyRegistry *propertyRegistry __attribute__((swift_name("propertyRegistry")));
-@property (readonly) TvManiacKoin_coreScopeRegistry *scopeRegistry __attribute__((swift_name("scopeRegistry")));
 @end;
 
 __attribute__((swift_name("Koin_coreInstanceFactory")))
@@ -3397,77 +3644,6 @@ __attribute__((swift_name("KotlinPair")))
 - (NSString *)toString __attribute__((swift_name("toString()")));
 @property (readonly) A _Nullable first __attribute__((swift_name("first")));
 @property (readonly) B _Nullable second __attribute__((swift_name("second")));
-@end;
-
-__attribute__((swift_name("Koin_coreQualifier")))
-@protocol TvManiacKoin_coreQualifier
-@required
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreScope")))
-@interface TvManiacKoin_coreScope : TvManiacBase
-- (instancetype)initWithScopeQualifier:(id<TvManiacKoin_coreQualifier>)scopeQualifier id:(NSString *)id isRoot:(BOOL)isRoot _koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("init(scopeQualifier:id:isRoot:_koin:)"))) __attribute__((objc_designated_initializer));
-- (void)close __attribute__((swift_name("close()")));
-- (id<TvManiacKoin_coreQualifier>)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (BOOL)component3 __attribute__((swift_name("component3()")));
-- (TvManiacKoin_coreScope *)doCopyScopeQualifier:(id<TvManiacKoin_coreQualifier>)scopeQualifier id:(NSString *)id isRoot:(BOOL)isRoot _koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("doCopy(scopeQualifier:id:isRoot:_koin:)")));
-- (void)declareInstance:(id _Nullable)instance qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<TvManiacKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (id _Nullable)getClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
-- (id)getQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
-- (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
-- (NSArray<id> *)getAllClazz:(id<TvManiacKotlinKClass>)clazz __attribute__((swift_name("getAll(clazz:)")));
-- (TvManiacKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
-- (id _Nullable)getOrNullClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
-- (id _Nullable)getOrNullQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
-- (id)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
-- (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
-- (id _Nullable)getPropertyOrNullKey:(NSString *)key __attribute__((swift_name("getPropertyOrNull(key:)")));
-- (TvManiacKoin_coreScope *)getScopeScopeID:(NSString *)scopeID __attribute__((swift_name("getScope(scopeID:)")));
-- (id _Nullable)getSource __attribute__((swift_name("getSource()"))) __attribute__((deprecated("No need to use getSource(). You can an use get() directly.")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (id<TvManiacKotlinLazy>)injectQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier mode:(TvManiacKotlinLazyThreadSafetyMode *)mode parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
-- (id<TvManiacKotlinLazy>)injectOrNullQualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier mode:(TvManiacKotlinLazyThreadSafetyMode *)mode parameters:(TvManiacKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
-- (BOOL)isNotClosed __attribute__((swift_name("isNotClosed()")));
-- (void)linkToScopes:(TvManiacKotlinArray<TvManiacKoin_coreScope *> *)scopes __attribute__((swift_name("linkTo(scopes:)")));
-- (void)refreshScopeInstanceClazz:(id<TvManiacKotlinKClass>)clazz qualifier:(id<TvManiacKoin_coreQualifier> _Nullable)qualifier instance:(id)instance __attribute__((swift_name("refreshScopeInstance(clazz:qualifier:instance:)")));
-- (void)registerCallbackCallback:(id<TvManiacKoin_coreScopeCallback>)callback __attribute__((swift_name("registerCallback(callback:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-- (void)unlinkScopes:(TvManiacKotlinArray<TvManiacKoin_coreScope *> *)scopes __attribute__((swift_name("unlink(scopes:)")));
-@property (readonly) NSMutableArray<TvManiacKoin_coreParametersHolder *> *_parameterStack __attribute__((swift_name("_parameterStack")));
-@property id _Nullable _source __attribute__((swift_name("_source")));
-@property (readonly) BOOL closed __attribute__((swift_name("closed")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) BOOL isRoot __attribute__((swift_name("isRoot")));
-@property (readonly) TvManiacKoin_coreLogger *logger __attribute__((swift_name("logger")));
-@property (readonly) id<TvManiacKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
-@end;
-
-__attribute__((swift_name("Koin_coreParametersHolder")))
-@interface TvManiacKoin_coreParametersHolder : TvManiacBase
-- (instancetype)initWith_values:(NSMutableArray<id> *)_values __attribute__((swift_name("init(_values:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) TvManiacKoin_coreParametersHolderCompanion *companion __attribute__((swift_name("companion")));
-- (TvManiacKoin_coreParametersHolder *)addValue:(id)value __attribute__((swift_name("add(value:)")));
-- (id _Nullable)component1 __attribute__((swift_name("component1()")));
-- (id _Nullable)component2 __attribute__((swift_name("component2()")));
-- (id _Nullable)component3 __attribute__((swift_name("component3()")));
-- (id _Nullable)component4 __attribute__((swift_name("component4()")));
-- (id _Nullable)component5 __attribute__((swift_name("component5()")));
-- (id _Nullable)elementAtI:(int32_t)i clazz:(id<TvManiacKotlinKClass>)clazz __attribute__((swift_name("elementAt(i:clazz:)")));
-- (id)get __attribute__((swift_name("get()")));
-- (id _Nullable)getI:(int32_t)i __attribute__((swift_name("get(i:)")));
-- (id _Nullable)getOrNull __attribute__((swift_name("getOrNull()")));
-- (id _Nullable)getOrNullClazz:(id<TvManiacKotlinKClass>)clazz __attribute__((swift_name("getOrNull(clazz:)")));
-- (TvManiacKoin_coreParametersHolder *)insertIndex:(int32_t)index value:(id)value __attribute__((swift_name("insert(index:value:)")));
-- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
-- (BOOL)isNotEmpty __attribute__((swift_name("isNotEmpty()")));
-- (void)setI:(int32_t)i t:(id _Nullable)t __attribute__((swift_name("set(i:t:)")));
-- (int32_t)size __attribute__((swift_name("size()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSArray<id> *values __attribute__((swift_name("values")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -3508,6 +3684,31 @@ __attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
 - (id _Nullable)trySelectOtherOtherOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
 @property (readonly) id<TvManiacKotlinContinuation> completion __attribute__((swift_name("completion")));
 @property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
+@end;
+
+__attribute__((swift_name("Koin_coreScopeCallback")))
+@protocol TvManiacKoin_coreScopeCallback
+@required
+- (void)onScopeCloseScope:(TvManiacKoin_coreScope *)scope __attribute__((swift_name("onScopeClose(scope:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreParametersHolder.Companion")))
+@interface TvManiacKoin_coreParametersHolderCompanion : TvManiacBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacKoin_coreParametersHolderCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) int32_t MAX_PARAMS __attribute__((swift_name("MAX_PARAMS")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreScopeRegistry.Companion")))
+@interface TvManiacKoin_coreScopeRegistryCompanion : TvManiacBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacKoin_coreScopeRegistryCompanion *shared __attribute__((swift_name("shared")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
@@ -4191,91 +4392,6 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline.Phases")))
 @property (readonly) TvManiacKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
 @end;
 
-__attribute__((swift_name("Koin_coreKoinComponent")))
-@protocol TvManiacKoin_coreKoinComponent
-@required
-- (TvManiacKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
-@end;
-
-__attribute__((swift_name("Koin_coreKoinScopeComponent")))
-@protocol TvManiacKoin_coreKoinScopeComponent <TvManiacKoin_coreKoinComponent>
-@required
-- (void)closeScope __attribute__((swift_name("closeScope()")));
-@property (readonly) TvManiacKoin_coreScope *scope __attribute__((swift_name("scope")));
-@end;
-
-__attribute__((swift_name("KotlinKDeclarationContainer")))
-@protocol TvManiacKotlinKDeclarationContainer
-@required
-@end;
-
-__attribute__((swift_name("KotlinKAnnotatedElement")))
-@protocol TvManiacKotlinKAnnotatedElement
-@required
-@end;
-
-__attribute__((swift_name("KotlinKClassifier")))
-@protocol TvManiacKotlinKClassifier
-@required
-@end;
-
-__attribute__((swift_name("KotlinKClass")))
-@protocol TvManiacKotlinKClass <TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier>
-@required
-- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
-@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
-@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
-@end;
-
-__attribute__((swift_name("KotlinLazy")))
-@protocol TvManiacKotlinLazy
-@required
-- (BOOL)isInitialized __attribute__((swift_name("isInitialized()")));
-@property (readonly) id _Nullable value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinLazyThreadSafetyMode")))
-@interface TvManiacKotlinLazyThreadSafetyMode : TvManiacKotlinEnum<TvManiacKotlinLazyThreadSafetyMode *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) TvManiacKotlinLazyThreadSafetyMode *synchronized __attribute__((swift_name("synchronized")));
-@property (class, readonly) TvManiacKotlinLazyThreadSafetyMode *publication __attribute__((swift_name("publication")));
-@property (class, readonly) TvManiacKotlinLazyThreadSafetyMode *none __attribute__((swift_name("none")));
-+ (TvManiacKotlinArray<TvManiacKotlinLazyThreadSafetyMode *> *)values __attribute__((swift_name("values()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreInstanceRegistry")))
-@interface TvManiacKoin_coreInstanceRegistry : TvManiacBase
-- (instancetype)initWith_koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
-- (void)saveMappingAllowOverride:(BOOL)allowOverride mapping:(NSString *)mapping factory:(TvManiacKoin_coreInstanceFactory<id> *)factory logWarning:(BOOL)logWarning __attribute__((swift_name("saveMapping(allowOverride:mapping:factory:logWarning:)")));
-- (int32_t)size __attribute__((swift_name("size()")));
-@property (readonly) TvManiacKoin_coreKoin *_koin __attribute__((swift_name("_koin")));
-@property (readonly) NSDictionary<NSString *, TvManiacKoin_coreInstanceFactory<id> *> *instances __attribute__((swift_name("instances")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_corePropertyRegistry")))
-@interface TvManiacKoin_corePropertyRegistry : TvManiacBase
-- (instancetype)initWith_koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
-- (void)close __attribute__((swift_name("close()")));
-- (void)deletePropertyKey:(NSString *)key __attribute__((swift_name("deleteProperty(key:)")));
-- (id _Nullable)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
-- (void)savePropertiesProperties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("saveProperties(properties:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreScopeRegistry")))
-@interface TvManiacKoin_coreScopeRegistry : TvManiacBase
-- (instancetype)initWith_koin:(TvManiacKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) TvManiacKoin_coreScopeRegistryCompanion *companion __attribute__((swift_name("companion")));
-- (void)loadScopesModules:(NSArray<TvManiacKoin_coreModule *> *)modules __attribute__((swift_name("loadScopes(modules:)")));
-@property (readonly) TvManiacKoin_coreScope *rootScope __attribute__((swift_name("rootScope")));
-@property (readonly) NSSet<id<TvManiacKoin_coreQualifier>> *scopeDefinitions __attribute__((swift_name("scopeDefinitions")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Koin_coreBeanDefinition")))
 @interface TvManiacKoin_coreBeanDefinition<T> : TvManiacBase
@@ -4318,22 +4434,6 @@ __attribute__((swift_name("Koin_coreInstanceContext")))
 @property (readonly) TvManiacKoin_coreKoin *koin __attribute__((swift_name("koin")));
 @property (readonly) TvManiacKoin_coreParametersHolder * _Nullable parameters __attribute__((swift_name("parameters")));
 @property (readonly) TvManiacKoin_coreScope *scope __attribute__((swift_name("scope")));
-@end;
-
-__attribute__((swift_name("Koin_coreScopeCallback")))
-@protocol TvManiacKoin_coreScopeCallback
-@required
-- (void)onScopeCloseScope:(TvManiacKoin_coreScope *)scope __attribute__((swift_name("onScopeClose(scope:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreParametersHolder.Companion")))
-@interface TvManiacKoin_coreParametersHolderCompanion : TvManiacBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) TvManiacKoin_coreParametersHolderCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) int32_t MAX_PARAMS __attribute__((swift_name("MAX_PARAMS")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
@@ -4620,15 +4720,6 @@ __attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreScopeRegistry.Companion")))
-@interface TvManiacKoin_coreScopeRegistryCompanion : TvManiacBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) TvManiacKoin_coreScopeRegistryCompanion *shared __attribute__((swift_name("shared")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Koin_coreKind")))
 @interface TvManiacKoin_coreKind : TvManiacKotlinEnum<TvManiacKoin_coreKind *>
 + (instancetype)alloc __attribute__((unavailable));
@@ -4684,7 +4775,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
 - (TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next__) id next __attribute__((swift_name("next")));
+@property (readonly, getter=next__) id _Nullable next __attribute__((swift_name("next")));
 @property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
 @property (readonly) TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
 @end;
@@ -4694,7 +4785,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.Abstrac
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)completeOp:(TvManiacKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)failureAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
+- (id _Nullable)failureAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)affected __attribute__((swift_name("failure(affected:)")));
 - (void)finishOnSuccessAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
 - (void)finishPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
 - (id _Nullable)onPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
@@ -4821,7 +4912,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFi
 - (instancetype)initWithQueue:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)queue __attribute__((swift_name("init(queue:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-- (id _Nullable)failureAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
+- (id _Nullable)failureAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)affected __attribute__((swift_name("failure(affected:)")));
 - (void)finishOnSuccessAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
 - (void)finishPreparePrepareOp:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
 - (BOOL)retryAffected:(TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
