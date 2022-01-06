@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class TvManiacEpisodeQuery, TvManiacFlowInteractorFlowUseCaseConfigBuilder<T>, TvManiacFlowInteractor<Arg, ReturnType>, TvManiacEpisodeUiModel, TvManiacKotlinUnit, TvManiacGenreUIModel, TvManiacShowUiModel, TvManiacTrailerModel, TvManiacDiscoverShowResult, TvManiacSeasonUiModel, TvManiacUpdateShowParams, TvManiacSettingsActions, TvManiacSettingsActionsLoadTheme, TvManiacSettingsActionsThemeClicked, TvManiacSettingsActionsThemeSelected, TvManiacTheme, TvManiacSettingsStateCompanion, TvManiacSettingsState, TvManiacShowsGridAction, TvManiacShowsGridActionError, TvManiacShowsGridActionLoadTvShows, TvManiacShowsGridEffect, TvManiacShowsGridEffectError, TvManiacShowsGridStateCompanion, TvManiacShowsGridState, TvManiacKotlinEnumCompanion, TvManiacKotlinEnum<E>, TvManiacKotlinArray<T>, TvManiacWatchlistAction, TvManiacWatchlistActionError, TvManiacWatchlistActionLoadWatchlist, TvManiacWatchlistEffect, TvManiacWatchlistEffectError, TvManiacWatchlistStateCompanion, TvManiacWatchlistState, TvManiacViewState, TvManiacDiscoverShowResultDiscoverShowsData, TvManiacDiscoverShowsStateDiscoverShowResult, TvManiacDiscoverShowsState, TvManiacDiscoverShowsStateInProgress, TvManiacKoin_coreKoin, TvManiacBaseViewModel, TvManiacEpisodeUiModelCompanion, TvManiacSeasonUiModelCompanion, TvManiacShowUiModelCompanion, TvManiacKotlinThrowable, TvManiacKotlinException, TvManiacExceptionHandlerCompanion, TvManiacExceptionHandler, TvManiacKtor_client_coreHttpResponse, TvManiacKotlinx_coroutines_coreCoroutineDispatcher, TvManiacKotlinAbstractCoroutineContextElement, TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey, TvManiacMainLoopDispatcher, TvManiacDiscoverShowAction, TvManiacDiscoverShowActionError, TvManiacDiscoverShowActionLoadTvShows, TvManiacDiscoverShowEffect, TvManiacDiscoverShowEffectError, TvManiacDiscoverShowResultCompanion, TvManiacShowCategory, TvManiacDiscoverShowResultDiscoverShowsDataCompanion, TvManiacDiscoverShowStateCompanion, TvManiacDiscoverShowState, TvManiacShow, TvManiacCommonFlow<T>, TvManiacStatus, TvManiacResourceCompanion, TvManiacResource<__covariant T>, TvManiacCategory, TvManiacRuntimeQuery<__covariant RowType>, TvManiacEpisode, TvManiacEpisodesBySeasonId, TvManiacGenre, TvManiacSeason, TvManiacSelectSeasonsByShowId, TvManiacSelectByShowId, TvManiacSelectShows, TvManiacShow_category, TvManiacTrailers, TvManiacTvManiacDatabaseCompanion, TvManiacSeasonAdapter, TvManiacShowAdapter, TvManiacDriverFactory, TvManiacShowCategoryCompanion, TvManiacKtor_client_coreHttpClient, TvManiacEpisodeDetailResponseCompanion, TvManiacEpisodeDetailResponse, TvManiacEpisodesResponseCompanion, TvManiacEpisodesResponse, TvManiacGenreResponseCompanion, TvManiacGenreResponse, TvManiacGenresResponseCompanion, TvManiacGenresResponse, TvManiacSeasonResponseCompanion, TvManiacSeasonResponse, TvManiacSeasonsResponseCompanion, TvManiacSeasonsResponse, TvManiacShowDetailResponseCompanion, TvManiacShowDetailResponse, TvManiacShowResponseCompanion, TvManiacShowResponse, TvManiacTrailerResponseCompanion, TvManiacTrailerResponse, TvManiacTrailersResponseCompanion, TvManiacTrailersResponse, TvManiacTvShowsResponseCompanion, TvManiacTvShowsResponse, TvManiacKotlinRuntimeException, TvManiacKotlinIllegalStateException, TvManiacKtor_client_coreResponseException, TvManiacKoin_coreKoinApplication, TvManiacKoin_coreModule, TvManiacKotlinCancellationException, TvManiacKoin_coreScope, TvManiacKoin_coreParametersHolder, TvManiacKotlinLazyThreadSafetyMode, TvManiacKoin_coreLogger, TvManiacKoin_coreInstanceRegistry, TvManiacKoin_corePropertyRegistry, TvManiacKoin_coreScopeRegistry, TvManiacKtor_client_coreHttpClientCall, TvManiacKtor_utilsGMTDate, TvManiacKtor_httpHttpStatusCode, TvManiacKtor_httpHttpProtocolVersion, TvManiacKotlinAbstractCoroutineContextKey<B, E>, TvManiacRuntimeTransacterTransaction, TvManiacKtor_client_coreHttpClientEngineConfig, TvManiacKtor_client_coreHttpClientConfig<T>, TvManiacKtor_client_coreHttpRequestBuilder, TvManiacKtor_client_coreHttpReceivePipeline, TvManiacKtor_client_coreHttpRequestPipeline, TvManiacKtor_client_coreHttpResponsePipeline, TvManiacKtor_client_coreHttpSendPipeline, TvManiacKoin_coreKoinApplicationCompanion, TvManiacKoin_coreLevel, TvManiacKoin_coreInstanceFactory<T>, TvManiacKotlinPair<__covariant A, __covariant B>, TvManiacKoin_coreScopeDSL, TvManiacKoin_coreSingleInstanceFactory<T>, TvManiacKoin_coreParametersHolderCompanion, TvManiacKoin_coreScopeRegistryCompanion, TvManiacKotlinx_serialization_coreSerializersModule, TvManiacKotlinx_serialization_coreSerialKind, TvManiacKotlinNothing, TvManiacKtor_client_coreHttpClientCallCompanion, TvManiacKtor_client_coreTypeInfo, TvManiacKtor_ioMemory, TvManiacKtor_ioIoBuffer, TvManiacKotlinByteArray, TvManiacKtor_ioByteReadPacket, TvManiacKtor_ioByteOrder, TvManiacKtor_utilsGMTDateCompanion, TvManiacKtor_utilsWeekDay, TvManiacKtor_utilsMonth, TvManiacKtor_httpHttpStatusCodeCompanion, TvManiacKtor_httpHttpProtocolVersionCompanion, TvManiacKtor_client_coreHttpRequestData, TvManiacKtor_client_coreHttpResponseData, TvManiacKtor_client_coreProxyConfig, TvManiacKtor_httpHeadersBuilder, TvManiacKtor_client_coreHttpRequestBuilderCompanion, TvManiacKtor_httpURLBuilder, TvManiacKtor_httpHttpMethod, TvManiacKtor_utilsAttributeKey<T>, TvManiacKtor_utilsPipelinePhase, TvManiacKtor_utilsPipeline<TSubject, TContext>, TvManiacKtor_client_coreHttpReceivePipelinePhases, TvManiacKtor_client_coreHttpRequestPipelinePhases, TvManiacKtor_client_coreHttpResponsePipelinePhases, TvManiacKtor_client_coreHttpResponseContainer, TvManiacKtor_client_coreHttpSendPipelinePhases, TvManiacKoin_coreBeanDefinition<T>, TvManiacKoin_coreInstanceFactoryCompanion, TvManiacKoin_coreInstanceContext, TvManiacKotlinx_coroutines_coreAtomicDesc, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, TvManiacKtor_httpOutgoingContent, TvManiacKtor_httpUrl, TvManiacKtor_ioMemoryCompanion, TvManiacKtor_ioBufferCompanion, TvManiacKtor_ioBuffer, TvManiacKtor_ioChunkBuffer, TvManiacKtor_ioChunkBufferCompanion, TvManiacKotlinCharArray, TvManiacKtor_ioIoBufferCompanion, TvManiacKotlinByteIterator, TvManiacKtor_ioAbstractInputCompanion, TvManiacKtor_ioAbstractInput, TvManiacKtor_ioByteReadPacketBaseCompanion, TvManiacKtor_ioByteReadPacketBase, TvManiacKtor_ioByteReadPacketPlatformBase, TvManiacKtor_ioByteReadPacketCompanion, TvManiacKtor_ioByteOrderCompanion, TvManiacKtor_utilsWeekDayCompanion, TvManiacKtor_utilsMonthCompanion, TvManiacKtor_utilsStringValuesBuilder, TvManiacKtor_httpURLProtocol, TvManiacKtor_httpParametersBuilder, TvManiacKtor_httpURLBuilderCompanion, TvManiacKtor_httpHttpMethodCompanion, TvManiacKoin_coreKind, TvManiacKoin_coreCallbacks<T>, TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T>, TvManiacKotlinx_coroutines_coreOpDescriptor, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, TvManiacKotlinKTypeProjection, TvManiacKtor_httpContentType, TvManiacKtor_httpUrlCompanion, TvManiacKotlinCharIterator, TvManiacKtor_httpURLProtocolCompanion, TvManiacKtor_httpUrlEncodingOption, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, TvManiacKotlinKVariance, TvManiacKotlinKTypeProjectionCompanion, TvManiacKtor_httpHeaderValueParam, TvManiacKtor_httpHeaderValueWithParametersCompanion, TvManiacKtor_httpHeaderValueWithParameters, TvManiacKtor_httpContentTypeCompanion;
+@class TvManiacEpisodeQuery, TvManiacFlowInteractorFlowUseCaseConfigBuilder<T>, TvManiacFlowInteractor<Arg, ReturnType>, TvManiacEpisodeUiModel, TvManiacKotlinUnit, TvManiacGenreUIModel, TvManiacShowUiModel, TvManiacTrailerModel, TvManiacDiscoverShowResult, TvManiacSeasonUiModel, TvManiacUpdateShowParams, TvManiacSettingsActions, TvManiacSettingsActionsLoadTheme, TvManiacSettingsActionsThemeClicked, TvManiacSettingsActionsThemeSelected, TvManiacTheme, TvManiacSettingsStateCompanion, TvManiacSettingsState, TvManiacShowsGridAction, TvManiacShowsGridActionError, TvManiacShowsGridActionLoadTvShows, TvManiacShowsGridEffect, TvManiacShowsGridEffectError, TvManiacShowsGridStateCompanion, TvManiacShowsGridState, TvManiacKotlinEnumCompanion, TvManiacKotlinEnum<E>, TvManiacKotlinArray<T>, TvManiacWatchlistAction, TvManiacWatchlistActionError, TvManiacWatchlistActionLoadWatchlist, TvManiacWatchlistEffect, TvManiacWatchlistEffectError, TvManiacWatchlistStateCompanion, TvManiacWatchlistState, TvManiacViewState, TvManiacDiscoverShowResultDiscoverShowsData, TvManiacDiscoverShowsStateDiscoverShowResult, TvManiacDiscoverShowsState, TvManiacDiscoverShowsStateInProgress, TvManiacKoin_coreKoin, TvManiacBaseViewModel, TvManiacEpisodeUiModelCompanion, TvManiacSeasonUiModelCompanion, TvManiacShowUiModelCompanion, TvManiacKotlinThrowable, TvManiacKotlinException, TvManiacExceptionHandlerCompanion, TvManiacExceptionHandler, TvManiacKtor_client_coreHttpResponse, TvManiacKotlinx_coroutines_coreCoroutineDispatcher, TvManiacDiscoverShowAction, TvManiacDiscoverShowActionError, TvManiacDiscoverShowActionLoadTvShows, TvManiacDiscoverShowEffect, TvManiacDiscoverShowEffectError, TvManiacDiscoverShowResultCompanion, TvManiacShowCategory, TvManiacDiscoverShowResultDiscoverShowsDataCompanion, TvManiacDiscoverShowStateCompanion, TvManiacDiscoverShowState, TvManiacShow, TvManiacCommonFlow<T>, TvManiacStatus, TvManiacResourceCompanion, TvManiacResource<__covariant T>, TvManiacCategory, TvManiacRuntimeQuery<__covariant RowType>, TvManiacEpisode, TvManiacEpisodesBySeasonId, TvManiacGenre, TvManiacSeason, TvManiacSelectSeasonsByShowId, TvManiacSelectByShowId, TvManiacSelectShows, TvManiacShow_category, TvManiacTrailers, TvManiacTvManiacDatabaseCompanion, TvManiacSeasonAdapter, TvManiacShowAdapter, TvManiacDriverFactory, TvManiacShowCategoryCompanion, TvManiacKtor_client_coreHttpClient, TvManiacEpisodeDetailResponseCompanion, TvManiacEpisodeDetailResponse, TvManiacEpisodesResponseCompanion, TvManiacEpisodesResponse, TvManiacGenreResponseCompanion, TvManiacGenreResponse, TvManiacGenresResponseCompanion, TvManiacGenresResponse, TvManiacSeasonResponseCompanion, TvManiacSeasonResponse, TvManiacSeasonsResponseCompanion, TvManiacSeasonsResponse, TvManiacShowDetailResponseCompanion, TvManiacShowDetailResponse, TvManiacShowResponseCompanion, TvManiacShowResponse, TvManiacTrailerResponseCompanion, TvManiacTrailerResponse, TvManiacTrailersResponseCompanion, TvManiacTrailersResponse, TvManiacTvShowsResponseCompanion, TvManiacTvShowsResponse, TvManiacKotlinRuntimeException, TvManiacKotlinIllegalStateException, TvManiacKtor_client_coreResponseException, TvManiacKoin_coreKoinApplication, TvManiacKoin_coreModule, TvManiacKotlinCancellationException, TvManiacKoin_coreScope, TvManiacKoin_coreParametersHolder, TvManiacKotlinLazyThreadSafetyMode, TvManiacKoin_coreLogger, TvManiacKoin_coreInstanceRegistry, TvManiacKoin_corePropertyRegistry, TvManiacKoin_coreScopeRegistry, TvManiacKtor_client_coreHttpClientCall, TvManiacKtor_utilsGMTDate, TvManiacKtor_httpHttpStatusCode, TvManiacKtor_httpHttpProtocolVersion, TvManiacKotlinAbstractCoroutineContextElement, TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey, TvManiacRuntimeTransacterTransaction, TvManiacKtor_client_coreHttpClientEngineConfig, TvManiacKtor_client_coreHttpClientConfig<T>, TvManiacKtor_client_coreHttpRequestBuilder, TvManiacKtor_client_coreHttpReceivePipeline, TvManiacKtor_client_coreHttpRequestPipeline, TvManiacKtor_client_coreHttpResponsePipeline, TvManiacKtor_client_coreHttpSendPipeline, TvManiacKoin_coreKoinApplicationCompanion, TvManiacKoin_coreLevel, TvManiacKoin_coreInstanceFactory<T>, TvManiacKotlinPair<__covariant A, __covariant B>, TvManiacKoin_coreScopeDSL, TvManiacKoin_coreSingleInstanceFactory<T>, TvManiacKoin_coreParametersHolderCompanion, TvManiacKoin_coreScopeRegistryCompanion, TvManiacKotlinx_serialization_coreSerializersModule, TvManiacKotlinx_serialization_coreSerialKind, TvManiacKotlinNothing, TvManiacKtor_client_coreHttpClientCallCompanion, TvManiacKtor_client_coreTypeInfo, TvManiacKtor_ioMemory, TvManiacKtor_ioIoBuffer, TvManiacKotlinByteArray, TvManiacKtor_ioByteReadPacket, TvManiacKtor_ioByteOrder, TvManiacKtor_utilsGMTDateCompanion, TvManiacKtor_utilsWeekDay, TvManiacKtor_utilsMonth, TvManiacKtor_httpHttpStatusCodeCompanion, TvManiacKtor_httpHttpProtocolVersionCompanion, TvManiacKotlinAbstractCoroutineContextKey<B, E>, TvManiacKtor_client_coreHttpRequestData, TvManiacKtor_client_coreHttpResponseData, TvManiacKtor_client_coreProxyConfig, TvManiacKtor_httpHeadersBuilder, TvManiacKtor_client_coreHttpRequestBuilderCompanion, TvManiacKtor_httpURLBuilder, TvManiacKtor_httpHttpMethod, TvManiacKtor_utilsAttributeKey<T>, TvManiacKtor_utilsPipelinePhase, TvManiacKtor_utilsPipeline<TSubject, TContext>, TvManiacKtor_client_coreHttpReceivePipelinePhases, TvManiacKtor_client_coreHttpRequestPipelinePhases, TvManiacKtor_client_coreHttpResponsePipelinePhases, TvManiacKtor_client_coreHttpResponseContainer, TvManiacKtor_client_coreHttpSendPipelinePhases, TvManiacKoin_coreBeanDefinition<T>, TvManiacKoin_coreInstanceFactoryCompanion, TvManiacKoin_coreInstanceContext, TvManiacKotlinx_coroutines_coreAtomicDesc, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, TvManiacKtor_httpOutgoingContent, TvManiacKtor_httpUrl, TvManiacKtor_ioMemoryCompanion, TvManiacKtor_ioBufferCompanion, TvManiacKtor_ioBuffer, TvManiacKtor_ioChunkBuffer, TvManiacKtor_ioChunkBufferCompanion, TvManiacKotlinCharArray, TvManiacKtor_ioIoBufferCompanion, TvManiacKotlinByteIterator, TvManiacKtor_ioAbstractInputCompanion, TvManiacKtor_ioAbstractInput, TvManiacKtor_ioByteReadPacketBaseCompanion, TvManiacKtor_ioByteReadPacketBase, TvManiacKtor_ioByteReadPacketPlatformBase, TvManiacKtor_ioByteReadPacketCompanion, TvManiacKtor_ioByteOrderCompanion, TvManiacKtor_utilsWeekDayCompanion, TvManiacKtor_utilsMonthCompanion, TvManiacKtor_utilsStringValuesBuilder, TvManiacKtor_httpURLProtocol, TvManiacKtor_httpParametersBuilder, TvManiacKtor_httpURLBuilderCompanion, TvManiacKtor_httpHttpMethodCompanion, TvManiacKoin_coreKind, TvManiacKoin_coreCallbacks<T>, TvManiacKotlinx_coroutines_coreAtomicOp<__contravariant T>, TvManiacKotlinx_coroutines_coreOpDescriptor, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNode, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, TvManiacKotlinKTypeProjection, TvManiacKtor_httpContentType, TvManiacKtor_httpUrlCompanion, TvManiacKotlinCharIterator, TvManiacKtor_httpURLProtocolCompanion, TvManiacKtor_httpUrlEncodingOption, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, TvManiacKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, TvManiacKotlinKVariance, TvManiacKotlinKTypeProjectionCompanion, TvManiacKtor_httpHeaderValueParam, TvManiacKtor_httpHeaderValueWithParametersCompanion, TvManiacKtor_httpHeaderValueWithParameters, TvManiacKtor_httpContentTypeCompanion;
 
-@protocol TvManiacKotlinx_coroutines_coreFlow, TvManiacCoroutineScopeOwner, TvManiacKotlinx_coroutines_coreJob, TvManiacEpisodeRepository, TvManiacGenreRepository, TvManiacTvShowsRepository, TvManiacTrailerRepository, TvManiacSeasonsRepository, TvManiacAction, TvManiacEffect, TvManiacState, TvManiacKotlinComparable, TvManiacKoin_coreKoinComponent, TvManiacKotlinx_coroutines_coreStateFlow, TvManiacKotlinx_coroutines_coreCoroutineScope, TvManiacKotlinx_serialization_coreKSerializer, TvManiacKotlinx_coroutines_coreFlowCollector, TvManiacKtor_ioCloseable, TvManiacKotlinCoroutineContextKey, TvManiacKotlinCoroutineContextElement, TvManiacKotlinCoroutineContext, TvManiacKotlinContinuation, TvManiacKotlinContinuationInterceptor, TvManiacKotlinx_coroutines_coreRunnable, TvManiacTvShowsService, TvManiacTvShowCache, TvManiacCategoryCache, TvManiacShowCategoryCache, TvManiacSeasonsCache, TvManiacTrailerCache, TvManiacGenreCache, TvManiacEpisodesCache, TvManiacRuntimeTransactionWithoutReturn, TvManiacRuntimeTransactionWithReturn, TvManiacRuntimeTransacter, TvManiacRuntimeColumnAdapter, TvManiacCategoryQueries, TvManiacEpisodeQueries, TvManiacGenresQueries, TvManiacSeasonQueries, TvManiacShowCategoryQueries, TvManiacShowQueries, TvManiacTrailersQueries, TvManiacTvManiacDatabase, TvManiacRuntimeSqlDriver, TvManiacRuntimeSqlDriverSchema, TvManiacKotlinSuspendFunction0, TvManiacKotlinSuspendFunction1, TvManiacKotlinx_coroutines_coreChildHandle, TvManiacKotlinx_coroutines_coreChildJob, TvManiacKotlinx_coroutines_coreDisposableHandle, TvManiacKotlinSequence, TvManiacKotlinx_coroutines_coreSelectClause0, TvManiacKotlinIterator, TvManiacKoin_coreKoinScopeComponent, TvManiacKoin_coreQualifier, TvManiacKotlinKClass, TvManiacKotlinLazy, TvManiacKotlinx_coroutines_coreSharedFlow, TvManiacKotlinx_serialization_coreEncoder, TvManiacKotlinx_serialization_coreSerialDescriptor, TvManiacKotlinx_serialization_coreSerializationStrategy, TvManiacKotlinx_serialization_coreDecoder, TvManiacKotlinx_serialization_coreDeserializationStrategy, TvManiacKtor_httpHeaders, TvManiacKtor_httpHttpMessage, TvManiacKtor_ioByteReadChannel, TvManiacRuntimeSqlCursor, TvManiacRuntimeQueryListener, TvManiacRuntimeTransactionCallbacks, TvManiacRuntimeSqlPreparedStatement, TvManiacRuntimeCloseable, TvManiacKtor_client_coreHttpClientEngine, TvManiacKtor_client_coreHttpClientEngineCapability, TvManiacKtor_utilsAttributes, TvManiacKotlinFunction, TvManiacKotlinx_coroutines_coreParentJob, TvManiacKotlinx_coroutines_coreSelectInstance, TvManiacKoin_coreScopeCallback, TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier, TvManiacKotlinx_serialization_coreCompositeEncoder, TvManiacKotlinAnnotation, TvManiacKotlinx_serialization_coreCompositeDecoder, TvManiacKotlinMapEntry, TvManiacKtor_utilsStringValues, TvManiacKtor_utilsTypeInfo, TvManiacKtor_client_coreHttpRequest, TvManiacKtor_ioReadSession, TvManiacKotlinAppendable, TvManiacKtor_client_coreHttpClientFeature, TvManiacKtor_httpHttpMessageBuilder, TvManiacKotlinSuspendFunction2, TvManiacKotlinx_serialization_coreSerializersModuleCollector, TvManiacKotlinKType, TvManiacKtor_ioObjectPool, TvManiacKtor_ioInput, TvManiacKtor_ioOutput, TvManiacKtor_httpParameters;
+@protocol TvManiacKotlinx_coroutines_coreFlow, TvManiacCoroutineScopeOwner, TvManiacKotlinx_coroutines_coreJob, TvManiacEpisodeRepository, TvManiacGenreRepository, TvManiacTvShowsRepository, TvManiacTrailerRepository, TvManiacSeasonsRepository, TvManiacAction, TvManiacEffect, TvManiacState, TvManiacKotlinComparable, TvManiacKoin_coreKoinComponent, TvManiacKotlinx_coroutines_coreStateFlow, TvManiacKotlinx_coroutines_coreCoroutineScope, TvManiacKotlinx_serialization_coreKSerializer, TvManiacKotlinx_coroutines_coreFlowCollector, TvManiacKtor_ioCloseable, TvManiacTvShowsService, TvManiacTvShowCache, TvManiacCategoryCache, TvManiacShowCategoryCache, TvManiacSeasonsCache, TvManiacTrailerCache, TvManiacGenreCache, TvManiacEpisodesCache, TvManiacRuntimeTransactionWithoutReturn, TvManiacRuntimeTransactionWithReturn, TvManiacRuntimeTransacter, TvManiacRuntimeColumnAdapter, TvManiacCategoryQueries, TvManiacEpisodeQueries, TvManiacGenresQueries, TvManiacSeasonQueries, TvManiacShowCategoryQueries, TvManiacShowQueries, TvManiacTrailersQueries, TvManiacTvManiacDatabase, TvManiacRuntimeSqlDriver, TvManiacRuntimeSqlDriverSchema, TvManiacKotlinSuspendFunction0, TvManiacKotlinSuspendFunction1, TvManiacKotlinx_coroutines_coreChildHandle, TvManiacKotlinx_coroutines_coreChildJob, TvManiacKotlinx_coroutines_coreDisposableHandle, TvManiacKotlinSequence, TvManiacKotlinx_coroutines_coreSelectClause0, TvManiacKotlinCoroutineContextKey, TvManiacKotlinCoroutineContextElement, TvManiacKotlinCoroutineContext, TvManiacKotlinIterator, TvManiacKoin_coreKoinScopeComponent, TvManiacKoin_coreQualifier, TvManiacKotlinKClass, TvManiacKotlinLazy, TvManiacKotlinx_coroutines_coreSharedFlow, TvManiacKotlinx_serialization_coreEncoder, TvManiacKotlinx_serialization_coreSerialDescriptor, TvManiacKotlinx_serialization_coreSerializationStrategy, TvManiacKotlinx_serialization_coreDecoder, TvManiacKotlinx_serialization_coreDeserializationStrategy, TvManiacKtor_httpHeaders, TvManiacKtor_httpHttpMessage, TvManiacKtor_ioByteReadChannel, TvManiacKotlinContinuation, TvManiacKotlinContinuationInterceptor, TvManiacKotlinx_coroutines_coreRunnable, TvManiacRuntimeSqlCursor, TvManiacRuntimeQueryListener, TvManiacRuntimeTransactionCallbacks, TvManiacRuntimeSqlPreparedStatement, TvManiacRuntimeCloseable, TvManiacKtor_client_coreHttpClientEngine, TvManiacKtor_client_coreHttpClientEngineCapability, TvManiacKtor_utilsAttributes, TvManiacKotlinFunction, TvManiacKotlinx_coroutines_coreParentJob, TvManiacKotlinx_coroutines_coreSelectInstance, TvManiacKoin_coreScopeCallback, TvManiacKotlinKDeclarationContainer, TvManiacKotlinKAnnotatedElement, TvManiacKotlinKClassifier, TvManiacKotlinx_serialization_coreCompositeEncoder, TvManiacKotlinAnnotation, TvManiacKotlinx_serialization_coreCompositeDecoder, TvManiacKotlinMapEntry, TvManiacKtor_utilsStringValues, TvManiacKtor_utilsTypeInfo, TvManiacKtor_client_coreHttpRequest, TvManiacKtor_ioReadSession, TvManiacKotlinAppendable, TvManiacKtor_client_coreHttpClientFeature, TvManiacKtor_httpHttpMessageBuilder, TvManiacKotlinSuspendFunction2, TvManiacKotlinx_serialization_coreSerializersModuleCollector, TvManiacKotlinKType, TvManiacKtor_ioObjectPool, TvManiacKtor_ioInput, TvManiacKtor_ioOutput, TvManiacKtor_httpParameters;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -870,64 +870,7 @@ __attribute__((swift_name("MainDispatcher")))
 @interface TvManiacMainDispatcher : TvManiacBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (readonly) TvManiacKotlinx_coroutines_coreCoroutineDispatcher *bg __attribute__((swift_name("bg")));
 @property (readonly) TvManiacKotlinx_coroutines_coreCoroutineDispatcher *main __attribute__((swift_name("main")));
-@end;
-
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol TvManiacKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<TvManiacKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<TvManiacKotlinCoroutineContextElement> _Nullable)getKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<TvManiacKotlinCoroutineContext>)minusKeyKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<TvManiacKotlinCoroutineContext>)plusContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
-@end;
-
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol TvManiacKotlinCoroutineContextElement <TvManiacKotlinCoroutineContext>
-@required
-@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end;
-
-__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
-@interface TvManiacKotlinAbstractCoroutineContextElement : TvManiacBase <TvManiacKotlinCoroutineContextElement>
-- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end;
-
-__attribute__((swift_name("KotlinContinuationInterceptor")))
-@protocol TvManiacKotlinContinuationInterceptor <TvManiacKotlinCoroutineContextElement>
-@required
-- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
-@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcher : TvManiacKotlinAbstractCoroutineContextElement <TvManiacKotlinContinuationInterceptor>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
-- (void)dispatchContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
-- (void)dispatchYieldContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
-- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (BOOL)isDispatchNeededContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
-- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
-- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
-- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MainLoopDispatcher")))
-@interface TvManiacMainLoopDispatcher : TvManiacKotlinx_coroutines_coreCoroutineDispatcher
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-+ (instancetype)mainLoopDispatcher __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) TvManiacMainLoopDispatcher *shared __attribute__((swift_name("shared")));
-- (void)dispatchContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
 @end;
 
 __attribute__((swift_name("Store")))
@@ -2541,6 +2484,21 @@ __attribute__((swift_name("IntColumnAdapterKt")))
 @property (class, readonly) id<TvManiacRuntimeColumnAdapter> intAdapter __attribute__((swift_name("intAdapter")));
 @end;
 
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol TvManiacKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<TvManiacKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<TvManiacKotlinCoroutineContextElement> _Nullable)getKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<TvManiacKotlinCoroutineContext>)minusKeyKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<TvManiacKotlinCoroutineContext>)plusContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol TvManiacKotlinCoroutineContextElement <TvManiacKotlinCoroutineContext>
+@required
+@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
 __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
 @protocol TvManiacKotlinx_coroutines_coreJob <TvManiacKotlinCoroutineContextElement>
 @required
@@ -2555,7 +2513,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)joinWithCompletionHandler:(void (^)(TvManiacKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<TvManiacKotlinx_coroutines_coreJob>)plusOther_:(id<TvManiacKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (id<TvManiacKotlinx_coroutines_coreJob>)plusOther:(id<TvManiacKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
 - (BOOL)start __attribute__((swift_name("start()")));
 @property (readonly) id<TvManiacKotlinSequence> children __attribute__((swift_name("children")));
 @property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
@@ -2714,37 +2672,33 @@ __attribute__((swift_name("Ktor_client_coreHttpResponse")))
 @property (readonly) TvManiacKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol TvManiacKotlinCoroutineContextKey
+__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
+@interface TvManiacKotlinAbstractCoroutineContextElement : TvManiacBase <TvManiacKotlinCoroutineContextElement>
+- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) id<TvManiacKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("KotlinContinuationInterceptor")))
+@protocol TvManiacKotlinContinuationInterceptor <TvManiacKotlinCoroutineContextElement>
 @required
+- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
 @end;
 
-__attribute__((swift_name("KotlinContinuation")))
-@protocol TvManiacKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly) id<TvManiacKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end;
-
-__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
-@interface TvManiacKotlinAbstractCoroutineContextKey<B, E> : TvManiacBase <TvManiacKotlinCoroutineContextKey>
-- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
-@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey : TvManiacKotlinAbstractCoroutineContextKey<id<TvManiacKotlinContinuationInterceptor>, TvManiacKotlinx_coroutines_coreCoroutineDispatcher *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(id<TvManiacKotlinCoroutineContextElement> _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
-@protocol TvManiacKotlinx_coroutines_coreRunnable
-@required
-- (void)run __attribute__((swift_name("run()")));
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
+@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcher : TvManiacKotlinAbstractCoroutineContextElement <TvManiacKotlinContinuationInterceptor>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithKey:(id<TvManiacKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
+- (void)dispatchContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
+- (void)dispatchYieldContext:(id<TvManiacKotlinCoroutineContext>)context block:(id<TvManiacKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
+- (id<TvManiacKotlinContinuation>)interceptContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (BOOL)isDispatchNeededContext:(id<TvManiacKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
+- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
+- (TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)plusOther_:(TvManiacKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (void)releaseInterceptedContinuationContinuation:(id<TvManiacKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @end;
 
 __attribute__((swift_name("RuntimeQuery")))
@@ -2924,6 +2878,11 @@ __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
 @protocol TvManiacKotlinx_coroutines_coreSelectClause0
 @required
 - (void)registerSelectClause0Select:(id<TvManiacKotlinx_coroutines_coreSelectInstance>)select block:(id<TvManiacKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol TvManiacKotlinCoroutineContextKey
+@required
 @end;
 
 __attribute__((swift_name("KotlinIterator")))
@@ -3410,6 +3369,34 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
 @property (readonly) int32_t major __attribute__((swift_name("major")));
 @property (readonly) int32_t minor __attribute__((swift_name("minor")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((swift_name("KotlinContinuation")))
+@protocol TvManiacKotlinContinuation
+@required
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<TvManiacKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end;
+
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface TvManiacKotlinAbstractCoroutineContextKey<B, E> : TvManiacBase <TvManiacKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
+@interface TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey : TvManiacKotlinAbstractCoroutineContextKey<id<TvManiacKotlinContinuationInterceptor>, TvManiacKotlinx_coroutines_coreCoroutineDispatcher *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithBaseKey:(id<TvManiacKotlinCoroutineContextKey>)baseKey safeCast:(id<TvManiacKotlinCoroutineContextElement> _Nullable (^)(id<TvManiacKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) TvManiacKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
+@protocol TvManiacKotlinx_coroutines_coreRunnable
+@required
+- (void)run __attribute__((swift_name("run()")));
 @end;
 
 __attribute__((swift_name("RuntimeSqlCursor")))
