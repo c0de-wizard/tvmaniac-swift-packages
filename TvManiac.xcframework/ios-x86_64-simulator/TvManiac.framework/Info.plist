@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>TvManiac</string>
     <key>CFBundleIdentifier</key>
-    <string>com.thomaskioko.tvmaniac.TvManiac</string>
+    <string>com.thomaskioko.tvmaniac.shared.di.TvManiac</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
